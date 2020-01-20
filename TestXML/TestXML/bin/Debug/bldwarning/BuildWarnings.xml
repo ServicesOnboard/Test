@@ -1,0 +1,105 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="BuildWarnings.xslt"?>
+<Root>
+  <BuildWarnings>
+    <Warning>
+      <WarningType>Code</WarningType>
+      <TaskName>records</TaskName>
+      <FileName>AILogger.cs</FileName>
+      <ProjectServerPath>Source\Virtuoso\Microsoft.Services.Logging\AILogger.cs</ProjectServerPath>
+      <ServerFilePath>Source\Virtuoso\Microsoft.Services.Logging\AILogger.cs</ServerFilePath>
+      <Line>115</Line>
+      <Message>Source\Virtuoso\Microsoft.Services.Logging\AILogger.cs(115,13): Warning CC0008: You can use initializers in here.</Message>
+    </Warning>
+    <Warning>
+      <WarningType>Code</WarningType>
+      <TaskName>records</TaskName>
+      <FileName>AILogger.cs</FileName>
+      <ProjectServerPath>Source\Virtuoso\Microsoft.Services.Logging\AILogger.cs</ProjectServerPath>
+      <ServerFilePath>Source\Virtuoso\Microsoft.Services.Logging\AILogger.cs</ServerFilePath>
+      <Line>176</Line>
+      <Message>Source\Virtuoso\Microsoft.Services.Logging\AILogger.cs(176,13): Warning CC0008: You can use initializers in here.</Message>
+    </Warning>
+    <Warning>
+      <WarningType>Code</WarningType>
+      <TaskName>records</TaskName>
+      <FileName>CacheKeyVaultManager.cs</FileName>
+      <ProjectServerPath>Source\Virtuoso\Virtuoso.Caching\CacheKeyVaultManager.cs</ProjectServerPath>
+      <ServerFilePath>Source\Virtuoso\Virtuoso.Caching\CacheKeyVaultManager.cs</ServerFilePath>
+      <Line>161</Line>
+      <Message>Source\Virtuoso\Virtuoso.Caching\CacheKeyVaultManager.cs(161,43): Warning CS1998: This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.</Message>
+    </Warning>
+    <Warning>
+      <WarningType>Code</WarningType>
+      <TaskName>records</TaskName>
+      <FileName>RedisCacheManager.cs</FileName>
+      <ProjectServerPath>Source\Virtuoso\Virtuoso.Caching\RedisCacheManager.cs</ProjectServerPath>
+      <ServerFilePath>Source\Virtuoso\Virtuoso.Caching\RedisCacheManager.cs</ServerFilePath>
+      <Line>162</Line>
+      <Message>Source\Virtuoso\Virtuoso.Caching\RedisCacheManager.cs(162,30): Warning CS0168: The variable 'e' is declared but never used</Message>
+    </Warning>
+    <Warning>
+      <WarningType>Code</WarningType>
+      <TaskName>records</TaskName>
+      <FileName>CacheManagerBase.cs</FileName>
+      <ProjectServerPath>Source\Virtuoso\Virtuoso.Caching\CacheManagerBase.cs</ProjectServerPath>
+      <ServerFilePath>Source\Virtuoso\Virtuoso.Caching\CacheManagerBase.cs</ServerFilePath>
+      <Line>216</Line>
+      <Message>Source\Virtuoso\Virtuoso.Caching\CacheManagerBase.cs(216,30): Warning S2953: Either implement 'IDisposable.Dispose', or totally rename this method to prevent confusion.</Message>
+    </Warning>
+    <Warning>
+      <WarningType>Code</WarningType>
+      <TaskName>records</TaskName>
+      <FileName>RedisCacheManager.cs</FileName>
+      <ProjectServerPath>Source\Virtuoso\Virtuoso.Caching\RedisCacheManager.cs</ProjectServerPath>
+      <ServerFilePath>Source\Virtuoso\Virtuoso.Caching\RedisCacheManager.cs</ServerFilePath>
+      <Line>47</Line>
+      <Message>Source\Virtuoso\Virtuoso.Caching\RedisCacheManager.cs(47,17): Warning CC0001: Use 'var' instead of specifying the type name.</Message>
+    </Warning>
+    <Warning>
+      <WarningType>Code</WarningType>
+      <TaskName>records</TaskName>
+      <FileName>CacheKeyVaultManager.cs</FileName>
+      <ProjectServerPath>Source\Virtuoso\Virtuoso.Caching\CacheKeyVaultManager.cs</ProjectServerPath>
+      <ServerFilePath>Source\Virtuoso\Virtuoso.Caching\CacheKeyVaultManager.cs</ServerFilePath>
+      <Line>78</Line>
+      <Message>Source\Virtuoso\Virtuoso.Caching\CacheKeyVaultManager.cs(78,13): Warning CC0001: Use 'var' instead of specifying the type name.</Message>
+    </Warning>
+    <Warning>
+      <WarningType>Code</WarningType>
+      <TaskName>records</TaskName>
+      <FileName>CertificateHelper.cs</FileName>
+      <ProjectServerPath>Source\Virtuoso\Virtuoso.Caching\CertificateHelper.cs</ProjectServerPath>
+      <ServerFilePath>Source\Virtuoso\Virtuoso.Caching\CertificateHelper.cs</ServerFilePath>
+      <Line>34</Line>
+      <Message>Source\Virtuoso\Virtuoso.Caching\CertificateHelper.cs(34,17): Warning CC0001: Use 'var' instead of specifying the type name.</Message>
+    </Warning>
+    <Warning>
+      <WarningType>Code</WarningType>
+      <TaskName>records</TaskName>
+      <FileName>CertificateHelper.cs</FileName>
+      <ProjectServerPath>Source\Virtuoso\Virtuoso.Caching\CertificateHelper.cs</ProjectServerPath>
+      <ServerFilePath>Source\Virtuoso\Virtuoso.Caching\CertificateHelper.cs</ServerFilePath>
+      <Line>38</Line>
+      <Message>Source\Virtuoso\Virtuoso.Caching\CertificateHelper.cs(38,21): Warning CC0001: Use 'var' instead of specifying the type name.</Message>
+    </Warning>
+    <Warning>
+      <WarningType>Code</WarningType>
+      <TaskName>records</TaskName>
+      <FileName>CertificateHelper.cs</FileName>
+      <ProjectServerPath>Source\Virtuoso\Virtuoso.Caching\CertificateHelper.cs</ProjectServerPath>
+      <ServerFilePath>Source\Virtuoso\Virtuoso.Caching\CertificateHelper.cs</ServerFilePath>
+      <Line>34</Line>
+      <Message>Source\Virtuoso\Virtuoso.Caching\CertificateHelper.cs(34,35): Warning CC0022: X509Store should be disposed.</Message>
+    </Warning>
+    <Warning>
+      <WarningType>Code</WarningType>
+      <TaskName>records</TaskName>
+      <FileName>CacheKeyVaultManager.cs</FileName>
+      <ProjectServerPath>Source\Virtuoso\Virtuoso.Caching\CacheKeyVaultManager.cs</ProjectServerPath>
+      <ServerFilePath>Source\Virtuoso\Virtuoso.Caching\CacheKeyVaultManager.cs</ServerFilePath>
+      <Line>93</Line>
+      <Message>Source\Virtuoso\Virtuoso.Caching\CacheKeyVaultManager.cs(93,17): Warning CC0001: Use 'var' instead of specifying the type name.</Message>
+    </Warning>
+  </BuildWarnings>
+</Root>

@@ -1,0 +1,1670 @@
+<IGDBuild>
+  <GetBuildDetails>
+    <records>
+      <id>268d79a1-34a3-41d0-af2f-0bfd847caaa6</id>
+      <parentId>fd490c07-0b22-5182-fac9-6d67fe1e939b</parentId>
+      <type>Task</type>
+      <name>Post-job: Checkout</name>
+      <startTime />
+      <finishTime />
+      <currentOperation />
+      <percentComplete>0</percentComplete>
+      <state>pending</state>
+      <result />
+      <resultCode />
+      <changeId>5</changeId>
+      <lastModified>0001-01-01T00:00:00</lastModified>
+      <workerName>f6</workerName>
+      <order>18</order>
+      <details />
+      <errorCount>0</errorCount>
+      <warningCount>0</warningCount>
+      <url />
+      <log />
+      <task />
+      <attempt>1</attempt>
+      <identifier />
+    </records>
+    <records>
+      <id>3af69dc4-23d8-5e44-c686-11c77076d116</id>
+      <parentId>fd490c07-0b22-5182-fac9-6d67fe1e939b</parentId>
+      <type>Task</type>
+      <name>T-FxCopForSDL:</name>
+      <startTime>2019-03-05T08:08:10.6733333Z</startTime>
+      <finishTime>2019-03-05T08:08:43.64Z</finishTime>
+      <currentOperation />
+      <percentComplete />
+      <state>completed</state>
+      <result>succeeded</result>
+      <resultCode />
+      <changeId>1440</changeId>
+      <lastModified>0001-01-01T00:00:00</lastModified>
+      <workerName>f6</workerName>
+      <order>14</order>
+      <details />
+      <errorCount>0</errorCount>
+      <warningCount>0</warningCount>
+      <url />
+      <log>
+        <id>17</id>
+        <type>Container</type>
+        <url>https://vsogd.visualstudio.com/ea193b38-6dd7-4dd6-a0e8-9ab489d1efc3/_apis/build/builds/179445/logs/17</url>
+      </log>
+      <task>
+        <id>f1d18f43-50f8-4b31-b9e0-ddb91de397f3</id>
+        <name>ServicesDevOpsFxCopSDL</name>
+        <version>3.1.201902213</version>
+      </task>
+      <attempt>1</attempt>
+      <identifier />
+    </records>
+    <records>
+      <id>b0426389-ea34-52d2-3631-1671c6cbff0f</id>
+      <parentId>fd490c07-0b22-5182-fac9-6d67fe1e939b</parentId>
+      <type>Task</type>
+      <name>Test Assemblies **\bin\Release\*test*.dll</name>
+      <startTime>2019-03-05T08:02:32.46Z</startTime>
+      <finishTime>2019-03-05T08:06:26.9366667Z</finishTime>
+      <currentOperation />
+      <percentComplete />
+      <state>completed</state>
+      <result>succeeded</result>
+      <resultCode />
+      <changeId>1420</changeId>
+      <lastModified>0001-01-01T00:00:00</lastModified>
+      <workerName>f6</workerName>
+      <order>6</order>
+      <details />
+      <errorCount>0</errorCount>
+      <warningCount>0</warningCount>
+      <url />
+      <log>
+        <id>9</id>
+        <type>Container</type>
+        <url>https://vsogd.visualstudio.com/ea193b38-6dd7-4dd6-a0e8-9ab489d1efc3/_apis/build/builds/179445/logs/9</url>
+      </log>
+      <task>
+        <id>ef087383-ee5e-42c7-9a53-ab56c98420f9</id>
+        <name>VSTest</name>
+        <version>2.148.7</version>
+      </task>
+      <attempt>1</attempt>
+      <identifier />
+    </records>
+    <records>
+      <id>19702d0f-e5d2-51bb-5224-1e86f393e5de</id>
+      <parentId>fd490c07-0b22-5182-fac9-6d67fe1e939b</parentId>
+      <type>Task</type>
+      <name>Copy Files to: $(build.binariesdirectory)\Release</name>
+      <startTime>2019-03-05T08:07:12.94Z</startTime>
+      <finishTime>2019-03-05T08:07:16.4666667Z</finishTime>
+      <currentOperation />
+      <percentComplete />
+      <state>completed</state>
+      <result>succeeded</result>
+      <resultCode />
+      <changeId>1427</changeId>
+      <lastModified>0001-01-01T00:00:00</lastModified>
+      <workerName>f6</workerName>
+      <order>9</order>
+      <details />
+      <errorCount>0</errorCount>
+      <warningCount>0</warningCount>
+      <url />
+      <log>
+        <id>12</id>
+        <type>Container</type>
+        <url>https://vsogd.visualstudio.com/ea193b38-6dd7-4dd6-a0e8-9ab489d1efc3/_apis/build/builds/179445/logs/12</url>
+      </log>
+      <task>
+        <id>5bfb729a-a7c8-4a78-a7c3-8d717bb7c13c</id>
+        <name>CopyFiles</name>
+        <version>2.117.2</version>
+      </task>
+      <attempt>1</attempt>
+      <identifier />
+    </records>
+    <records>
+      <id>2cbad43b-3e37-59de-0fcd-323c4cb9c715</id>
+      <parentId>fd490c07-0b22-5182-fac9-6d67fe1e939b</parentId>
+      <type>Task</type>
+      <name>EsDevopsCIConfig</name>
+      <startTime>2019-03-05T07:51:28.55Z</startTime>
+      <finishTime>2019-03-05T07:51:30.9633333Z</finishTime>
+      <currentOperation />
+      <percentComplete />
+      <state>completed</state>
+      <result>succeeded</result>
+      <resultCode />
+      <changeId>13</changeId>
+      <lastModified>0001-01-01T00:00:00</lastModified>
+      <workerName>f6</workerName>
+      <order>4</order>
+      <details />
+      <errorCount>0</errorCount>
+      <warningCount>0</warningCount>
+      <url />
+      <log>
+        <id>6</id>
+        <type>Container</type>
+        <url>https://vsogd.visualstudio.com/ea193b38-6dd7-4dd6-a0e8-9ab489d1efc3/_apis/build/builds/179445/logs/6</url>
+      </log>
+      <task>
+        <id>417531be-3e2f-481c-906f-65f34f89606e</id>
+        <name>ServicesDevOpsBuildConfig</name>
+        <version>3.1.201902213</version>
+      </task>
+      <attempt>1</attempt>
+      <identifier />
+    </records>
+    <records>
+      <id>29c6692a-9bda-5bc3-fe5f-3ee3bc897316</id>
+      <parentId>fd490c07-0b22-5182-fac9-6d67fe1e939b</parentId>
+      <type>Task</type>
+      <name>Publish Artifact: BuildLogFolder</name>
+      <startTime>2019-03-05T08:08:44.07Z</startTime>
+      <finishTime>2019-03-05T08:08:54.82Z</finishTime>
+      <currentOperation />
+      <percentComplete />
+      <state>completed</state>
+      <result>succeeded</result>
+      <resultCode />
+      <changeId>1442</changeId>
+      <lastModified>0001-01-01T00:00:00</lastModified>
+      <workerName>f6</workerName>
+      <order>16</order>
+      <details />
+      <errorCount>0</errorCount>
+      <warningCount>0</warningCount>
+      <url />
+      <log>
+        <id>19</id>
+        <type>Container</type>
+        <url>https://vsogd.visualstudio.com/ea193b38-6dd7-4dd6-a0e8-9ab489d1efc3/_apis/build/builds/179445/logs/19</url>
+      </log>
+      <task>
+        <id>2ff763a7-ce83-4e1f-bc89-0ae63477cebe</id>
+        <name>PublishBuildArtifacts</name>
+        <version>1.142.2</version>
+      </task>
+      <attempt>1</attempt>
+      <identifier />
+    </records>
+    <records>
+      <id>2e32993c-2cbe-5ad4-13cf-40d2938d7372</id>
+      <parentId>fd490c07-0b22-5182-fac9-6d67fe1e939b</parentId>
+      <type>Task</type>
+      <name>Build solution Source/Virtuoso/Virtuoso.sln</name>
+      <startTime>2019-03-05T07:51:30.97Z</startTime>
+      <finishTime>2019-03-05T08:02:32.4266667Z</finishTime>
+      <currentOperation />
+      <percentComplete />
+      <state>completed</state>
+      <result>succeeded</result>
+      <resultCode />
+      <changeId>1416</changeId>
+      <lastModified>0001-01-01T00:00:00</lastModified>
+      <workerName>f6</workerName>
+      <order>5</order>
+      <details>
+        <id>2442825c-afb5-43e7-85df-aa5eff884490</id>
+        <changeId>96</changeId>
+        <url>https://vsogd.visualstudio.com/ea193b38-6dd7-4dd6-a0e8-9ab489d1efc3/_apis/build/builds/179445/Timeline/2442825c-afb5-43e7-85df-aa5eff884490</url>
+      </details>
+      <errorCount>0</errorCount>
+      <warningCount>36352</warningCount>
+      <url />
+      <log>
+        <id>8</id>
+        <type>Container</type>
+        <url>https://vsogd.visualstudio.com/ea193b38-6dd7-4dd6-a0e8-9ab489d1efc3/_apis/build/builds/179445/logs/8</url>
+      </log>
+      <task>
+        <id>71a9a2d3-a98a-4caa-96ab-affca411ecda</id>
+        <name>VSBuild</name>
+        <version>1.147.0</version>
+      </task>
+      <attempt>1</attempt>
+      <identifier />
+      <issues>
+        <type>warning</type>
+        <category>Code</category>
+        <message>Source\Virtuoso\Microsoft.Services.Logging\AILogger.cs(115,13): Warning CC0008: You can use initializers in here.</message>
+        <data>
+          <type>Warning</type>
+          <sourcepath>Source\Virtuoso\Microsoft.Services.Logging\AILogger.cs</sourcepath>
+          <linenumber>115</linenumber>
+          <columnnumber>13</columnnumber>
+          <code>CC0008</code>
+          <repo>Virtuoso</repo>
+          <logFileLineNumber>684</logFileLineNumber>
+        </data>
+      </issues>
+      <issues>
+        <type>warning</type>
+        <category>Code</category>
+        <message>Source\Virtuoso\Microsoft.Services.Logging\AILogger.cs(176,13): Warning CC0008: You can use initializers in here.</message>
+        <data>
+          <type>Warning</type>
+          <sourcepath>Source\Virtuoso\Microsoft.Services.Logging\AILogger.cs</sourcepath>
+          <linenumber>176</linenumber>
+          <columnnumber>13</columnnumber>
+          <code>CC0008</code>
+          <repo>Virtuoso</repo>
+          <logFileLineNumber>686</logFileLineNumber>
+        </data>
+      </issues>
+      <issues>
+        <type>warning</type>
+        <category>Code</category>
+        <message>Source\Virtuoso\Virtuoso.Caching\CacheKeyVaultManager.cs(161,43): Warning CS1998: This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.</message>
+        <data>
+          <type>Warning</type>
+          <sourcepath>Source\Virtuoso\Virtuoso.Caching\CacheKeyVaultManager.cs</sourcepath>
+          <linenumber>161</linenumber>
+          <columnnumber>43</columnnumber>
+          <code>CS1998</code>
+          <repo>Virtuoso</repo>
+          <logFileLineNumber>694</logFileLineNumber>
+        </data>
+      </issues>
+      <issues>
+        <type>warning</type>
+        <category>Code</category>
+        <message>Source\Virtuoso\Virtuoso.Caching\RedisCacheManager.cs(162,30): Warning CS0168: The variable 'e' is declared but never used</message>
+        <data>
+          <type>Warning</type>
+          <sourcepath>Source\Virtuoso\Virtuoso.Caching\RedisCacheManager.cs</sourcepath>
+          <linenumber>162</linenumber>
+          <columnnumber>30</columnnumber>
+          <code>CS0168</code>
+          <repo>Virtuoso</repo>
+          <logFileLineNumber>696</logFileLineNumber>
+        </data>
+      </issues>
+      <issues>
+        <type>warning</type>
+        <category>Code</category>
+        <message>Source\Virtuoso\Virtuoso.Caching\CacheManagerBase.cs(216,30): Warning S2953: Either implement 'IDisposable.Dispose', or totally rename this method to prevent confusion.</message>
+        <data>
+          <type>Warning</type>
+          <sourcepath>Source\Virtuoso\Virtuoso.Caching\CacheManagerBase.cs</sourcepath>
+          <linenumber>216</linenumber>
+          <columnnumber>30</columnnumber>
+          <code>S2953</code>
+          <repo>Virtuoso</repo>
+          <logFileLineNumber>698</logFileLineNumber>
+        </data>
+      </issues>
+      <issues>
+        <type>warning</type>
+        <category>Code</category>
+        <message>Source\Virtuoso\Virtuoso.Caching\RedisCacheManager.cs(47,17): Warning CC0001: Use 'var' instead of specifying the type name.</message>
+        <data>
+          <type>Warning</type>
+          <sourcepath>Source\Virtuoso\Virtuoso.Caching\RedisCacheManager.cs</sourcepath>
+          <linenumber>47</linenumber>
+          <columnnumber>17</columnnumber>
+          <code>CC0001</code>
+          <repo>Virtuoso</repo>
+          <logFileLineNumber>700</logFileLineNumber>
+        </data>
+      </issues>
+      <issues>
+        <type>warning</type>
+        <category>Code</category>
+        <message>Source\Virtuoso\Virtuoso.Caching\CertificateHelper.cs(34,17): Warning CC0001: Use 'var' instead of specifying the type name.</message>
+        <data>
+          <type>Warning</type>
+          <sourcepath>Source\Virtuoso\Virtuoso.Caching\CertificateHelper.cs</sourcepath>
+          <linenumber>34</linenumber>
+          <columnnumber>17</columnnumber>
+          <code>CC0001</code>
+          <repo>Virtuoso</repo>
+          <logFileLineNumber>702</logFileLineNumber>
+        </data>
+      </issues>
+      <issues>
+        <type>warning</type>
+        <category>Code</category>
+        <message>Source\Virtuoso\Virtuoso.Caching\CertificateHelper.cs(38,21): Warning CC0001: Use 'var' instead of specifying the type name.</message>
+        <data>
+          <type>Warning</type>
+          <sourcepath>Source\Virtuoso\Virtuoso.Caching\CertificateHelper.cs</sourcepath>
+          <linenumber>38</linenumber>
+          <columnnumber>21</columnnumber>
+          <code>CC0001</code>
+          <repo>Virtuoso</repo>
+          <logFileLineNumber>704</logFileLineNumber>
+        </data>
+      </issues>
+      <issues>
+        <type>warning</type>
+        <category>Code</category>
+        <message>Source\Virtuoso\Virtuoso.Caching\CertificateHelper.cs(34,35): Warning CC0022: X509Store should be disposed.</message>
+        <data>
+          <type>Warning</type>
+          <sourcepath>Source\Virtuoso\Virtuoso.Caching\CertificateHelper.cs</sourcepath>
+          <linenumber>34</linenumber>
+          <columnnumber>35</columnnumber>
+          <code>CC0022</code>
+          <repo>Virtuoso</repo>
+          <logFileLineNumber>706</logFileLineNumber>
+        </data>
+      </issues>
+      <issues>
+        <type>warning</type>
+        <category>Code</category>
+        <message>Source\Virtuoso\Virtuoso.Caching\CacheKeyVaultManager.cs(78,13): Warning CC0001: Use 'var' instead of specifying the type name.</message>
+        <data>
+          <type>Warning</type>
+          <sourcepath>Source\Virtuoso\Virtuoso.Caching\CacheKeyVaultManager.cs</sourcepath>
+          <linenumber>78</linenumber>
+          <columnnumber>13</columnnumber>
+          <code>CC0001</code>
+          <repo>Virtuoso</repo>
+          <logFileLineNumber>708</logFileLineNumber>
+        </data>
+      </issues>
+      <issues>
+        <type>warning</type>
+        <category>Code</category>
+        <message>Source\Virtuoso\Virtuoso.Caching\CacheKeyVaultManager.cs(93,17): Warning CC0001: Use 'var' instead of specifying the type name.</message>
+        <data>
+          <type>Warning</type>
+          <sourcepath>Source\Virtuoso\Virtuoso.Caching\CacheKeyVaultManager.cs</sourcepath>
+          <linenumber>93</linenumber>
+          <columnnumber>17</columnnumber>
+          <code>CC0001</code>
+          <repo>Virtuoso</repo>
+          <logFileLineNumber>710</logFileLineNumber>
+        </data>
+      </issues>
+    </records>
+    <records>
+      <id>701ca1f8-cf8e-5447-4c8c-43b5ba047e7d</id>
+      <parentId>fd490c07-0b22-5182-fac9-6d67fe1e939b</parentId>
+      <type>Task</type>
+      <name>ESDevopsToolDownload:</name>
+      <startTime>2019-03-05T08:07:37.2533333Z</startTime>
+      <finishTime>2019-03-05T08:07:41.99Z</finishTime>
+      <currentOperation />
+      <percentComplete />
+      <state>completed</state>
+      <result>succeeded</result>
+      <resultCode />
+      <changeId>1436</changeId>
+      <lastModified>0001-01-01T00:00:00</lastModified>
+      <workerName>f6</workerName>
+      <order>12</order>
+      <details />
+      <errorCount>0</errorCount>
+      <warningCount>0</warningCount>
+      <url />
+      <log>
+        <id>15</id>
+        <type>Container</type>
+        <url>https://vsogd.visualstudio.com/ea193b38-6dd7-4dd6-a0e8-9ab489d1efc3/_apis/build/builds/179445/logs/15</url>
+      </log>
+      <task>
+        <id>40aae993-5601-4316-bdfb-7ae1d2c4d82c</id>
+        <name>ServicesDevOpsToolDownload</name>
+        <version>3.1.201902213</version>
+      </task>
+      <attempt>1</attempt>
+      <identifier />
+    </records>
+    <records>
+      <id>295f472b-c97e-48e8-9cf9-4d8500be505c</id>
+      <parentId>fd490c07-0b22-5182-fac9-6d67fe1e939b</parentId>
+      <type>Task</type>
+      <name>Initialize Job</name>
+      <startTime>2019-03-05T07:45:55.36Z</startTime>
+      <finishTime>2019-03-05T07:46:05.0633333Z</finishTime>
+      <currentOperation />
+      <percentComplete />
+      <state>completed</state>
+      <result>succeeded</result>
+      <resultCode />
+      <changeId>6</changeId>
+      <lastModified>0001-01-01T00:00:00</lastModified>
+      <workerName>f6</workerName>
+      <order>1</order>
+      <details />
+      <errorCount>0</errorCount>
+      <warningCount>0</warningCount>
+      <url />
+      <log>
+        <id>3</id>
+        <type>Container</type>
+        <url>https://vsogd.visualstudio.com/ea193b38-6dd7-4dd6-a0e8-9ab489d1efc3/_apis/build/builds/179445/logs/3</url>
+      </log>
+      <task />
+      <attempt>1</attempt>
+      <identifier />
+    </records>
+    <records>
+      <id>8275151d-7d14-551c-44d7-58fcddb00027</id>
+      <parentId>fd490c07-0b22-5182-fac9-6d67fe1e939b</parentId>
+      <type>Task</type>
+      <name>T-StyleCop:</name>
+      <startTime>2019-03-05T08:07:41.9966667Z</startTime>
+      <finishTime>2019-03-05T08:08:10.6633333Z</finishTime>
+      <currentOperation />
+      <percentComplete />
+      <state>completed</state>
+      <result>succeeded</result>
+      <resultCode />
+      <changeId>1438</changeId>
+      <lastModified>0001-01-01T00:00:00</lastModified>
+      <workerName>f6</workerName>
+      <order>13</order>
+      <details />
+      <errorCount>0</errorCount>
+      <warningCount>0</warningCount>
+      <url />
+      <log>
+        <id>16</id>
+        <type>Container</type>
+        <url>https://vsogd.visualstudio.com/ea193b38-6dd7-4dd6-a0e8-9ab489d1efc3/_apis/build/builds/179445/logs/16</url>
+      </log>
+      <task>
+        <id>cf96d92e-107b-4d23-a2eb-8696d3bf6613</id>
+        <name>ServicesDevOpsStyleCop</name>
+        <version>3.1.201902213</version>
+      </task>
+      <attempt>1</attempt>
+      <identifier />
+    </records>
+    <records>
+      <id>803955bb-6ccb-58f2-4dd0-622a94e54a60</id>
+      <parentId>fd490c07-0b22-5182-fac9-6d67fe1e939b</parentId>
+      <type>Task</type>
+      <name>Copy Files to: $(build.binariesdirectory)\Release</name>
+      <startTime>2019-03-05T08:07:00.08Z</startTime>
+      <finishTime>2019-03-05T08:07:12.9333333Z</finishTime>
+      <currentOperation />
+      <percentComplete />
+      <state>completed</state>
+      <result>succeeded</result>
+      <resultCode />
+      <changeId>1424</changeId>
+      <lastModified>0001-01-01T00:00:00</lastModified>
+      <workerName>f6</workerName>
+      <order>8</order>
+      <details />
+      <errorCount>0</errorCount>
+      <warningCount>0</warningCount>
+      <url />
+      <log>
+        <id>11</id>
+        <type>Container</type>
+        <url>https://vsogd.visualstudio.com/ea193b38-6dd7-4dd6-a0e8-9ab489d1efc3/_apis/build/builds/179445/logs/11</url>
+      </log>
+      <task>
+        <id>5bfb729a-a7c8-4a78-a7c3-8d717bb7c13c</id>
+        <name>CopyFiles</name>
+        <version>2.117.2</version>
+      </task>
+      <attempt>1</attempt>
+      <identifier />
+    </records>
+    <records>
+      <id>fd490c07-0b22-5182-fac9-6d67fe1e939b</id>
+      <parentId>d46bdafb-39a9-561e-f56f-8f45577d0334</parentId>
+      <type>Job</type>
+      <name>Job</name>
+      <startTime>2019-03-05T07:45:55.1633333Z</startTime>
+      <finishTime />
+      <currentOperation />
+      <percentComplete>0</percentComplete>
+      <state>inProgress</state>
+      <result />
+      <resultCode />
+      <changeId>1417</changeId>
+      <lastModified>0001-01-01T00:00:00</lastModified>
+      <workerName>f6</workerName>
+      <order>1</order>
+      <details />
+      <errorCount>0</errorCount>
+      <warningCount>0</warningCount>
+      <url />
+      <log>
+        <id>7</id>
+        <type>Container</type>
+        <url>https://vsogd.visualstudio.com/ea193b38-6dd7-4dd6-a0e8-9ab489d1efc3/_apis/build/builds/179445/logs/7</url>
+      </log>
+      <task />
+      <attempt>1</attempt>
+      <identifier>Phase_1.__default</identifier>
+    </records>
+    <records>
+      <id>9aacf2e9-97f8-434d-9df4-79dfdecf3a6a</id>
+      <parentId>fd490c07-0b22-5182-fac9-6d67fe1e939b</parentId>
+      <type>Task</type>
+      <name>Post-job: EsDevopsCIConfig</name>
+      <startTime>2019-03-05T08:08:54.8266667Z</startTime>
+      <finishTime />
+      <currentOperation />
+      <percentComplete>0</percentComplete>
+      <state>inProgress</state>
+      <result />
+      <resultCode />
+      <changeId>1441</changeId>
+      <lastModified>0001-01-01T00:00:00</lastModified>
+      <workerName>f6</workerName>
+      <order>17</order>
+      <details />
+      <errorCount>0</errorCount>
+      <warningCount>0</warningCount>
+      <url />
+      <log />
+      <task />
+      <attempt>1</attempt>
+      <identifier />
+    </records>
+    <records>
+      <id>c8da2051-84c2-5ddf-5ddc-8cde38d46e0e</id>
+      <parentId>fd490c07-0b22-5182-fac9-6d67fe1e939b</parentId>
+      <type>Task</type>
+      <name>T-FxCop:MergeFile</name>
+      <startTime>2019-03-05T08:07:16.4733333Z</startTime>
+      <finishTime>2019-03-05T08:07:17.7766667Z</finishTime>
+      <currentOperation />
+      <percentComplete />
+      <state>completed</state>
+      <result>succeeded</result>
+      <resultCode />
+      <changeId>1428</changeId>
+      <lastModified>0001-01-01T00:00:00</lastModified>
+      <workerName>f6</workerName>
+      <order>10</order>
+      <details />
+      <errorCount>0</errorCount>
+      <warningCount>0</warningCount>
+      <url />
+      <log>
+        <id>13</id>
+        <type>Container</type>
+        <url>https://vsogd.visualstudio.com/ea193b38-6dd7-4dd6-a0e8-9ab489d1efc3/_apis/build/builds/179445/logs/13</url>
+      </log>
+      <task>
+        <id>d0548ca8-2a6e-4133-8269-2f17695d15dd</id>
+        <name>ServicesDevOpsFxCopMerge</name>
+        <version>3.1.201902213</version>
+      </task>
+      <attempt>1</attempt>
+      <identifier />
+    </records>
+    <records>
+      <id>d46bdafb-39a9-561e-f56f-8f45577d0334</id>
+      <parentId>96ac2280-8cb4-5df5-99de-dd2da759617d</parentId>
+      <type>Phase</type>
+      <name>Phase 1</name>
+      <startTime>2019-03-05T07:45:55.1633333Z</startTime>
+      <finishTime />
+      <currentOperation />
+      <percentComplete />
+      <state>inProgress</state>
+      <result />
+      <resultCode />
+      <changeId>4</changeId>
+      <lastModified>0001-01-01T00:00:00</lastModified>
+      <workerName />
+      <order>1</order>
+      <details />
+      <errorCount>0</errorCount>
+      <warningCount>0</warningCount>
+      <url />
+      <log>
+        <id>2</id>
+        <type>Container</type>
+        <url>https://vsogd.visualstudio.com/ea193b38-6dd7-4dd6-a0e8-9ab489d1efc3/_apis/build/builds/179445/logs/2</url>
+      </log>
+      <task />
+      <attempt>1</attempt>
+      <identifier>Phase_1</identifier>
+    </records>
+    <records>
+      <id>8001fe0b-5c4e-5c18-d19d-c5e696531f2c</id>
+      <parentId>fd490c07-0b22-5182-fac9-6d67fe1e939b</parentId>
+      <type>Task</type>
+      <name>Copy Files to: $(Agent.BuildDirectory)\BuildLogFolder\TestResults</name>
+      <startTime>2019-03-05T08:08:43.65Z</startTime>
+      <finishTime>2019-03-05T08:08:44.0633333Z</finishTime>
+      <currentOperation />
+      <percentComplete />
+      <state>completed</state>
+      <result>succeeded</result>
+      <resultCode />
+      <changeId>1440</changeId>
+      <lastModified>0001-01-01T00:00:00</lastModified>
+      <workerName>f6</workerName>
+      <order>15</order>
+      <details />
+      <errorCount>0</errorCount>
+      <warningCount>0</warningCount>
+      <url />
+      <log>
+        <id>18</id>
+        <type>Container</type>
+        <url>https://vsogd.visualstudio.com/ea193b38-6dd7-4dd6-a0e8-9ab489d1efc3/_apis/build/builds/179445/logs/18</url>
+      </log>
+      <task>
+        <id>5bfb729a-a7c8-4a78-a7c3-8d717bb7c13c</id>
+        <name>CopyFiles</name>
+        <version>2.117.2</version>
+      </task>
+      <attempt>1</attempt>
+      <identifier />
+    </records>
+    <records>
+      <id>f03d4b0b-5c7f-5a3c-32ca-d79e6a87d689</id>
+      <parentId>fd490c07-0b22-5182-fac9-6d67fe1e939b</parentId>
+      <type>Task</type>
+      <name>Checkout</name>
+      <startTime>2019-03-05T07:46:05.0866667Z</startTime>
+      <finishTime>2019-03-05T07:51:01.7766667Z</finishTime>
+      <currentOperation />
+      <percentComplete />
+      <state>completed</state>
+      <result>succeeded</result>
+      <resultCode />
+      <changeId>10</changeId>
+      <lastModified>0001-01-01T00:00:00</lastModified>
+      <workerName>f6</workerName>
+      <order>2</order>
+      <details />
+      <errorCount>0</errorCount>
+      <warningCount>0</warningCount>
+      <url />
+      <log>
+        <id>4</id>
+        <type>Container</type>
+        <url>https://vsogd.visualstudio.com/ea193b38-6dd7-4dd6-a0e8-9ab489d1efc3/_apis/build/builds/179445/logs/4</url>
+      </log>
+      <task />
+      <attempt>1</attempt>
+      <identifier />
+    </records>
+    <records>
+      <id>96ac2280-8cb4-5df5-99de-dd2da759617d</id>
+      <parentId />
+      <type>Stage</type>
+      <name>__default</name>
+      <startTime>2019-03-05T07:45:55.1633333Z</startTime>
+      <finishTime />
+      <currentOperation />
+      <percentComplete />
+      <state>inProgress</state>
+      <result />
+      <resultCode />
+      <changeId>4</changeId>
+      <lastModified>0001-01-01T00:00:00</lastModified>
+      <workerName />
+      <order>1</order>
+      <details />
+      <errorCount>0</errorCount>
+      <warningCount>0</warningCount>
+      <url />
+      <log />
+      <task />
+      <attempt>1</attempt>
+      <identifier>__default</identifier>
+    </records>
+    <records>
+      <id>7a7e2961-9cbd-5eb2-5bed-e27d8de744f6</id>
+      <parentId>fd490c07-0b22-5182-fac9-6d67fe1e939b</parentId>
+      <type>Task</type>
+      <name>ESDevopsValidateCIConfig</name>
+      <startTime>2019-03-05T08:07:17.7833333Z</startTime>
+      <finishTime>2019-03-05T08:07:37.2433333Z</finishTime>
+      <currentOperation />
+      <percentComplete />
+      <state>completed</state>
+      <result>succeeded</result>
+      <resultCode />
+      <changeId>1430</changeId>
+      <lastModified>0001-01-01T00:00:00</lastModified>
+      <workerName>f6</workerName>
+      <order>11</order>
+      <details />
+      <errorCount>0</errorCount>
+      <warningCount>0</warningCount>
+      <url />
+      <log>
+        <id>14</id>
+        <type>Container</type>
+        <url>https://vsogd.visualstudio.com/ea193b38-6dd7-4dd6-a0e8-9ab489d1efc3/_apis/build/builds/179445/logs/14</url>
+      </log>
+      <task>
+        <id>2cd5e27c-9773-485d-b564-11a52d166943</id>
+        <name>ServicesDevOpsValidateBuildConfig</name>
+        <version>3.1.201902213</version>
+      </task>
+      <attempt>1</attempt>
+      <identifier />
+    </records>
+    <records>
+      <id>6ee6a32f-3b74-5b9c-b22b-e941965b48b6</id>
+      <parentId>fd490c07-0b22-5182-fac9-6d67fe1e939b</parentId>
+      <type>Task</type>
+      <name>NuGet restore Source/Virtuoso/Virtuoso.sln</name>
+      <startTime>2019-03-05T07:51:01.8333333Z</startTime>
+      <finishTime>2019-03-05T07:51:28.54Z</finishTime>
+      <currentOperation />
+      <percentComplete />
+      <state>completed</state>
+      <result>succeeded</result>
+      <resultCode />
+      <changeId>11</changeId>
+      <lastModified>0001-01-01T00:00:00</lastModified>
+      <workerName>f6</workerName>
+      <order>3</order>
+      <details />
+      <errorCount>0</errorCount>
+      <warningCount>0</warningCount>
+      <url />
+      <log>
+        <id>5</id>
+        <type>Container</type>
+        <url>https://vsogd.visualstudio.com/ea193b38-6dd7-4dd6-a0e8-9ab489d1efc3/_apis/build/builds/179445/logs/5</url>
+      </log>
+      <task>
+        <id>333b11bd-d341-40d9-afcf-b32d5ce6f23b</id>
+        <name>NuGetCommand</name>
+        <version>2.148.3</version>
+      </task>
+      <attempt>1</attempt>
+      <identifier />
+    </records>
+    <records>
+      <id>2112382e-ae6e-5f99-d059-fc21ce5f2337</id>
+      <parentId>fd490c07-0b22-5182-fac9-6d67fe1e939b</parentId>
+      <type>Task</type>
+      <name>Chutzpah Unittests</name>
+      <startTime>2019-03-05T08:06:26.95Z</startTime>
+      <finishTime>2019-03-05T08:07:00.0666667Z</finishTime>
+      <currentOperation />
+      <percentComplete />
+      <state>completed</state>
+      <result>succeeded</result>
+      <resultCode />
+      <changeId>1422</changeId>
+      <lastModified>0001-01-01T00:00:00</lastModified>
+      <workerName>f6</workerName>
+      <order>7</order>
+      <details />
+      <errorCount>0</errorCount>
+      <warningCount>0</warningCount>
+      <url />
+      <log>
+        <id>10</id>
+        <type>Container</type>
+        <url>https://vsogd.visualstudio.com/ea193b38-6dd7-4dd6-a0e8-9ab489d1efc3/_apis/build/builds/179445/logs/10</url>
+      </log>
+      <task>
+        <id>e213ff0f-5d5c-4791-802d-52ea3e7be1f1</id>
+        <name>PowerShell</name>
+        <version>1.2.3</version>
+      </task>
+      <attempt>1</attempt>
+      <identifier />
+    </records>
+    <lastChangedBy>eba44c1c-a0e3-4cb8-b0e5-22db52b25f77</lastChangedBy>
+    <lastChangedOn>2019-03-05T08:08:56.15Z</lastChangedOn>
+    <id>55ce46ff-726a-4e0f-a379-898005636fdd</id>
+    <changeId>1442</changeId>
+    <url>https://vsogd.visualstudio.com/ea193b38-6dd7-4dd6-a0e8-9ab489d1efc3/_apis/build/builds/179445/Timeline/55ce46ff-726a-4e0f-a379-898005636fdd</url>
+  </GetBuildDetails>
+  <GetBuildDefinition>
+    <_links>
+      <self>
+        <href>https://vsogd.visualstudio.com/ea193b38-6dd7-4dd6-a0e8-9ab489d1efc3/_apis/build/Builds/179445</href>
+      </self>
+      <web>
+        <href>https://vsogd.visualstudio.com/ea193b38-6dd7-4dd6-a0e8-9ab489d1efc3/_build/results?buildId=179445</href>
+      </web>
+      <sourceVersionDisplayUri>
+        <href>https://vsogd.visualstudio.com/ea193b38-6dd7-4dd6-a0e8-9ab489d1efc3/_apis/build/builds/179445/sources</href>
+      </sourceVersionDisplayUri>
+      <timeline>
+        <href>https://vsogd.visualstudio.com/ea193b38-6dd7-4dd6-a0e8-9ab489d1efc3/_apis/build/builds/179445/Timeline</href>
+      </timeline>
+      <badge>
+        <href>https://vsogd.visualstudio.com/ea193b38-6dd7-4dd6-a0e8-9ab489d1efc3/_apis/build/status/1410</href>
+      </badge>
+    </_links>
+    <properties />
+    <plans>
+      <planId>55ce46ff-726a-4e0f-a379-898005636fdd</planId>
+    </plans>
+    <triggerInfo />
+    <id>179445</id>
+    <buildNumber>20190305.2</buildNumber>
+    <status>inProgress</status>
+    <queueTime>2019-03-05T07:45:51.2313487Z</queueTime>
+    <startTime>2019-03-05T07:45:53.0752296Z</startTime>
+    <url>https://vsogd.visualstudio.com/ea193b38-6dd7-4dd6-a0e8-9ab489d1efc3/_apis/build/Builds/179445</url>
+    <definition>
+      <id>1410</id>
+      <name>Hotfix(GC)</name>
+      <url>https://vsogd.visualstudio.com/ea193b38-6dd7-4dd6-a0e8-9ab489d1efc3/_apis/build/Definitions/1410?revision=30</url>
+      <uri>vstfs:///Build/Definition/1410</uri>
+      <path>\Virtuoso Gated Check-ins</path>
+      <type>build</type>
+      <queueStatus>enabled</queueStatus>
+      <revision>30</revision>
+      <project>
+        <id>ea193b38-6dd7-4dd6-a0e8-9ab489d1efc3</id>
+        <name>GDTools</name>
+        <description>[MS Internal] Virtuoso</description>
+        <url>https://vsogd.visualstudio.com/_apis/projects/ea193b38-6dd7-4dd6-a0e8-9ab489d1efc3</url>
+        <state>wellFormed</state>
+        <revision>138299301</revision>
+        <visibility>organization</visibility>
+        <lastUpdateTime>2018-12-31T08:23:59.063Z</lastUpdateTime>
+      </project>
+    </definition>
+    <buildNumberRevision>2</buildNumberRevision>
+    <project>
+      <id>ea193b38-6dd7-4dd6-a0e8-9ab489d1efc3</id>
+      <name>GDTools</name>
+      <description>[MS Internal] Virtuoso</description>
+      <url>https://vsogd.visualstudio.com/_apis/projects/ea193b38-6dd7-4dd6-a0e8-9ab489d1efc3</url>
+      <state>wellFormed</state>
+      <revision>138299301</revision>
+      <visibility>organization</visibility>
+      <lastUpdateTime>2018-12-31T08:23:59.063Z</lastUpdateTime>
+    </project>
+    <uri>vstfs:///Build/Build/179445</uri>
+    <sourceBranch>refs/pull/23867/merge</sourceBranch>
+    <sourceVersion>6bf0b80162c0bfad18713f6f0d911ffc5a566330</sourceVersion>
+    <queue>
+      <id>2141</id>
+      <name>Virtuoso-gc</name>
+      <pool>
+        <id>65</id>
+        <name>Virtuoso-gc</name>
+      </pool>
+    </queue>
+    <priority>normal</priority>
+    <reason>manual</reason>
+    <requestedFor>
+      <displayName>Sudha Guda</displayName>
+      <url>https://vssps.dev.azure.com/e/Microsoft/_apis/Identities/7b8dc125-69b0-6c24-b36b-337875e19c69</url>
+      <_links>
+        <avatar>
+          <href>https://vsogd.visualstudio.com/_apis/GraphProfile/MemberAvatars/aad.N2I4ZGMxMjUtNjliMC03YzI0LWIzNmItMzM3ODc1ZTE5YzY5</href>
+        </avatar>
+      </_links>
+      <id>7b8dc125-69b0-6c24-b36b-337875e19c69</id>
+      <uniqueName>v-suguda@microsoft.com</uniqueName>
+      <imageUrl>https://vsogd.visualstudio.com/_api/_common/identityImage?id=7b8dc125-69b0-6c24-b36b-337875e19c69</imageUrl>
+      <descriptor>aad.N2I4ZGMxMjUtNjliMC03YzI0LWIzNmItMzM3ODc1ZTE5YzY5</descriptor>
+    </requestedFor>
+    <requestedBy>
+      <displayName>Sudha Guda</displayName>
+      <url>https://vssps.dev.azure.com/e/Microsoft/_apis/Identities/7b8dc125-69b0-6c24-b36b-337875e19c69</url>
+      <_links>
+        <avatar>
+          <href>https://vsogd.visualstudio.com/_apis/GraphProfile/MemberAvatars/aad.N2I4ZGMxMjUtNjliMC03YzI0LWIzNmItMzM3ODc1ZTE5YzY5</href>
+        </avatar>
+      </_links>
+      <id>7b8dc125-69b0-6c24-b36b-337875e19c69</id>
+      <uniqueName>v-suguda@microsoft.com</uniqueName>
+      <imageUrl>https://vsogd.visualstudio.com/_api/_common/identityImage?id=7b8dc125-69b0-6c24-b36b-337875e19c69</imageUrl>
+      <descriptor>aad.N2I4ZGMxMjUtNjliMC03YzI0LWIzNmItMzM3ODc1ZTE5YzY5</descriptor>
+    </requestedBy>
+    <lastChangedDate>2019-03-05T07:45:53.077Z</lastChangedDate>
+    <lastChangedBy>
+      <displayName>Microsoft.VisualStudio.Services.TFS</displayName>
+      <url>https://vssps.dev.azure.com/e/Microsoft/_apis/Identities/00000002-0000-8888-8000-000000000000</url>
+      <_links>
+        <avatar>
+          <href>https://vsogd.visualstudio.com/_apis/GraphProfile/MemberAvatars/s2s.MDAwMDAwMDItMDAwMC04ODg4LTgwMDAtMDAwMDAwMDAwMDAwQDJjODk1OTA4LTA0ZTAtNDk1Mi04OWZkLTU0YjAwNDZkNjI4OA</href>
+        </avatar>
+      </_links>
+      <id>00000002-0000-8888-8000-000000000000</id>
+      <uniqueName>00000002-0000-8888-8000-000000000000@2c895908-04e0-4952-89fd-54b0046d6288</uniqueName>
+      <imageUrl>https://vsogd.visualstudio.com/_api/_common/identityImage?id=00000002-0000-8888-8000-000000000000</imageUrl>
+      <descriptor>s2s.MDAwMDAwMDItMDAwMC04ODg4LTgwMDAtMDAwMDAwMDAwMDAwQDJjODk1OTA4LTA0ZTAtNDk1Mi04OWZkLTU0YjAwNDZkNjI4OA</descriptor>
+    </lastChangedBy>
+    <parameters>{"BuildConfiguration":"Release","BuildPlatform":"Any CPU","system.debug":"false"}</parameters>
+    <orchestrationPlan>
+      <planId>55ce46ff-726a-4e0f-a379-898005636fdd</planId>
+    </orchestrationPlan>
+    <logs>
+      <id>0</id>
+      <type>Container</type>
+      <url>https://vsogd.visualstudio.com/ea193b38-6dd7-4dd6-a0e8-9ab489d1efc3/_apis/build/builds/179445/logs</url>
+    </logs>
+    <repository>
+      <id>7b286f09-0249-4f70-ac89-96abd54fbc6c</id>
+      <type>TfsGit</type>
+      <name>Virtuoso</name>
+      <url>https://vsogd.visualstudio.com/GDTools/_git/Virtuoso</url>
+      <clean />
+      <checkoutSubmodules>false</checkoutSubmodules>
+    </repository>
+    <keepForever>false</keepForever>
+    <retainedByRelease>false</retainedByRelease>
+    <triggeredByBuild />
+  </GetBuildDefinition>
+  <GetArtifacts>
+    <count>1</count>
+    <value>
+      <id>239073</id>
+      <name>BuildLogFolder</name>
+      <resource>
+        <type>Container</type>
+        <data>#/21318567/BuildLogFolder</data>
+        <properties>
+          <localpath>f:\f6\_work\1\BuildLogFolder</localpath>
+        </properties>
+        <url>https://vsogd.visualstudio.com/ea193b38-6dd7-4dd6-a0e8-9ab489d1efc3/_apis/build/builds/179445/artifacts?artifactName=BuildLogFolder&amp;api-version=2.0</url>
+        <downloadUrl>https://vsogd.visualstudio.com/ea193b38-6dd7-4dd6-a0e8-9ab489d1efc3/_apis/build/builds/179445/artifacts?artifactName=BuildLogFolder&amp;api-version=2.0&amp;%24format=zip</downloadUrl>
+      </resource>
+    </value>
+  </GetArtifacts>
+  <GetBuildDefinitionSpecs>
+    <build>
+      <environment />
+      <enabled>true</enabled>
+      <continueOnError>false</continueOnError>
+      <alwaysRun>false</alwaysRun>
+      <displayName>NuGet restore Source/Virtuoso/Virtuoso.sln</displayName>
+      <timeoutInMinutes>0</timeoutInMinutes>
+      <refName>NuGetInstaller_1</refName>
+      <task>
+        <id>333b11bd-d341-40d9-afcf-b32d5ce6f23b</id>
+        <versionSpec>2.*</versionSpec>
+        <definitionType>task</definitionType>
+      </task>
+      <inputs>
+        <command>restore</command>
+        <solution>Source/Virtuoso/Virtuoso.sln</solution>
+        <selectOrConfig>select</selectOrConfig>
+        <feedRestore>
+        </feedRestore>
+        <includeNuGetOrg>true</includeNuGetOrg>
+        <nugetConfigPath>
+        </nugetConfigPath>
+        <externalEndpoints>
+        </externalEndpoints>
+        <noCache>false</noCache>
+        <disableParallelProcessing>false</disableParallelProcessing>
+        <packagesDirectory>
+        </packagesDirectory>
+        <verbosityRestore>Detailed</verbosityRestore>
+        <searchPatternPush>$(Build.ArtifactStagingDirectory)/*.nupkg</searchPatternPush>
+        <nuGetFeedType>internal</nuGetFeedType>
+        <feedPublish>
+        </feedPublish>
+        <publishPackageMetadata>true</publishPackageMetadata>
+        <allowPackageConflicts>false</allowPackageConflicts>
+        <externalEndpoint>
+        </externalEndpoint>
+        <verbosityPush>Detailed</verbosityPush>
+        <searchPatternPack>**/*.csproj</searchPatternPack>
+        <configurationToPack>$(BuildConfiguration)</configurationToPack>
+        <outputDir>$(Build.ArtifactStagingDirectory)</outputDir>
+        <versioningScheme>off</versioningScheme>
+        <includeReferencedProjects>false</includeReferencedProjects>
+        <versionEnvVar>
+        </versionEnvVar>
+        <requestedMajorVersion>1</requestedMajorVersion>
+        <requestedMinorVersion>0</requestedMinorVersion>
+        <requestedPatchVersion>0</requestedPatchVersion>
+        <packTimezone>utc</packTimezone>
+        <includeSymbols>false</includeSymbols>
+        <toolPackage>false</toolPackage>
+        <buildProperties>
+        </buildProperties>
+        <basePath>
+        </basePath>
+        <verbosityPack>Detailed</verbosityPack>
+        <arguments>
+        </arguments>
+      </inputs>
+    </build>
+    <build>
+      <environment />
+      <enabled>true</enabled>
+      <continueOnError>false</continueOnError>
+      <alwaysRun>false</alwaysRun>
+      <displayName>EsDevopsCIConfig</displayName>
+      <timeoutInMinutes>0</timeoutInMinutes>
+      <refName>ESDevopsCIConfig_2</refName>
+      <task>
+        <id>417531be-3e2f-481c-906f-65f34f89606e</id>
+        <versionSpec>3.*</versionSpec>
+        <definitionType>task</definitionType>
+      </task>
+      <inputs>
+        <ServicesDevOpsServiceEndpoint>04600c1c-6b1c-490c-9137-443b39405461</ServicesDevOpsServiceEndpoint>
+        <GatedCheckInBuild>true</GatedCheckInBuild>
+        <ValidateCompWarnings>false</ValidateCompWarnings>
+        <GlobalResolveReferences>false</GlobalResolveReferences>
+        <FlavourToAnalyse>$(BuildConfiguration)</FlavourToAnalyse>
+        <PlatformToAnalyse>$(BuildPlatform)</PlatformToAnalyse>
+        <IndividualMSBuildArguments>
+        </IndividualMSBuildArguments>
+        <UpdateVirtuoso>true</UpdateVirtuoso>
+        <IsQGBuild>true</IsQGBuild>
+        <AzureToolDownloadPath>C:\Temp\DevopsTools</AzureToolDownloadPath>
+        <GlobalInclusions>Vi*</GlobalInclusions>
+        <GlobalExclusions>System.*.dll AntiXssLibrary.dll DocumentFormat.OpenXml.dll *_Accessor.dll *_Accessor.pdb *.*Test*.dll *.*Test*.pdb Telerik.*.dll *.Moles.dll *.Fakes.dll *.WebAPI.dll *.DataManagers.dll</GlobalExclusions>
+        <CompilationWarningsTarget>11</CompilationWarningsTarget>
+        <CompilationErrorsTarget>0</CompilationErrorsTarget>
+        <UnitTestFailureTarget>0</UnitTestFailureTarget>
+        <UnitTestCodeCoverageTarget>49</UnitTestCodeCoverageTarget>
+        <UnitTestCodeCoverageLineTarget>51</UnitTestCodeCoverageLineTarget>
+        <XUnitTestFailureTarget>0</XUnitTestFailureTarget>
+        <XUnitCodeCoverageLineTarget>0</XUnitCodeCoverageLineTarget>
+        <XUnitCodeCoverageBranchTarget>0</XUnitCodeCoverageBranchTarget>
+        <FxcopEnabled>true</FxcopEnabled>
+        <FxcopVersion>14.0</FxcopVersion>
+        <FxcopErrorsTarget>20</FxcopErrorsTarget>
+        <FxcopWarningsTarget>5</FxcopWarningsTarget>
+        <FxcopTDR>
+        </FxcopTDR>
+        <CASuppressionsEnabled>true</CASuppressionsEnabled>
+        <CAExclusionsList>
+        </CAExclusionsList>
+        <CASuppressionsTarget>0</CASuppressionsTarget>
+        <CATDR>
+        </CATDR>
+        <StylecopEnabled>true</StylecopEnabled>
+        <StylecopVersion>LATEST</StylecopVersion>
+        <StylecopSettingsPath>
+        </StylecopSettingsPath>
+        <StylecopProjectExemptions>$(build.sourcesdirectory)\Source\Virtuoso\Virtuoso.sln#Virtuoso.DataAccess.Entities#Virtuoso.Business.Contracts#Virtuoso.DataAccess.Contracts#Virtuoso.DataAccess.VirtuosoBi#Virtuoso.DataAccess.SecondaryEntities</StylecopProjectExemptions>
+        <StylecopViolationTarget>0</StylecopViolationTarget>
+        <StylecopTDR>
+        </StylecopTDR>
+        <TSLintEnabled>false</TSLintEnabled>
+        <TSLintViolationTarget>0</TSLintViolationTarget>
+        <TSLintTDR>
+        </TSLintTDR>
+        <CredScanViolationTarget>0</CredScanViolationTarget>
+        <CredScanTDR>
+        </CredScanTDR>
+        <ModernCopViolationTarget>0</ModernCopViolationTarget>
+        <ModernCopTDR>
+        </ModernCopTDR>
+        <BinSkimEnabled>true</BinSkimEnabled>
+        <BinSkimViolationTarget>0</BinSkimViolationTarget>
+        <BinSkimTDR>
+        </BinSkimTDR>
+        <RAEnabled>true</RAEnabled>
+        <RAViolationTarget>0</RAViolationTarget>
+        <RATDR>
+        </RATDR>
+        <BinscopeEnabled>false</BinscopeEnabled>
+        <BinscopeVersion>LATEST</BinscopeVersion>
+        <BinscopeExclusionsList>
+        </BinscopeExclusionsList>
+        <BinscopeViolationTarget>0</BinscopeViolationTarget>
+        <BinscopeTDR>
+        </BinscopeTDR>
+        <ISGEnabled>false</ISGEnabled>
+        <ISGVersion>LATEST</ISGVersion>
+        <ISGExclusionsList>
+        </ISGExclusionsList>
+        <ISGUnsignedAssembliesTarget>0</ISGUnsignedAssembliesTarget>
+        <ISGPartiallySignedAssembliesTarget>0</ISGPartiallySignedAssembliesTarget>
+        <ISGDuplicateFilesTarget>0</ISGDuplicateFilesTarget>
+        <ISGFileVerMismatchTarget>0</ISGFileVerMismatchTarget>
+        <ISGTDR>
+        </ISGTDR>
+        <SPEnabled>false</SPEnabled>
+        <SPVersion>LATEST</SPVersion>
+        <SPExclusionsList>
+        </SPExclusionsList>
+        <SPViolationTarget>0</SPViolationTarget>
+        <SPTDR>
+        </SPTDR>
+        <CMEnabled>false</CMEnabled>
+        <CMVersion>LATEST</CMVersion>
+        <CMExclusionsList>
+        </CMExclusionsList>
+        <CMMaintainabilityIndexTarget>0</CMMaintainabilityIndexTarget>
+        <CMCyclomaticComplexityTarget>0</CMCyclomaticComplexityTarget>
+        <CMClassCouplingTarget>0</CMClassCouplingTarget>
+        <CMDepthOfInheritanceTarget>0</CMDepthOfInheritanceTarget>
+        <CMLinesOfCodeTarget>0</CMLinesOfCodeTarget>
+        <CMViolationTarget>85</CMViolationTarget>
+        <CMTDR>
+        </CMTDR>
+        <MSOCAFEnabled>false</MSOCAFEnabled>
+        <MSOCAFVersion>LATEST</MSOCAFVersion>
+        <MSOCAFExclusionsList>
+        </MSOCAFExclusionsList>
+        <MSOCAFErrorsTarget>0</MSOCAFErrorsTarget>
+        <MSOCAFWarningsTarget>0</MSOCAFWarningsTarget>
+        <MSOCAFExceptionsTarget>0</MSOCAFExceptionsTarget>
+        <MSOCAFTDR>
+        </MSOCAFTDR>
+        <WAEnabled>false</WAEnabled>
+        <WAVersion>LATEST</WAVersion>
+        <WAExclusionsList>
+        </WAExclusionsList>
+        <WAErroredTestsTarget>0</WAErroredTestsTarget>
+        <WAWarnedTestsTarget>0</WAWarnedTestsTarget>
+        <WATDR>
+        </WATDR>
+        <FxCopSDLEnabled>true</FxCopSDLEnabled>
+        <FxCopSDLVersion>LATEST</FxCopSDLVersion>
+        <FxCopSDLExclusionsList>Microsoft.VisualStudio.*.dll System.*.dll AntiXssLibrary.dll DocumentFormat.OpenXml.dll *_Accessor.dll *_Accessor.pdb *.*Test*.dll *.*Test*.pdb Telerik.*.dll *.Moles.dll *.Fakes.dll *.WebAPI.dll *.DataManagers.dll *.Web.dll</FxCopSDLExclusionsList>
+        <FxcopSDLProjectErrorsTarget>0</FxcopSDLProjectErrorsTarget>
+        <FxcopSDLProjectWarningsTarget>0</FxcopSDLProjectWarningsTarget>
+        <FxcopSDLTDR>
+        </FxcopSDLTDR>
+        <JSLintNETEnabled>false</JSLintNETEnabled>
+        <JSLintNETVersion>LATEST</JSLintNETVersion>
+        <JSLintNETSettingsPath>
+        </JSLintNETSettingsPath>
+        <JSLintNETProjectsToExempt>
+        </JSLintNETProjectsToExempt>
+        <JSLintNETWarningsTarget>0</JSLintNETWarningsTarget>
+        <JSLintNETTDR>
+        </JSLintNETTDR>
+        <SafeNugetEnabled>false</SafeNugetEnabled>
+        <SafeNugetVersion>LATEST</SafeNugetVersion>
+        <SafeNugetExemptions>0</SafeNugetExemptions>
+        <SafeNugetViolationsTarget>0</SafeNugetViolationsTarget>
+        <SafeNugetTDR>
+        </SafeNugetTDR>
+        <QUnitEnabled>false</QUnitEnabled>
+        <QUnitVersion>LATEST</QUnitVersion>
+        <AIScannerEnabled>false</AIScannerEnabled>
+        <CRMPackagingEnabled>false</CRMPackagingEnabled>
+        <SolutionNamesInOrder>
+        </SolutionNamesInOrder>
+        <AssemblyVersion>
+        </AssemblyVersion>
+        <DeploymentProjectPath>
+        </DeploymentProjectPath>
+        <ChutzpahCoverageEnabled>false</ChutzpahCoverageEnabled>
+        <ChutzpahCoverageVersion>LATEST</ChutzpahCoverageVersion>
+        <CoverageTargetPercentage>70</CoverageTargetPercentage>
+        <IterationPath>
+        </IterationPath>
+        <AreaPath>
+        </AreaPath>
+        <CompletedWorkSummary>false</CompletedWorkSummary>
+        <RemainingWorkSummary>false</RemainingWorkSummary>
+        <OriginalEstimateSummary>false</OriginalEstimateSummary>
+        <WorkitemsReport>false</WorkitemsReport>
+        <WorkitemCheckinPolicy>false</WorkitemCheckinPolicy>
+        <BuildWarnings>false</BuildWarnings>
+        <TFSCustomQueries>
+        </TFSCustomQueries>
+        <AIEnable>true</AIEnable>
+        <AIInfoLogging>true</AIInfoLogging>
+        <AIErrorLogging>true</AIErrorLogging>
+        <InstrumentationKey>$(InstrumentationKey)</InstrumentationKey>
+        <EnableBuildReport>true</EnableBuildReport>
+        <apiuri>https://gdbuildservice.cloudapp.net/api/Parse</apiuri>
+        <isTestMail>false</isTestMail>
+        <technology>NET_Vnext_TFVC</technology>
+        <emailto>VtsoWWDev@microsoft.com</emailto>
+        <emailcc>bldcor@microsoft.com</emailcc>
+        <rcatargets>0</rcatargets>
+        <customadvisortargets>0</customadvisortargets>
+      </inputs>
+    </build>
+    <build>
+      <environment />
+      <enabled>true</enabled>
+      <continueOnError>false</continueOnError>
+      <alwaysRun>false</alwaysRun>
+      <displayName>Build solution Source/Virtuoso/Virtuoso.sln</displayName>
+      <timeoutInMinutes>0</timeoutInMinutes>
+      <refName>VSBuild_3</refName>
+      <task>
+        <id>71a9a2d3-a98a-4caa-96ab-affca411ecda</id>
+        <versionSpec>1.*</versionSpec>
+        <definitionType>task</definitionType>
+      </task>
+      <inputs>
+        <solution>Source/Virtuoso/Virtuoso.sln</solution>
+        <vsVersion>14.0</vsVersion>
+        <msbuildArgs>/m /p:RunCodeAnalysis=True;CodeAnalysisRuleSet=AllRules.ruleset /p:ReferencesLogFolder=$(Agent.BuildDirectory) /p:CustomAfterMicrosoftCommonTargets="C:\Program Files (x86)\MSBuild\12.0\Bin\Microsoft.Common.GDBUILD_ResolveReferences.targets"</msbuildArgs>
+        <platform>$(BuildPlatform)</platform>
+        <configuration>$(BuildConfiguration)</configuration>
+        <clean>true</clean>
+        <maximumCpuCount>false</maximumCpuCount>
+        <restoreNugetPackages>false</restoreNugetPackages>
+        <msbuildArchitecture>x86</msbuildArchitecture>
+        <logProjectEvents>true</logProjectEvents>
+        <createLogFile>false</createLogFile>
+        <logFileVerbosity>normal</logFileVerbosity>
+      </inputs>
+    </build>
+    <build>
+      <environment />
+      <enabled>true</enabled>
+      <continueOnError>false</continueOnError>
+      <alwaysRun>false</alwaysRun>
+      <displayName>Test Assemblies **\bin\$(BuildConfiguration)\*test*.dll</displayName>
+      <timeoutInMinutes>0</timeoutInMinutes>
+      <refName>VSTest_4</refName>
+      <task>
+        <id>ef087383-ee5e-42c7-9a53-ab56c98420f9</id>
+        <versionSpec>2.*</versionSpec>
+        <definitionType>task</definitionType>
+      </task>
+      <inputs>
+        <testSelector>testAssemblies</testSelector>
+        <testAssemblyVer2>**\bin\$(BuildConfiguration)\*test*.dll</testAssemblyVer2>
+        <testPlan>
+        </testPlan>
+        <testSuite>
+        </testSuite>
+        <testConfiguration>
+        </testConfiguration>
+        <tcmTestRun>$(test.RunId)</tcmTestRun>
+        <searchFolder>$(System.DefaultWorkingDirectory)</searchFolder>
+        <testFiltercriteria>
+        </testFiltercriteria>
+        <runOnlyImpactedTests>False</runOnlyImpactedTests>
+        <runAllTestsAfterXBuilds>50</runAllTestsAfterXBuilds>
+        <uiTests>false</uiTests>
+        <vstestLocationMethod>version</vstestLocationMethod>
+        <vsTestVersion>14.0</vsTestVersion>
+        <vstestLocation>
+        </vstestLocation>
+        <runSettingsFile>Source/Virtuoso/mscrest.runsettings</runSettingsFile>
+        <overrideTestrunParameters>
+        </overrideTestrunParameters>
+        <pathtoCustomTestAdapters>
+        </pathtoCustomTestAdapters>
+        <runInParallel>false</runInParallel>
+        <runTestsInIsolation>False</runTestsInIsolation>
+        <codeCoverageEnabled>false</codeCoverageEnabled>
+        <otherConsoleOptions>
+        </otherConsoleOptions>
+        <distributionBatchType>basedOnTestCases</distributionBatchType>
+        <batchingBasedOnAgentsOption>autoBatchSize</batchingBasedOnAgentsOption>
+        <customBatchSizeValue>10</customBatchSizeValue>
+        <batchingBasedOnExecutionTimeOption>autoBatchSize</batchingBasedOnExecutionTimeOption>
+        <customRunTimePerBatchValue>60</customRunTimePerBatchValue>
+        <dontDistribute>False</dontDistribute>
+        <testRunTitle>
+        </testRunTitle>
+        <platform>$(BuildPlatform)</platform>
+        <configuration>$(BuildConfiguration)</configuration>
+        <publishRunAttachments>true</publishRunAttachments>
+        <diagnosticsEnabled>True</diagnosticsEnabled>
+        <collectDumpOn>onAbortOnly</collectDumpOn>
+        <rerunFailedTests>False</rerunFailedTests>
+        <rerunType>basedOnTestFailurePercentage</rerunType>
+        <rerunFailedThreshold>30</rerunFailedThreshold>
+        <rerunFailedTestCasesMaxLimit>5</rerunFailedTestCasesMaxLimit>
+        <rerunMaxAttempts>3</rerunMaxAttempts>
+      </inputs>
+    </build>
+    <build>
+      <environment />
+      <enabled>true</enabled>
+      <continueOnError>false</continueOnError>
+      <alwaysRun>false</alwaysRun>
+      <displayName>Chutzpah Unittests</displayName>
+      <timeoutInMinutes>0</timeoutInMinutes>
+      <refName>PowerShell_5</refName>
+      <task>
+        <id>e213ff0f-5d5c-4791-802d-52ea3e7be1f1</id>
+        <versionSpec>1.*</versionSpec>
+        <definitionType>task</definitionType>
+      </task>
+      <inputs>
+        <scriptType>filePath</scriptType>
+        <scriptName>C:\VNextBuildScripts\chutzpah.ps1</scriptName>
+        <arguments>"$(build.sourcesdirectory)\Source\Virtuoso\Web.UnitTests\Scripts\App_Scripts" "$(build.sourcesdirectory)\TestResults"</arguments>
+        <workingFolder>
+        </workingFolder>
+        <inlineScript># You can write your powershell scripts inline here. 
+# You can also pass predefined and custom variables to this scripts using arguments
+
+ Write-Host "Hello World"</inlineScript>
+        <failOnStandardError>true</failOnStandardError>
+      </inputs>
+    </build>
+    <build>
+      <environment />
+      <enabled>true</enabled>
+      <continueOnError>false</continueOnError>
+      <alwaysRun>false</alwaysRun>
+      <displayName>Copy Files to: $(build.binariesdirectory)\$(BuildConfiguration)</displayName>
+      <timeoutInMinutes>0</timeoutInMinutes>
+      <refName>CopyFiles_6</refName>
+      <task>
+        <id>5bfb729a-a7c8-4a78-a7c3-8d717bb7c13c</id>
+        <versionSpec>2.*</versionSpec>
+        <definitionType>task</definitionType>
+      </task>
+      <inputs>
+        <SourceFolder>$(build.sourcesdirectory)\Source\Virtuoso\WebAPI\bin</SourceFolder>
+        <Contents>**</Contents>
+        <TargetFolder>$(build.binariesdirectory)\$(BuildConfiguration)</TargetFolder>
+        <CleanTargetFolder>false</CleanTargetFolder>
+        <OverWrite>false</OverWrite>
+        <flattenFolders>false</flattenFolders>
+      </inputs>
+    </build>
+    <build>
+      <environment />
+      <enabled>true</enabled>
+      <continueOnError>false</continueOnError>
+      <alwaysRun>false</alwaysRun>
+      <displayName>Copy Files to: $(build.binariesdirectory)\$(BuildConfiguration)</displayName>
+      <timeoutInMinutes>0</timeoutInMinutes>
+      <refName>CopyFiles_7</refName>
+      <task>
+        <id>5bfb729a-a7c8-4a78-a7c3-8d717bb7c13c</id>
+        <versionSpec>2.*</versionSpec>
+        <definitionType>task</definitionType>
+      </task>
+      <inputs>
+        <SourceFolder>$(build.sourcesdirectory)\Source\Virtuoso\Web\bin</SourceFolder>
+        <Contents>**</Contents>
+        <TargetFolder>$(build.binariesdirectory)\$(BuildConfiguration)</TargetFolder>
+        <CleanTargetFolder>false</CleanTargetFolder>
+        <OverWrite>false</OverWrite>
+        <flattenFolders>false</flattenFolders>
+      </inputs>
+    </build>
+    <build>
+      <environment />
+      <enabled>true</enabled>
+      <continueOnError>false</continueOnError>
+      <alwaysRun>false</alwaysRun>
+      <displayName>T-FxCop:MergeFile</displayName>
+      <timeoutInMinutes>0</timeoutInMinutes>
+      <refName>ESDevopsFxCopMerge_8</refName>
+      <task>
+        <id>d0548ca8-2a6e-4133-8269-2f17695d15dd</id>
+        <versionSpec>3.*</versionSpec>
+        <definitionType>task</definitionType>
+      </task>
+      <inputs>
+        <InstrumentationKey>$(InstrumentationKey)</InstrumentationKey>
+      </inputs>
+    </build>
+    <build>
+      <environment />
+      <enabled>true</enabled>
+      <continueOnError>false</continueOnError>
+      <alwaysRun>true</alwaysRun>
+      <displayName>ESDevopsValidateCIConfig</displayName>
+      <timeoutInMinutes>0</timeoutInMinutes>
+      <refName>ESDevopsValidateCIConfig_9</refName>
+      <task>
+        <id>2cd5e27c-9773-485d-b564-11a52d166943</id>
+        <versionSpec>3.*</versionSpec>
+        <definitionType>task</definitionType>
+      </task>
+      <inputs>
+        <InstrumentationKey>$(InstrumentationKey)</InstrumentationKey>
+      </inputs>
+    </build>
+    <build>
+      <environment />
+      <enabled>true</enabled>
+      <continueOnError>false</continueOnError>
+      <alwaysRun>false</alwaysRun>
+      <displayName>ESDevopsToolDownload:</displayName>
+      <timeoutInMinutes>0</timeoutInMinutes>
+      <refName>ESDevopsToolDownload_10</refName>
+      <task>
+        <id>40aae993-5601-4316-bdfb-7ae1d2c4d82c</id>
+        <versionSpec>3.*</versionSpec>
+        <definitionType>task</definitionType>
+      </task>
+      <inputs>
+        <StorageAccountKey>$(StorageAccountKey)</StorageAccountKey>
+        <InstrumentationKey>$(InstrumentationKey)</InstrumentationKey>
+      </inputs>
+    </build>
+    <build>
+      <environment />
+      <enabled>true</enabled>
+      <continueOnError>false</continueOnError>
+      <alwaysRun>false</alwaysRun>
+      <displayName>T-StyleCop:</displayName>
+      <timeoutInMinutes>0</timeoutInMinutes>
+      <refName>ESDevopsStyleCop_11</refName>
+      <task>
+        <id>cf96d92e-107b-4d23-a2eb-8696d3bf6613</id>
+        <versionSpec>3.*</versionSpec>
+        <definitionType>task</definitionType>
+      </task>
+      <inputs>
+        <RunUsing>Standalone</RunUsing>
+        <SolutionFiles>Source/Virtuoso/Virtuoso.sln</SolutionFiles>
+        <ShowOutput>false</ShowOutput>
+        <args>
+        </args>
+        <VerboseOutput>false</VerboseOutput>
+        <InstrumentationKey>$(InstrumentationKey)</InstrumentationKey>
+      </inputs>
+    </build>
+    <build>
+      <environment />
+      <enabled>true</enabled>
+      <continueOnError>false</continueOnError>
+      <alwaysRun>false</alwaysRun>
+      <displayName>T-FxCopForSDL:</displayName>
+      <timeoutInMinutes>0</timeoutInMinutes>
+      <refName>ESDevopsFxCopSDL_12</refName>
+      <task>
+        <id>f1d18f43-50f8-4b31-b9e0-ddb91de397f3</id>
+        <versionSpec>3.*</versionSpec>
+        <definitionType>task</definitionType>
+      </task>
+      <inputs>
+        <args>/d:"$(Agent.BuildDirectory)\b\$(BuildConfiguration)" /d:"$(Build.SourcesDirectory)\Source\Virtuoso\packages\System.IdentityModel.Tokens.Jwt.4.0.0\lib\net45"</args>
+        <VerboseOutput>false</VerboseOutput>
+        <InstrumentationKey>$(InstrumentationKey)</InstrumentationKey>
+      </inputs>
+    </build>
+    <build>
+      <environment />
+      <enabled>true</enabled>
+      <continueOnError>false</continueOnError>
+      <alwaysRun>false</alwaysRun>
+      <displayName>Copy Files to: $(Agent.BuildDirectory)\BuildLogFolder\TestResults</displayName>
+      <timeoutInMinutes>0</timeoutInMinutes>
+      <refName>CopyFiles_14</refName>
+      <task>
+        <id>5bfb729a-a7c8-4a78-a7c3-8d717bb7c13c</id>
+        <versionSpec>2.*</versionSpec>
+        <definitionType>task</definitionType>
+      </task>
+      <inputs>
+        <SourceFolder>$(build.sourcesdirectory)\TestResults</SourceFolder>
+        <Contents>**</Contents>
+        <TargetFolder>$(Agent.BuildDirectory)\BuildLogFolder\TestResults</TargetFolder>
+        <CleanTargetFolder>false</CleanTargetFolder>
+        <OverWrite>false</OverWrite>
+        <flattenFolders>false</flattenFolders>
+      </inputs>
+    </build>
+    <build>
+      <environment />
+      <enabled>true</enabled>
+      <continueOnError>false</continueOnError>
+      <alwaysRun>true</alwaysRun>
+      <displayName>Publish Artifact: BuildLogFolder</displayName>
+      <timeoutInMinutes>0</timeoutInMinutes>
+      <refName>PublishBuildArtifacts_15</refName>
+      <task>
+        <id>2ff763a7-ce83-4e1f-bc89-0ae63477cebe</id>
+        <versionSpec>1.*</versionSpec>
+        <definitionType>task</definitionType>
+      </task>
+      <inputs>
+        <PathtoPublish>$(Agent.BuildDirectory)\BuildLogFolder</PathtoPublish>
+        <ArtifactName>BuildLogFolder</ArtifactName>
+        <ArtifactType>Container</ArtifactType>
+        <TargetPath>\\my\share\$(Build.DefinitionName)\$(Build.BuildNumber)</TargetPath>
+        <Parallel>false</Parallel>
+        <ParallelCount>8</ParallelCount>
+      </inputs>
+    </build>
+    <options>
+      <enabled>false</enabled>
+      <definition>
+        <id>a9db38f9-9fdc-478c-b0f9-464221e58316</id>
+      </definition>
+      <inputs>
+        <workItemType>384139</workItemType>
+        <assignToRequestor>true</assignToRequestor>
+        <additionalFields>{}</additionalFields>
+      </inputs>
+    </options>
+    <options>
+      <enabled>false</enabled>
+      <definition>
+        <id>5d58cc01-7c75-450c-be18-a388ddb129ec</id>
+      </definition>
+      <inputs>
+        <branchFilters>["+refs/heads/*"]</branchFilters>
+        <additionalFields>{}</additionalFields>
+      </inputs>
+    </options>
+    <variables>
+      <build.clean>
+        <value>All</value>
+      </build.clean>
+      <BuildConfiguration>
+        <value>Release</value>
+        <allowOverride>true</allowOverride>
+      </BuildConfiguration>
+      <BuildPlatform>
+        <value>Any CPU</value>
+        <allowOverride>true</allowOverride>
+      </BuildPlatform>
+      <system.debug>
+        <value>false</value>
+        <allowOverride>true</allowOverride>
+      </system.debug>
+      <system.prefergit>
+        <value>true</value>
+      </system.prefergit>
+    </variables>
+    <demands>agent.name -equals f6</demands>
+    <retentionRules>
+      <branches>+refs/heads/*</branches>
+      <artifactTypesToDelete>FilePath</artifactTypesToDelete>
+      <artifactTypesToDelete>SymbolStore</artifactTypesToDelete>
+      <daysToKeep>10</daysToKeep>
+      <minimumToKeep>1</minimumToKeep>
+      <deleteBuildRecord>true</deleteBuildRecord>
+      <deleteTestResults>true</deleteTestResults>
+    </retentionRules>
+    <_links>
+      <self>
+        <href>https://vsogd.visualstudio.com/ea193b38-6dd7-4dd6-a0e8-9ab489d1efc3/_apis/build/Definitions/1410?revision=30</href>
+      </self>
+      <web>
+        <href>https://vsogd.visualstudio.com/ea193b38-6dd7-4dd6-a0e8-9ab489d1efc3/_build/definition?definitionId=1410</href>
+      </web>
+      <editor>
+        <href>https://vsogd.visualstudio.com/ea193b38-6dd7-4dd6-a0e8-9ab489d1efc3/_build/designer?id=1410&amp;_a=edit-build-definition</href>
+      </editor>
+      <badge>
+        <href>https://vsogd.visualstudio.com/ea193b38-6dd7-4dd6-a0e8-9ab489d1efc3/_apis/build/status/1410</href>
+      </badge>
+    </_links>
+    <buildNumberFormat>$(date:yyyyMMdd)$(rev:.r)</buildNumberFormat>
+    <jobAuthorizationScope>projectCollection</jobAuthorizationScope>
+    <jobCancelTimeoutInMinutes>5</jobCancelTimeoutInMinutes>
+    <repository>
+      <properties>
+        <labelSources>0</labelSources>
+        <reportBuildStatus>true</reportBuildStatus>
+        <fetchDepth>0</fetchDepth>
+        <gitLfsSupport>false</gitLfsSupport>
+        <skipSyncSource>false</skipSyncSource>
+        <cleanOptions>0</cleanOptions>
+        <labelSourcesFormat>$(build.buildNumber)</labelSourcesFormat>
+        <checkoutNestedSubmodules>false</checkoutNestedSubmodules>
+      </properties>
+      <id>7b286f09-0249-4f70-ac89-96abd54fbc6c</id>
+      <type>TfsGit</type>
+      <name>Virtuoso</name>
+      <url>https://vsogd.visualstudio.com/GDTools/_git/Virtuoso</url>
+      <defaultBranch>refs/heads/hotfix-cpsync</defaultBranch>
+      <clean>true</clean>
+      <checkoutSubmodules>false</checkoutSubmodules>
+    </repository>
+    <processParameters />
+    <quality>definition</quality>
+    <authoredBy>
+      <displayName>Tilak Yadav</displayName>
+      <url>https://vssps.dev.azure.com/e/Microsoft/_apis/Identities/7784ac10-c7c2-4b83-9680-3ef76f8ead4d</url>
+      <_links>
+        <avatar>
+          <href>https://vsogd.visualstudio.com/_apis/GraphProfile/MemberAvatars/aad.MzYwYWEzMjAtZDVmZS03NWJmLWIzZTgtYWM4Nzc0N2ZiMDNl</href>
+        </avatar>
+      </_links>
+      <id>7784ac10-c7c2-4b83-9680-3ef76f8ead4d</id>
+      <uniqueName>v-chiyad@microsoft.com</uniqueName>
+      <imageUrl>https://vsogd.visualstudio.com/_api/_common/identityImage?id=7784ac10-c7c2-4b83-9680-3ef76f8ead4d</imageUrl>
+      <descriptor>aad.MzYwYWEzMjAtZDVmZS03NWJmLWIzZTgtYWM4Nzc0N2ZiMDNl</descriptor>
+    </authoredBy>
+    <queue>
+      <_links>
+        <self>
+          <href>https://vsogd.visualstudio.com/_apis/build/Queues/2141</href>
+        </self>
+      </_links>
+      <id>2141</id>
+      <name>Virtuoso-gc</name>
+      <url>https://vsogd.visualstudio.com/_apis/build/Queues/2141</url>
+      <pool>
+        <id>65</id>
+        <name>Virtuoso-gc</name>
+      </pool>
+    </queue>
+    <id>1410</id>
+    <name>Hotfix(GC)</name>
+    <url>https://vsogd.visualstudio.com/ea193b38-6dd7-4dd6-a0e8-9ab489d1efc3/_apis/build/Definitions/1410?revision=30</url>
+    <uri>vstfs:///Build/Definition/1410</uri>
+    <path>\Virtuoso Gated Check-ins</path>
+    <type>build</type>
+    <queueStatus>enabled</queueStatus>
+    <revision>30</revision>
+    <createdDate>2019-02-28T10:55:38.383Z</createdDate>
+    <project>
+      <id>ea193b38-6dd7-4dd6-a0e8-9ab489d1efc3</id>
+      <name>GDTools</name>
+      <description>[MS Internal] Virtuoso</description>
+      <url>https://vsogd.visualstudio.com/_apis/projects/ea193b38-6dd7-4dd6-a0e8-9ab489d1efc3</url>
+      <state>wellFormed</state>
+      <revision>138299301</revision>
+      <visibility>organization</visibility>
+      <lastUpdateTime>2018-12-31T08:23:59.063Z</lastUpdateTime>
+    </project>
+  </GetBuildDefinitionSpecs>
+  <GetTestRuns>
+    <count>1</count>
+    <value>
+      <id>1191100</id>
+      <name>VSTest Test Run Release Any CPU</name>
+      <url>https://vsogd.visualstudio.com/GDTools/_apis/test/Runs/1191100</url>
+      <isAutomated>true</isAutomated>
+      <state>Completed</state>
+      <totalTests>1562</totalTests>
+      <incompleteTests>0</incompleteTests>
+      <notApplicableTests>0</notApplicableTests>
+      <passedTests>1562</passedTests>
+      <unanalyzedTests>0</unanalyzedTests>
+      <revision>0</revision>
+      <webAccessUrl>https://vsogd.visualstudio.com/GDTools/_TestManagement/Runs#runId=1191100&amp;_a=runCharts</webAccessUrl>
+    </value>
+  </GetTestRuns>
+</IGDBuild>

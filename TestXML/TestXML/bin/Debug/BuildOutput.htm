@@ -1,0 +1,746 @@
+﻿<html>
+  <head>
+    <META http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <style type="text/css">
+          body {
+          font-family:Segoe UI Light;
+          /*font-size:80%;*/
+          }
+          .toolsuggest
+          {
+          font-family:Segoe UI Light;
+          background-color:#FF9900;
+          color:black;
+
+
+          }
+          .highlight
+          {
+          font-weight:bold
+          background-color:#FFC425;
+          color:black;
+
+          }
+          .roundbackgroundProject{
+          vertical-align:top;
+          display: inline-block;
+          color: black;
+          background-color:#F7BE81; 
+          text-align: center;
+          padding: 2px;
+          text-decoration: none;
+          margin:2px;
+          
+          border-radius:5px;
+
+          }
+          .roundborderFile{
+          vertical-align:middle;
+          display: inline-block;
+          color: black;
+          background-color:#F7BE81; 
+          text-align: center;
+          padding: 2px;
+          text-decoration: none;
+          margin:2px;
+          
+          border-radius: 5px;
+          }
+
+          table {
+          border-collapse: collapse;
+          border-style: hidden;
+          }
+
+          table td, table th {
+          border: 1px solid #f0f0f0;
+          vertical-align:top;
+          aling:left
+          }
+
+          .noborder {
+          border:none;
+          }
+
+          .subtext{
+          font-size:80%;
+          }
+
+          .minutetext{
+          font-size:75%;
+          }
+
+          .header
+          {
+          font-family:Segoe UI Light;
+          color:#007ACC;
+          font-size:120%;
+          }
+          .subheading
+          {
+          font-family:Segoe UI Light;
+          background-color:#007ACC;
+          color:white;
+          font-size:60%;
+          }
+          .colored
+          {
+          color:#007ACC;
+          }
+
+          .bgcolored
+          {
+          font-family:Segoe UI Light;
+          background-color:#007ACC;
+          color:white;
+
+          }
+
+          .bgcoloredDiagnostics
+          {
+          text-align:left
+          font-family:Segoe UI Light;
+          border-color:#D11141;color:#ffffff;background:#D11141;
+          }
+
+          .bgcoloredsmall
+          {
+          font-family:Segoe UI Light;
+          font-size:13px;
+          font-weight:bold;
+          background-color:#007ACC;
+          color:white;
+
+          }
+
+          .bgcoloredGreen
+          {
+          font-family:Segoe UI Light;
+          background-color:#78ba00;
+          color:white;
+          margin:1px
+          }
+          .bgcoloredViolet
+          {
+          font-family:Segoe UI Light;
+          background-color:#7200ad;
+          color:white;
+          margin:1px
+          }
+
+
+          .smallheader
+          {
+          font-family:Segoe UI Light;
+          color:#007ACC;
+          font-size:100%;
+          }
+
+          .mainTile
+          {display:inline-block; width: 200px;height: 200px; background-color: #007ACC}
+
+
+          .subTile { border:none;width: 100px;height: 100px;background-color: #007ACC}
+
+          .tileNumberStyle{  font-family:Segoe UI Light;font-size:24px;color:white}
+
+          .tileTextStyle{ font-family:Segoe UI Light;font-size:14px;color:white}
+
+          .altSubtile { border:none;width: 100px;height: 100px; background-color: #0099FF}
+
+          .tileTitle {font-family:Segoe UI Light;font-size:14px;font-weight:bold;color:white}
+
+          /* Highlight */
+          .ui-state-highlight{border-color:#E5F2FF;color:#525252;background:#E5F2FF;font-family:Segoe UI Light;}
+          /*.ui-state-highlight .ui-icon{background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAYAAAA71pVKAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAGFSURBVDhPjVM9SEJRFP6e7wUt+TNV4hRUgzqKk0saCOEmgVuTQ0vgIiKmBaHo2BISQeCm4lKLqOTWUKKCiRYuUYNDouBgmqf3XvkT5s+5nOXe+93zne98lyE+sGBknjNw37qRf8tDs6YBBPAiEXmMEOtgCUcghUtB2ZcsLQROVpPEOTmCAyRzySj3mhPrzQXXPmqkOFUQnBAfSFVTQ6KSWe32+j3YojY0PhsACwT2AjBuGkeQWf1677wEHwjHIPO1mfr8Gg9mmtqFegG6Kx26vS7kS3KUDktQrij/EB3S7va7wwO+Auw3dgz2grvBCaB4WaASvg+T6kxF5XpZZBV+CP/QPQHpL/UTdAfU2cpGxedP+9HqtJB4SkC6LIUn7UG70+ZNAMT341BJVf/qyhTfi2Q4N6DZaYqKQmhESAawaqyI2qJTByLRrmsRO4iBYzjgi7/3m0yfgW/HN9O4omCmLRNClhAvwAhs2bZAvaqe7frxuZkvzMQ5ODGTleRcy0+d8yIf7Rsw7Ys8NNs3jAAAAABJRU5ErkJggg==);}
+          url(images/ui-icons_525252_0.png);*/
+
+          /* Notavailable */
+          .ui-state-notavailable{border-color:#FFC425 ;color:red;background:#FFC425 ;font-family:Segoe UI Light;}
+          /* .ui-state-notavailable .ui-icon{background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAYAAAA71pVKAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAGFSURBVDhPjVM9SEJRFP6e7wUt+TNV4hRUgzqKk0saCOEmgVuTQ0vgIiKmBaHo2BISQeCm4lKLqOTWUKKCiRYuUYNDouBgmqf3XvkT5s+5nOXe+93zne98lyE+sGBknjNw37qRf8tDs6YBBPAiEXmMEOtgCUcghUtB2ZcsLQROVpPEOTmCAyRzySj3mhPrzQXXPmqkOFUQnBAfSFVTQ6KSWe32+j3YojY0PhsACwT2AjBuGkeQWf1677wEHwjHIPO1mfr8Gg9mmtqFegG6Kx26vS7kS3KUDktQrij/EB3S7va7wwO+Auw3dgz2grvBCaB4WaASvg+T6kxF5XpZZBV+CP/QPQHpL/UTdAfU2cpGxedP+9HqtJB4SkC6LIUn7UG70+ZNAMT341BJVf/qyhTfi2Q4N6DZaYqKQmhESAawaqyI2qJTByLRrmsRO4iBYzjgi7/3m0yfgW/HN9O4omCmLRNClhAvwAhs2bZAvaqe7frxuZkvzMQ5ODGTleRcy0+d8yIf7Rsw7Ys8NNs3jAAAAABJRU5ErkJggg==);}
+          url(images/ui-icons_525252_0.png);*/
+
+
+          /* Parse Error */
+          .ui-state-parseError{border-color:#EEEEEE ;color:#F45A16;background:#EEEEEE ;font-family:Segoe UI Light;}
+          /* .ui-state-parseError .ui-icon{background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAYAAAA71pVKAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAGFSURBVDhPjVM9SEJRFP6e7wUt+TNV4hRUgzqKk0saCOEmgVuTQ0vgIiKmBaHo2BISQeCm4lKLqOTWUKKCiRYuUYNDouBgmqf3XvkT5s+5nOXe+93zne98lyE+sGBknjNw37qRf8tDs6YBBPAiEXmMEOtgCUcghUtB2ZcsLQROVpPEOTmCAyRzySj3mhPrzQXXPmqkOFUQnBAfSFVTQ6KSWe32+j3YojY0PhsACwT2AjBuGkeQWf1677wEHwjHIPO1mfr8Gg9mmtqFegG6Kx26vS7kS3KUDktQrij/EB3S7va7wwO+Auw3dgz2grvBCaB4WaASvg+T6kxF5XpZZBV+CP/QPQHpL/UTdAfU2cpGxedP+9HqtJB4SkC6LIUn7UG70+ZNAMT341BJVf/qyhTfi2Q4N6DZaYqKQmhESAawaqyI2qJTByLRrmsRO4iBYzjgi7/3m0yfgW/HN9O4omCmLRNClhAvwAhs2bZAvaqe7frxuZkvzMQ5ODGTleRcy0+d8yIf7Rsw7Ys8NNs3jAAAAABJRU5ErkJggg==);}
+          url(images/ui-icons_525252_0.png);*/
+
+
+          /* Error */
+          .ui-state-error{border-color:#D11141;color:#ffffff;background:#D11141;;font-family:Segoe UI;}
+          .ui-state-error .ui-icon{background-image:url(images/ui-icons_ffffff_0.png);}
+
+          /* Overlays */
+          .ui-widget-overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+          .ui-widget{font-family:"Segoe UI", Helvetica, Verdana;}
+          /* states and images */
+          .ui-icon { display: block; text-indent: -99999px; overflow: hidden; background-repeat: no-repeat; }
+          .ui-icon-alert { background-position: 0 -144px; }
+
+        </style><script language="JavaScript">
+          
+     
+        function flip (currentRowNode){
+        // currentRowNode.nextSibling.childNodes[0] == td
+        var expand;
+
+        if(currentRowNode.childNodes[0].getElementsByTagName("A")[0].firstChild.nodeValue == '+')
+        {
+        currentRowNode.childNodes[0].getElementsByTagName("A")[0].firstChild.nodeValue  = "-"
+        expand = true;
+        }
+        else
+        {
+        currentRowNode.childNodes[0].getElementsByTagName("A")[0].firstChild.nodeValue  = "+"
+        expand = false;
+        }
+
+
+        expandCollapse(expand,  currentRowNode.parentNode.parentNode.rows[ currentRowNode.parentNode.rowIndex + 1 ]);
+
+        }
+
+        function expandCollapse(expand, currentRowNode) {
+
+       
+        if (expand) {
+        currentRowNode.style.display = "block";
+
+        }
+        else {
+        currentRowNode.style.display = "none";
+        }
+
+       
+
+        }
+        
+       
+        
+        
+        </script></head>
+  <body>
+    <table style="width: 900pt;" class="noborder">
+      <tr>
+        <td class="noborder "><span class="colored">
+                Hi <strong>GDTools</strong> Team,
+              </span><br></td>
+      </tr>
+      <tr>
+        <td class="noborder"><span class="colored">
+                The manual ServicesBuild  for build definition    <u>Hotfix(GC)</u> <img alt="" hspace="0" align="baseline" border="0" src="Image_orangeTick.jpg"></span><br><br></td>
+      </tr>
+      <tr>
+        <td class="noborder">
+          <table cellpadding="5">
+            <tr>
+              <td style="width:170px;text-align: right; " class="bgcolored">
+                    Project Name
+                  </td>
+              <td>GDTools</td>
+              <td style="width:170px;text-align: right; " class="bgcolored">
+                    TPC URL
+                  </td>
+              <td>https://vsogd.visualstudio.com</td>
+            </tr>
+            <tr>
+              <td style="width:170px;text-align: right; " class="bgcolored">
+                    Team Project
+                  </td>
+              <td>GDTools</td>
+              <td style="width:170px;text-align: right; " class="bgcolored">
+                    Build Definition Name
+                  </td>
+              <td>Hotfix(GC)</td>
+            </tr>
+            <tr>
+              <td style="width:170px;text-align: right; " class="bgcolored">
+                    Build Summary
+                  </td>
+              <td><a href="https://vsogd.visualstudio.com/ea193b38-6dd7-4dd6-a0e8-9ab489d1efc3/_build?buildId=179445&amp;_a=summary&amp;tab=summary">here</a></td>
+              <td style="width:170px;text-align: right; " class="bgcolored">
+                      Repo (Branch name)
+                    </td>
+              <td>Virtuoso
+                      (refs/pull/23867/merge)
+                     </td>
+            </tr>
+            <tr>
+              <td style="text-align: right; " class="bgcolored">
+                    Build Number
+                  </td>
+              <td>20190305.2</td>
+              <td style="text-align: right; " class="bgcolored">
+                    Triggered By
+                  </td>
+              <td>Sudha Guda</td>
+            </tr>
+            <tr>
+              <td style="text-align: right; " class="bgcolored">
+                    Time (UTC)
+                  </td>
+              <td>2019-03-05 
+                    07:45:53 
+                    </td>
+              <td style="text-align: right; " class="bgcolored">
+                    Configuration Analysed
+                  </td>
+              <td>Release/Any CPU</td>
+            </tr>
+            <tr>
+              <td style="text-align: right; " class="bgcolored">
+                    Build Artifacts
+                  </td>
+              <td><a href="https://vsogd.visualstudio.com/ea193b38-6dd7-4dd6-a0e8-9ab489d1efc3/_build/explorer?buildId=179445&amp;_a=summary&amp;tab=artifacts">here</a></td>
+              <td style="text-align: right; " class="bgcolored">
+                    Agent Pool Name
+                  </td>
+              <td>Virtuoso-gc</td>
+            </tr>
+            <tr>
+              <td style="text-align: right; " class="bgcolored">
+                    ServicesBuild Web
+                  </td>
+              <td><a href="https://vsogd.visualstudio.com/ea193b38-6dd7-4dd6-a0e8-9ab489d1efc3/_build/explorer?buildId=179445&amp;_a=summary&amp;tab=EnterpriseServicesDevOpsTeam.ServicesCode-BuildReportTab.build-info-tab">here</a></td>
+              <td style="text-align: right; " class="bgcolored">
+                    Is Registered
+                  </td>
+              <td></td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td class="noborder" colspan="3" style="text-align:left;vertical-align:middle;">
+          <table>
+            <tr>
+              <td class="noborder"><br></td>
+            </tr>
+            <tr>
+              <td class="header">
+                    Legend
+                  </td>
+              <td class="noborder"></td>
+              <td class="noborder"></td>
+              <td class="noborder"></td>
+              <td class="noborder"></td>
+              <td class="noborder"></td>
+              <td class="noborder"></td>
+              <td><img alt="" hspace="0" src="Image_greentick.jpg" align="baseline" border="0"></td>
+              <td style="text-align: left; " class="bgcoloredsmall">
+                    Passed
+                  </td>
+              <td class="noborder"></td>
+              <td class="noborder"></td>
+              <td><img alt="" hspace="0" src="Image_orangetick.jpg" align="baseline" border="0"></td>
+              <td style="text-align: left; " class="bgcoloredsmall">
+                    Passed with warnings
+                  </td>
+              <td class="noborder"></td>
+              <td class="noborder"></td>
+              <td><img alt="" hspace="0" src="Image_cross.jpg" align="baseline" border="0"></td>
+              <td style="text-align: left; " class="bgcoloredsmall">
+                    Failed with errors
+                  </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td class="noborder"><br><table align="center" width="100%" class="noborder">
+            <tr>
+              <td style="background-color:#FFFFCC"><span class="header" style="text-align: center; font-family:Segoe UI Light;font-size:16px; color:#990099;  ">
+                      Do you want to automate your deployments to your Dev/Test environments? Review this <a href="https://aka.ms/esdevopsrm">wiki</a> and contact us with a <a href="https://aka.ms/newservicesrelease">ServicesRelease</a> request for a trial.
+                    </span></td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td class="noborder">
+          <table align="center" width="100%" class="noborder">
+            <tr>
+              <td class="noborder"><span class="header" style="text-align: center; font-family:Segoe UI Light;font-size:16px; color:#FF0000;">
+                        Technical QGs for this build are not met and therefore please review and configure the target QGs as per https://aka.ms/esdevopsbuildconfig.
+                      </span></td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td class="noborder">
+          <table align="center" width="100%" cellpadding="5" cellspacing="0" class="noborder">
+            <tr>
+              <td class="noborder"><span class="header"><br>ServicesBuild Status [Built using <a href="http://msdn.microsoft.com/en-us/library/ms171452.aspx">MSBuild</a>]
+                    </span></td>
+            </tr>
+            <tr>
+              <td class="noborder">
+                <table align="center" width="100%" cellpadding="5" cellspacing="0">
+                  <tr style="text-align: center; " class="bgcolored">
+                    <td style="width: 200px;">
+                          Task
+                        </td>
+                    <td width="43.5%">
+                          Remark
+                        </td>
+                    <td width="5%">
+                          Status
+                        </td>
+                    <td width="17%">
+                          Targets
+                        </td>
+                    <td width="17%">
+                          Achieved
+                        </td>
+                  </tr>
+                  <tr>
+                    <td style="width: 200px;text-align: center;" class="colored" valign="top">
+                            Build Creation
+                          </td>
+                    <td><span>
+                              Build Errors/Warnings  <a type="text/html" href="https://vsogd.visualstudio.com/DefaultCollection//_apis/tfvc/items/$/ServicesCode-Assets/BuildProcessTemplates/BuildLogDrops/C179788/BuildLogFolder/BuildErrors.htm">         here              </a></span></td>
+                    <td align="center" valign="middle"><img alt="" hspace="0" align="baseline" border="0" src="Image_greentick.jpg"></td>
+                    <td valign="middle">
+                            0 Error(s)
+                            <br><span>
+                              0 Warning(s)
+                            </span></td>
+                    <td valign="middle"><span style="color:green"> Error(s)
+                            </span><br><span style="color:green"> Warning(s)
+                            </span></td>
+                  </tr>
+                  <tr>
+                    <td style="width: 200px;text-align: center;" class="colored" valign="top">
+                          Compilation
+                        </td>
+                    <td><span>
+                            Compilation Warnings  <a href="E:\Samples\TestXML\TestXML\bin\Debug\bldwarning\BuildWarnings.htm">         here              </a></span></td>
+                    <td align="center" valign="middle"><img alt="" hspace="0" align="baseline" border="0" src="Image_Orangetick.jpg"></td>
+                    <td valign="middle"><span></span> Error(s)
+                          <br><span> Warning(s)
+                          </span></td>
+                    <td valign="middle"><span style="color:green"> Error(s)
+                          </span><br><span style="color:green"> Warning(s)
+                          </span></td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td class="noborder">
+          <table align="center" width="100%" cellpadding="0" cellspacing="0" class="noborder" style="border:none;">
+            <tr>
+              <td class="noborder"><span class="header">
+                      Artifacts
+                    </span></td>
+            </tr>
+            <tr style="text-align: center; " class="bgcolored">
+              <td>
+                    Tool
+                  </td>
+              <td>
+                    Steps
+                  </td>
+            </tr>
+            <tr class="noborder" cellpadding="0" cellspacing="0" style="border:none;">
+              <td class="noborder" cellpadding="0" cellspacing="0" valign="top"></td>
+            </tr>
+            <tr>
+              <td style="width: 200px;text-align: center;" class="colored" valign="top">Other Artifacts</td>
+              <td valign="top">
+                    Published VSTS build artifacts are <a href="https://vsogd.visualstudio.com/ea193b38-6dd7-4dd6-a0e8-9ab489d1efc3/_build?buildId=179445&amp;_a=summary&amp;tab=artifacts">here</a></td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td class="noborder">
+          <table align="center" width="100%" cellpadding="4" cellspacing="0" class="noborder">
+            <tr>
+              <td class="noborder"><span style="color:red"></span><span style="color:#FF6600"></span></td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td class="noborder">
+          <table align="center" width="100%" cellpadding="5" cellspacing="0"><br><br><br><br><tr>
+              <td class="noborder"><span class="header"><br> TFS Best Practices
+                      </span><span class="minutetext"></span></td>
+            </tr>
+            <tr>
+              <td class="noborder">
+                <table align="left" width="100%">
+                  <tr class="bgcolored" style="text-align: center">
+                    <td style="width:200px">Feature</td>
+                    <td>Results</td>
+                    <td>Status</td>
+                  </tr>
+                  <tr>
+                    <td align="center"><a href="https://aka.ms/esdevopsworkitemtraceability">Workitem Traceability</a></td>
+                    <td>
+                      <table>
+                        <tr>
+                          <td style="border:none;">
+                            <table>
+                              <tr>
+                                <td class="mainTile">
+                                  <table>
+                                    <tr class="tileNumberStyle">
+                                      <td class="subTile">
+                                        <table>
+                                          <tr align="left" class="tileNumberStyle">
+                                            <td style="border:none;" align="left">
+                                            </td>
+                                          </tr>
+                                          <tr align="left" class="tileTextStyle">
+                                            <td style="border:none;"></td>
+                                          </tr>
+                                        </table>
+                                      </td>
+                                      <td class="altSubtile">
+                                        <table>
+                                          <tr align="left" class="tileNumberStyle">
+                                            <td style="border:none;">
+                                            </td>
+                                          </tr>
+                                          <tr align="left" class="tileTextStyle">
+                                            <td style="border:none;">
+                                                      No link to Testcases
+                                                    </td>
+                                          </tr>
+                                        </table>
+                                      </td>
+                                    </tr>
+                                    <tr class="tileNumberStyle">
+                                      <td class="altSubtile">
+                                        <table>
+                                          <tr align="left" class="tileNumberStyle">
+                                            <td style="border:none;">
+                                              <div style="display:inline-block; height: 1.5em; background-color: #ADD8E6;"></div>
+                                            </td>
+                                          </tr>
+                                          <tr align="left" class="tileTitle">
+                                            <td style="border:none;"></td>
+                                          </tr>
+                                        </table>
+                                      </td>
+                                      <td class="subTile">
+                                        <table>
+                                          <tr align="left" class="tileNumberStyle">
+                                            <td style="border:none;">
+                                            </td>
+                                          </tr>
+                                          <tr align="left" class="tileTextStyle">
+                                            <td style="border:none;">
+                                                      No link to Tasks
+                                                    </td>
+                                          </tr>
+                                        </table>
+                                      </td>
+                                    </tr>
+                                  </table>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                          <td style="border:none;">
+                            <table>
+                              <tr>
+                                <td class="mainTile">
+                                  <table>
+                                    <tr class="tileNumberStyle">
+                                      <td class="subTile"></td>
+                                      <td class="altSubtile">
+                                        <table>
+                                          <tr align="left" class="tileNumberStyle">
+                                            <td style="border:none;">
+                                            </td>
+                                          </tr>
+                                          <tr align="left" class="tileTextStyle">
+                                            <td style="border:none;">
+                                                      No link To
+                                                      </td>
+                                          </tr>
+                                        </table>
+                                      </td>
+                                    </tr>
+                                    <tr class="tileNumberStyle">
+                                      <td class="altSubtile">
+                                        <table>
+                                          <tr align="left" class="tileNumberStyle">
+                                            <td style="border:none;">
+                                              <div style="display:inline-block; height: 1.5em; background-color: #ADD8E6;"></div>
+                                            </td>
+                                          </tr>
+                                          <tr align="left" class="tileTitle">
+                                            <td style="border:none;">
+                                                      Testcases
+                                                    </td>
+                                          </tr>
+                                        </table>
+                                      </td>
+                                      <td style="border:none;"></td>
+                                    </tr>
+                                  </table>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                          <td style="border:none;">
+                            <table>
+                              <tr>
+                                <td class="mainTile">
+                                  <table>
+                                    <tr class="tileNumberStyle">
+                                      <td class="subTile"></td>
+                                      <td class="altSubtile">
+                                        <table>
+                                          <tr align="left" class="tileNumberStyle">
+                                            <td style="border:none;">
+                                            </td>
+                                          </tr>
+                                          <tr align="left" class="tileTextStyle">
+                                            <td style="border:none;">
+                                                      No link To
+
+                                                      
+                                                      /  testcase
+                                                    </td>
+                                          </tr>
+                                        </table>
+                                      </td>
+                                    </tr>
+                                    <tr class="tileNumberStyle">
+                                      <td class="altSubtile">
+                                        <table>
+                                          <tr align="left" class="tileNumberStyle">
+                                            <td style="border:none;">
+                                              <div style="display:inline-block; height: 1.5em; background-color: #ADD8E6;"></div>
+                                            </td>
+                                          </tr>
+                                          <tr align="left" class="tileTitle">
+                                            <td style="border:none;">
+                                                      Bugs
+                                                    </td>
+                                          </tr>
+                                        </table>
+                                      </td>
+                                      <td style="border:none;"></td>
+                                    </tr>
+                                  </table>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                          <td style="border:none;">
+                            <table>
+                              <tr>
+                                <td class="mainTile">
+                                  <table>
+                                    <tr class="tileNumberStyle">
+                                      <td class="subTile"></td>
+                                      <td class="altSubtile">
+                                        <table>
+                                          <tr align="left" class="tileNumberStyle">
+                                            <td style="border:none;">
+                                            </td>
+                                          </tr>
+                                          <tr align="left" class="tileTextStyle">
+                                            <td style="border:none;">
+                                                      No link To
+
+                                                      </td>
+                                          </tr>
+                                        </table>
+                                      </td>
+                                    </tr>
+                                    <tr class="tileNumberStyle">
+                                      <td class="altSubtile">
+                                        <table>
+                                          <tr align="left" class="tileNumberStyle">
+                                            <td style="border:none;">
+                                              <div style="display:inline-block; height: 1.5em; background-color: #ADD8E6;"></div>
+                                            </td>
+                                          </tr>
+                                          <tr align="left" valign="bottom" class="tileTitle">
+                                            <td style="border:none;">
+                                                      Task
+                                                    </td>
+                                          </tr>
+                                        </table>
+                                      </td>
+                                      <td style="border:none;"></td>
+                                    </tr>
+                                  </table>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                    <td>
+                      <div class="ui-widget">
+                        <p><span class="ui-icon ui-icon-info" style="float: left; margin-right: .3em;"></span>
+        Workitems Not Available!
+      </p>
+                      </div>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <td class="noborder">
+                <table>
+                  <tr style="color:#007ACC">
+                    <td class="noborder header"><br>Note
+                        </td>
+                  </tr>
+                  <tr>
+                    <td class="noborder">
+                          - Please read <a href="https://aka.ms/cireport">here</a> to interpret this report.<br>
+                          - Please raise a request/incident <a href="https://aka.ms/esdevopsrequest">here</a> if you have need any changes or require more help with any discrepancies or issues. Make sure to review the <a href="https://aka.ms/esdevopsrequestwiki">wiki</a> and <a href="https://aka.ms/quickhelp">quick help</a> resources before raising a request.<br>
+                          - Provide your ideas and suggestions <a href="https://aka.ms/esdevopsfeedback">here</a>.<br>
+                          - If tool reports are not rendered properly in IE, then go to Internet options -&gt; Compatibility View Settings -&gt; Add (default TFS url would be shown).<br>
+                          - If you want to retain this build, select "Retain Indefinitely" option for this particular build run from Build Explorer.<br>
+                          - If you include Fortify scan in build, build completion time may increase over-time based on the complexity of the code. Enable/Disable the Fortify scan accordingly
+                        </td>
+                  </tr>
+                  <tr style="color:#007ACC">
+                    <td class="noborder header">Disclaimer</td>
+                  </tr>
+                  <tr>
+                    <td class="noborder">
+                          - The errors/warnings reported by this ServicesDevOps report might differ if the project teams are using different version of the tools than what is being used by ServicesDevOps. ServicesDevOps uses and supports only the latest and N-1 versions of the standard code analysis/linting tools.
+                        </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <td class="noborder">
+                <table width="100%">
+                  <tr>
+                    <td class="noborder"><br>
+                          Thanks,
+                          <br>
+                          Services DevOps Team
+                        </td>
+                    <td class="noborder subtext" style="color:gray;font-size:60%;text-align: right; vertical-align:bottom" width="50%"></td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>

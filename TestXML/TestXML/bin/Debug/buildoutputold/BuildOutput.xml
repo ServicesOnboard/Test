@@ -1,0 +1,1923 @@
+<IGDBuild>
+  <GetBuildDetails>
+    <records>
+      <id>8e823fa9-4cd2-5746-39fd-19f45ac4802b</id>
+      <parentId>df143ba0-1c7a-5b21-02e1-d41a394e29c9</parentId>
+      <type>Task</type>
+      <name>ESDevopsCopyReports</name>
+      <startTime>2018-07-01T00:47:08.9333333Z</startTime>
+      <finishTime>2018-07-01T00:47:11.9466667Z</finishTime>
+      <currentOperation />
+      <percentComplete />
+      <state>completed</state>
+      <result>succeeded</result>
+      <resultCode />
+      <changeId>62</changeId>
+      <lastModified>0001-01-01T00:00:00</lastModified>
+      <workerName>vNxt_Dly</workerName>
+      <order>17</order>
+      <details />
+      <errorCount>0</errorCount>
+      <warningCount>0</warningCount>
+      <url />
+      <log>
+        <id>18</id>
+        <type>Container</type>
+        <url>https://vsogd.visualstudio.com/0e2fae23-ed7a-44fd-9b3e-f77ba4f61760/_apis/build/builds/144344/logs/18</url>
+      </log>
+      <task>
+        <id>9854cc38-f66e-4392-af27-aa8cd0adc17b</id>
+        <name>ServicesDevOpsCopyReports</name>
+        <version>2.2.201706275</version>
+      </task>
+    </records>
+    <records>
+      <id>1f0be6ec-8578-5a1c-6b29-2471c8ca5d68</id>
+      <parentId>df143ba0-1c7a-5b21-02e1-d41a394e29c9</parentId>
+      <type>Task</type>
+      <name>Publish Artifact: BuildLogFolder</name>
+      <startTime>2018-07-01T00:47:11.9633333Z</startTime>
+      <finishTime>2018-07-01T00:47:27.5533333Z</finishTime>
+      <currentOperation />
+      <percentComplete />
+      <state>completed</state>
+      <result>succeeded</result>
+      <resultCode />
+      <changeId>64</changeId>
+      <lastModified>0001-01-01T00:00:00</lastModified>
+      <workerName>vNxt_Dly</workerName>
+      <order>18</order>
+      <details />
+      <errorCount>0</errorCount>
+      <warningCount>0</warningCount>
+      <url />
+      <log>
+        <id>19</id>
+        <type>Container</type>
+        <url>https://vsogd.visualstudio.com/0e2fae23-ed7a-44fd-9b3e-f77ba4f61760/_apis/build/builds/144344/logs/19</url>
+      </log>
+      <task>
+        <id>2ff763a7-ce83-4e1f-bc89-0ae63477cebe</id>
+        <name>PublishBuildArtifacts</name>
+        <version>1.135.0</version>
+      </task>
+    </records>
+    <records>
+      <id>34c24bd8-37fe-57fc-7062-3ac918b70971</id>
+      <parentId>df143ba0-1c7a-5b21-02e1-d41a394e29c9</parentId>
+      <type>Task</type>
+      <name>Publish to Artifact Services Drop</name>
+      <startTime>2018-07-01T00:47:27.59Z</startTime>
+      <finishTime>2018-07-01T00:48:39.02Z</finishTime>
+      <currentOperation />
+      <percentComplete />
+      <state>completed</state>
+      <result>succeeded</result>
+      <resultCode />
+      <changeId>66</changeId>
+      <lastModified>0001-01-01T00:00:00</lastModified>
+      <workerName>vNxt_Dly</workerName>
+      <order>19</order>
+      <details />
+      <errorCount>0</errorCount>
+      <warningCount>0</warningCount>
+      <url />
+      <log>
+        <id>20</id>
+        <type>Container</type>
+        <url>https://vsogd.visualstudio.com/0e2fae23-ed7a-44fd-9b3e-f77ba4f61760/_apis/build/builds/144344/logs/20</url>
+      </log>
+      <task>
+        <id>f9d96d25-0c81-4e77-8282-1ad1f785cbb4</id>
+        <name>artifactDropTask</name>
+        <version>0.56.1</version>
+      </task>
+    </records>
+    <records>
+      <id>44e68a88-e5b0-52f4-d9b3-4514433a2c97</id>
+      <parentId>df143ba0-1c7a-5b21-02e1-d41a394e29c9</parentId>
+      <type>Task</type>
+      <name>Publish Artifact: drop</name>
+      <startTime>2018-07-01T00:48:39.2566667Z</startTime>
+      <finishTime>2018-07-01T00:53:30.59Z</finishTime>
+      <currentOperation />
+      <percentComplete />
+      <state>completed</state>
+      <result>succeeded</result>
+      <resultCode />
+      <changeId>68</changeId>
+      <lastModified>0001-01-01T00:00:00</lastModified>
+      <workerName>vNxt_Dly</workerName>
+      <order>20</order>
+      <details />
+      <errorCount>0</errorCount>
+      <warningCount>0</warningCount>
+      <url />
+      <log>
+        <id>21</id>
+        <type>Container</type>
+        <url>https://vsogd.visualstudio.com/0e2fae23-ed7a-44fd-9b3e-f77ba4f61760/_apis/build/builds/144344/logs/21</url>
+      </log>
+      <task>
+        <id>2ff763a7-ce83-4e1f-bc89-0ae63477cebe</id>
+        <name>PublishBuildArtifacts</name>
+        <version>1.135.0</version>
+      </task>
+    </records>
+    <records>
+      <id>727c6b84-efe1-5935-24b2-46627d17a94a</id>
+      <parentId>df143ba0-1c7a-5b21-02e1-d41a394e29c9</parentId>
+      <type>Task</type>
+      <name>ESDevopsTFSBestPractices:</name>
+      <startTime>2018-07-01T00:41:06.98Z</startTime>
+      <finishTime>2018-07-01T00:47:05.0266667Z</finishTime>
+      <currentOperation />
+      <percentComplete />
+      <state>completed</state>
+      <result>succeeded</result>
+      <resultCode />
+      <changeId>58</changeId>
+      <lastModified>0001-01-01T00:00:00</lastModified>
+      <workerName>vNxt_Dly</workerName>
+      <order>15</order>
+      <details />
+      <errorCount>0</errorCount>
+      <warningCount>0</warningCount>
+      <url />
+      <log>
+        <id>16</id>
+        <type>Container</type>
+        <url>https://vsogd.visualstudio.com/0e2fae23-ed7a-44fd-9b3e-f77ba4f61760/_apis/build/builds/144344/logs/16</url>
+      </log>
+      <task>
+        <id>7a2abf6a-4fc5-455c-86d9-f181eb7c1c5c</id>
+        <name>ServicesDevOpsTFSBestPractices</name>
+        <version>2.2.201706275</version>
+      </task>
+    </records>
+    <records>
+      <id>5fd7d7b7-a937-47b4-87bb-531ee7d96103</id>
+      <parentId>df143ba0-1c7a-5b21-02e1-d41a394e29c9</parentId>
+      <type>Task</type>
+      <name>Get sources</name>
+      <startTime>2018-07-01T00:28:50.0733333Z</startTime>
+      <finishTime>2018-07-01T00:32:27.0433333Z</finishTime>
+      <currentOperation />
+      <percentComplete />
+      <state>completed</state>
+      <result>succeeded</result>
+      <resultCode />
+      <changeId>9</changeId>
+      <lastModified>0001-01-01T00:00:00</lastModified>
+      <workerName>vNxt_Dly</workerName>
+      <order>2</order>
+      <details />
+      <errorCount>0</errorCount>
+      <warningCount>0</warningCount>
+      <url />
+      <log>
+        <id>3</id>
+        <type>Container</type>
+        <url>https://vsogd.visualstudio.com/0e2fae23-ed7a-44fd-9b3e-f77ba4f61760/_apis/build/builds/144344/logs/3</url>
+      </log>
+      <task />
+    </records>
+    <records>
+      <id>80aa3db2-32e4-53c3-2f99-66bdc2b57cb2</id>
+      <parentId>df143ba0-1c7a-5b21-02e1-d41a394e29c9</parentId>
+      <type>Task</type>
+      <name>T-ISGCertification:</name>
+      <startTime>2018-07-01T00:38:56.06Z</startTime>
+      <finishTime>2018-07-01T00:39:04.7166667Z</finishTime>
+      <currentOperation />
+      <percentComplete />
+      <state>completed</state>
+      <result>succeeded</result>
+      <resultCode />
+      <changeId>45</changeId>
+      <lastModified>0001-01-01T00:00:00</lastModified>
+      <workerName>vNxt_Dly</workerName>
+      <order>9</order>
+      <details />
+      <errorCount>0</errorCount>
+      <warningCount>0</warningCount>
+      <url />
+      <log>
+        <id>10</id>
+        <type>Container</type>
+        <url>https://vsogd.visualstudio.com/0e2fae23-ed7a-44fd-9b3e-f77ba4f61760/_apis/build/builds/144344/logs/10</url>
+      </log>
+      <task>
+        <id>f46075f7-f9f5-4f1a-b2dc-54bcc9cd8d8e</id>
+        <name>ServicesDevOpsISGCertification</name>
+        <version>2.2.201706275</version>
+      </task>
+    </records>
+    <records>
+      <id>d05a5178-a52b-4e7a-b2e2-7179dca0393d</id>
+      <parentId>df143ba0-1c7a-5b21-02e1-d41a394e29c9</parentId>
+      <type>Task</type>
+      <name>Post-job: ServicesDevopsBuildConfig</name>
+      <startTime>2018-07-01T00:54:34.38Z</startTime>
+      <finishTime />
+      <currentOperation />
+      <percentComplete>0</percentComplete>
+      <state>inProgress</state>
+      <result />
+      <resultCode />
+      <changeId>69</changeId>
+      <lastModified>0001-01-01T00:00:00</lastModified>
+      <workerName>vNxt_Dly</workerName>
+      <order>22</order>
+      <details />
+      <errorCount>0</errorCount>
+      <warningCount>0</warningCount>
+      <url />
+      <log />
+      <task />
+    </records>
+    <records>
+      <id>ec8f1a87-5084-57a3-f1dd-728612ee182f</id>
+      <parentId>df143ba0-1c7a-5b21-02e1-d41a394e29c9</parentId>
+      <type>Task</type>
+      <name>T-AIScanner:</name>
+      <startTime>2018-07-01T00:39:45.0133333Z</startTime>
+      <finishTime>2018-07-01T00:39:51.59Z</finishTime>
+      <currentOperation />
+      <percentComplete />
+      <state>completed</state>
+      <result>succeeded</result>
+      <resultCode />
+      <changeId>53</changeId>
+      <lastModified>0001-01-01T00:00:00</lastModified>
+      <workerName>vNxt_Dly</workerName>
+      <order>13</order>
+      <details />
+      <errorCount>0</errorCount>
+      <warningCount>0</warningCount>
+      <url />
+      <log>
+        <id>14</id>
+        <type>Container</type>
+        <url>https://vsogd.visualstudio.com/0e2fae23-ed7a-44fd-9b3e-f77ba4f61760/_apis/build/builds/144344/logs/14</url>
+      </log>
+      <task>
+        <id>ac9a0f78-43f1-450d-8dd6-76b13c361883</id>
+        <name>ServicesDevOpsAIScanner</name>
+        <version>3.1.201806182</version>
+      </task>
+    </records>
+    <records>
+      <id>6be6404a-db36-542f-d5fb-79b95a2cc96d</id>
+      <parentId>df143ba0-1c7a-5b21-02e1-d41a394e29c9</parentId>
+      <type>Task</type>
+      <name>ServicesDevOpsValidateBuildConfig</name>
+      <startTime>2018-07-01T00:38:08.05Z</startTime>
+      <finishTime>2018-07-01T00:38:32.68Z</finishTime>
+      <currentOperation />
+      <percentComplete />
+      <state>completed</state>
+      <result>succeeded</result>
+      <resultCode />
+      <changeId>33</changeId>
+      <lastModified>0001-01-01T00:00:00</lastModified>
+      <workerName>vNxt_Dly</workerName>
+      <order>6</order>
+      <details />
+      <errorCount>0</errorCount>
+      <warningCount>0</warningCount>
+      <url />
+      <log>
+        <id>7</id>
+        <type>Container</type>
+        <url>https://vsogd.visualstudio.com/0e2fae23-ed7a-44fd-9b3e-f77ba4f61760/_apis/build/builds/144344/logs/7</url>
+      </log>
+      <task>
+        <id>2cd5e27c-9773-485d-b564-11a52d166943</id>
+        <name>ServicesDevOpsValidateBuildConfig</name>
+        <version>3.1.201806182</version>
+      </task>
+    </records>
+    <records>
+      <id>897482e9-6208-5135-ba3d-7c0648e9ffd8</id>
+      <parentId>df143ba0-1c7a-5b21-02e1-d41a394e29c9</parentId>
+      <type>Task</type>
+      <name>ServicesDevOpsBuildConfig</name>
+      <startTime>2018-07-01T00:32:54.7666667Z</startTime>
+      <finishTime>2018-07-01T00:33:02.0833333Z</finishTime>
+      <currentOperation />
+      <percentComplete />
+      <state>completed</state>
+      <result>succeeded</result>
+      <resultCode />
+      <changeId>14</changeId>
+      <lastModified>0001-01-01T00:00:00</lastModified>
+      <workerName>vNxt_Dly</workerName>
+      <order>4</order>
+      <details />
+      <errorCount>0</errorCount>
+      <warningCount>0</warningCount>
+      <url />
+      <log>
+        <id>5</id>
+        <type>Container</type>
+        <url>https://vsogd.visualstudio.com/0e2fae23-ed7a-44fd-9b3e-f77ba4f61760/_apis/build/builds/144344/logs/5</url>
+      </log>
+      <task>
+        <id>417531be-3e2f-481c-906f-65f34f89606e</id>
+        <name>ServicesDevOpsBuildConfig</name>
+        <version>3.1.201806182</version>
+      </task>
+    </records>
+    <records>
+      <id>08ec6ff9-9284-5bca-5603-8224dac47fc9</id>
+      <parentId>df143ba0-1c7a-5b21-02e1-d41a394e29c9</parentId>
+      <type>Task</type>
+      <name>ServicesDevOpsToolDownload:</name>
+      <startTime>2018-07-01T00:38:32.98Z</startTime>
+      <finishTime>2018-07-01T00:38:51.6333333Z</finishTime>
+      <currentOperation />
+      <percentComplete />
+      <state>completed</state>
+      <result>succeeded</result>
+      <resultCode />
+      <changeId>41</changeId>
+      <lastModified>0001-01-01T00:00:00</lastModified>
+      <workerName>vNxt_Dly</workerName>
+      <order>7</order>
+      <details />
+      <errorCount>0</errorCount>
+      <warningCount>29</warningCount>
+      <url />
+      <log>
+        <id>8</id>
+        <type>Container</type>
+        <url>https://vsogd.visualstudio.com/0e2fae23-ed7a-44fd-9b3e-f77ba4f61760/_apis/build/builds/144344/logs/8</url>
+      </log>
+      <task>
+        <id>40aae993-5601-4316-bdfb-7ae1d2c4d82c</id>
+        <name>ServicesDevOpsToolDownload</name>
+        <version>2.2.201706275</version>
+      </task>
+      <issues>
+        <type>warning</type>
+        <category>General</category>
+        <message> Tool with Id: 75 Name: TSLint is disabled</message>
+        <data>
+          <type>warning</type>
+          <logFileLineNumber>27</logFileLineNumber>
+        </data>
+      </issues>
+      <issues>
+        <type>warning</type>
+        <category>General</category>
+        <message> Tool with Id: 3 Name: SQLStaticCodeAnalysis is disabled</message>
+        <data>
+          <type>warning</type>
+          <logFileLineNumber>30</logFileLineNumber>
+        </data>
+      </issues>
+      <issues>
+        <type>warning</type>
+        <category>General</category>
+        <message> Tool with Id: 4 Name: APISCAN is disabled</message>
+        <data>
+          <type>warning</type>
+          <logFileLineNumber>33</logFileLineNumber>
+        </data>
+      </issues>
+      <issues>
+        <type>warning</type>
+        <category>General</category>
+        <message> Tool with Id:  Name: TelemetryScanner is disabled</message>
+        <data>
+          <type>warning</type>
+          <logFileLineNumber>36</logFileLineNumber>
+        </data>
+      </issues>
+      <issues>
+        <type>warning</type>
+        <category>General</category>
+        <message> Tool with Id: 5 Name: BINSCOPE is disabled</message>
+        <data>
+          <type>warning</type>
+          <logFileLineNumber>39</logFileLineNumber>
+        </data>
+      </issues>
+      <issues>
+        <type>warning</type>
+        <category>General</category>
+        <message> Tool with Id: 6 Name: BINSEARCH is disabled</message>
+        <data>
+          <type>warning</type>
+          <logFileLineNumber>42</logFileLineNumber>
+        </data>
+      </issues>
+      <issues>
+        <type>warning</type>
+        <category>General</category>
+        <message> Tool with Id: 7 Name: POLICHECK is disabled</message>
+        <data>
+          <type>warning</type>
+          <logFileLineNumber>45</logFileLineNumber>
+        </data>
+      </issues>
+      <issues>
+        <type>warning</type>
+        <category>General</category>
+        <message> Tool with Id: 35 Name: QUNIT is disabled</message>
+        <data>
+          <type>warning</type>
+          <logFileLineNumber>48</logFileLineNumber>
+        </data>
+      </issues>
+      <issues>
+        <type>warning</type>
+        <category>General</category>
+        <message> Tool with Id: 35 Name: Jasmine is disabled</message>
+        <data>
+          <type>warning</type>
+          <logFileLineNumber>51</logFileLineNumber>
+        </data>
+      </issues>
+      <issues>
+        <type>warning</type>
+        <category>General</category>
+        <message> Tool with Id: 28 Name: JSHintPlugin is disabled</message>
+        <data>
+          <type>warning</type>
+          <logFileLineNumber>54</logFileLineNumber>
+        </data>
+      </issues>
+      <issues>
+        <type>warning</type>
+        <category>General</category>
+        <message> Tool with Id: 29 Name: JSHintWE is disabled</message>
+        <data>
+          <type>warning</type>
+          <logFileLineNumber>57</logFileLineNumber>
+        </data>
+      </issues>
+    </records>
+    <records>
+      <id>ac3abe4b-92d9-51c0-a8ab-837ab95db153</id>
+      <parentId>df143ba0-1c7a-5b21-02e1-d41a394e29c9</parentId>
+      <type>Task</type>
+      <name>Build solution $/ES DevOps Services/CDCO/Developments/V3/Code/BuildParser/GDBuildAppCloud/GDBuildAppCloud.sln</name>
+      <startTime>2018-07-01T00:33:02.11Z</startTime>
+      <finishTime>2018-07-01T00:38:08.0133333Z</finishTime>
+      <currentOperation />
+      <percentComplete />
+      <state>completed</state>
+      <result>succeeded</result>
+      <resultCode />
+      <changeId>31</changeId>
+      <lastModified>0001-01-01T00:00:00</lastModified>
+      <workerName>vNxt_Dly</workerName>
+      <order>5</order>
+      <details>
+        <id>e6e53580-1eb0-4176-a505-7d0733030177</id>
+        <changeId>16</changeId>
+        <url>https://vsogd.visualstudio.com/0e2fae23-ed7a-44fd-9b3e-f77ba4f61760/_apis/build/builds/144344/Timeline/e6e53580-1eb0-4176-a505-7d0733030177</url>
+      </details>
+      <errorCount>0</errorCount>
+      <warningCount>148</warningCount>
+      <url />
+      <log>
+        <id>6</id>
+        <type>Container</type>
+        <url>https://vsogd.visualstudio.com/0e2fae23-ed7a-44fd-9b3e-f77ba4f61760/_apis/build/builds/144344/logs/6</url>
+      </log>
+      <task>
+        <id>71a9a2d3-a98a-4caa-96ab-affca411ecda</id>
+        <name>VSBuild</name>
+        <version>1.126.0</version>
+      </task>
+      <issues>
+        <type>warning</type>
+        <category>Code</category>
+        <message>C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets(1820,5): Warning MSB3245: Could not resolve this reference. Could not locate the assembly "Newtonsoft.Json, Version=7.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL". Check to make sure the assembly exists on disk. If this reference is required by your code, you may get compilation errors.</message>
+        <data>
+          <type>Warning</type>
+          <sourcepath>C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets</sourcepath>
+          <linenumber>1820</linenumber>
+          <columnnumber>5</columnnumber>
+          <code>MSB3245</code>
+          <repo>ES DevOps Services</repo>
+          <logFileLineNumber>90</logFileLineNumber>
+        </data>
+      </issues>
+      <issues>
+        <type>warning</type>
+        <category>Code</category>
+        <message>Developments\V3\Code\MSGD.Build.Activities\MSGD.Build.V4.DynamicTools\DynamicTools\StylecopDuplicate.cs(229,27): Warning CS1998: This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.</message>
+        <data>
+          <type>Warning</type>
+          <sourcepath>Developments\V3\Code\MSGD.Build.Activities\MSGD.Build.V4.DynamicTools\DynamicTools\StylecopDuplicate.cs</sourcepath>
+          <linenumber>229</linenumber>
+          <columnnumber>27</columnnumber>
+          <code>CS1998</code>
+          <repo>ES DevOps Services</repo>
+          <logFileLineNumber>225</logFileLineNumber>
+        </data>
+      </issues>
+      <issues>
+        <type>warning</type>
+        <category>Code</category>
+        <message>Developments\V3\Code\MSGD.Build.Activities\MSGD.Build.V4.DynamicTools\DynamicTools\BinScope2014.cs(237,27): Warning CS1998: This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.</message>
+        <data>
+          <type>Warning</type>
+          <sourcepath>Developments\V3\Code\MSGD.Build.Activities\MSGD.Build.V4.DynamicTools\DynamicTools\BinScope2014.cs</sourcepath>
+          <linenumber>237</linenumber>
+          <columnnumber>27</columnnumber>
+          <code>CS1998</code>
+          <repo>ES DevOps Services</repo>
+          <logFileLineNumber>227</logFileLineNumber>
+        </data>
+      </issues>
+      <issues>
+        <type>warning</type>
+        <category>Code</category>
+        <message>Developments\V3\Code\MSGD.Build.Activities\MSGD.Build.V4.DynamicTools\DynamicTools\FxCopSDL.cs(203,26): Warning CS1998: This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.</message>
+        <data>
+          <type>Warning</type>
+          <sourcepath>Developments\V3\Code\MSGD.Build.Activities\MSGD.Build.V4.DynamicTools\DynamicTools\FxCopSDL.cs</sourcepath>
+          <linenumber>203</linenumber>
+          <columnnumber>26</columnnumber>
+          <code>CS1998</code>
+          <repo>ES DevOps Services</repo>
+          <logFileLineNumber>229</logFileLineNumber>
+        </data>
+      </issues>
+      <issues>
+        <type>warning</type>
+        <category>Code</category>
+        <message>Developments\V3\Code\MSGD.Build.Activities\MSGD.Build.V4.DynamicTools\DynamicTools\ReSharper.cs(211,27): Warning CS1998: This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.</message>
+        <data>
+          <type>Warning</type>
+          <sourcepath>Developments\V3\Code\MSGD.Build.Activities\MSGD.Build.V4.DynamicTools\DynamicTools\ReSharper.cs</sourcepath>
+          <linenumber>211</linenumber>
+          <columnnumber>27</columnnumber>
+          <code>CS1998</code>
+          <repo>ES DevOps Services</repo>
+          <logFileLineNumber>231</logFileLineNumber>
+        </data>
+      </issues>
+      <issues>
+        <type>warning</type>
+        <category>Code</category>
+        <message>Developments\V3\Code\MSGD.Build.Activities\MSGD.Build.V4.DynamicTools\DynamicTools\SonarRunner.cs(260,27): Warning CS1998: This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.</message>
+        <data>
+          <type>Warning</type>
+          <sourcepath>Developments\V3\Code\MSGD.Build.Activities\MSGD.Build.V4.DynamicTools\DynamicTools\SonarRunner.cs</sourcepath>
+          <linenumber>260</linenumber>
+          <columnnumber>27</columnnumber>
+          <code>CS1998</code>
+          <repo>ES DevOps Services</repo>
+          <logFileLineNumber>233</logFileLineNumber>
+        </data>
+      </issues>
+      <issues>
+        <type>warning</type>
+        <category>Code</category>
+        <message>Developments\V3\Code\MSGD.Build.Activities\MSGD.Build.V4.DynamicTools\DynamicTools\SecSharp.cs(148,17): Warning CS0618: 'XmlDataDocument' is obsolete: 'XmlDataDocument class will be removed in a future release.'</message>
+        <data>
+          <type>Warning</type>
+          <sourcepath>Developments\V3\Code\MSGD.Build.Activities\MSGD.Build.V4.DynamicTools\DynamicTools\SecSharp.cs</sourcepath>
+          <linenumber>148</linenumber>
+          <columnnumber>17</columnnumber>
+          <code>CS0618</code>
+          <repo>ES DevOps Services</repo>
+          <logFileLineNumber>235</logFileLineNumber>
+        </data>
+      </issues>
+      <issues>
+        <type>warning</type>
+        <category>Code</category>
+        <message>Developments\V3\Code\MSGD.Build.Activities\MSGD.Build.V4.DynamicTools\DynamicTools\SecSharp.cs(148,46): Warning CS0618: 'XmlDataDocument' is obsolete: 'XmlDataDocument class will be removed in a future release.'</message>
+        <data>
+          <type>Warning</type>
+          <sourcepath>Developments\V3\Code\MSGD.Build.Activities\MSGD.Build.V4.DynamicTools\DynamicTools\SecSharp.cs</sourcepath>
+          <linenumber>148</linenumber>
+          <columnnumber>46</columnnumber>
+          <code>CS0618</code>
+          <repo>ES DevOps Services</repo>
+          <logFileLineNumber>237</logFileLineNumber>
+        </data>
+      </issues>
+      <issues>
+        <type>warning</type>
+        <category>Code</category>
+        <message>Developments\V3\Code\MSGD.Build.Activities\MSGD.Build.V4.DynamicTools\DynamicTools\SecSharp.cs(149,39): Warning CS0168: The variable 'xmlnode1' is declared but never used</message>
+        <data>
+          <type>Warning</type>
+          <sourcepath>Developments\V3\Code\MSGD.Build.Activities\MSGD.Build.V4.DynamicTools\DynamicTools\SecSharp.cs</sourcepath>
+          <linenumber>149</linenumber>
+          <columnnumber>39</columnnumber>
+          <code>CS0168</code>
+          <repo>ES DevOps Services</repo>
+          <logFileLineNumber>239</logFileLineNumber>
+        </data>
+      </issues>
+      <issues>
+        <type>warning</type>
+        <category>Code</category>
+        <message>Developments\V3\Code\MSGD.Build.Activities\MSGD.Build.V4.DynamicTools\DynamicTools\BinScope2014.cs(245,0): Warning CA1065: Microsoft.Design : 'BinScope2014.PossibleExitCodes.get()' creates an exception of type 'NotImplementedException', an exception type that should not be raised in a property. If this exception instance might be raised, use a different exception type, convert this property into a method, or change this property's logic so that it no longer raises an exception.</message>
+        <data>
+          <type>Warning</type>
+          <sourcepath>Developments\V3\Code\MSGD.Build.Activities\MSGD.Build.V4.DynamicTools\DynamicTools\BinScope2014.cs</sourcepath>
+          <linenumber>245</linenumber>
+          <columnnumber>0</columnnumber>
+          <code>CA1065</code>
+          <repo>ES DevOps Services</repo>
+          <logFileLineNumber>272</logFileLineNumber>
+        </data>
+      </issues>
+      <issues>
+        <type>warning</type>
+        <category>Code</category>
+        <message>Developments\V3\Code\MSGD.Build.Activities\MSGD.Build.V4.DynamicTools\DynamicTools\BinScope2014.cs(202,0): Warning CA1065: Microsoft.Design : 'BinScope2014.ProjectTypeGUIDSSupported.get()' creates an exception of type 'NotImplementedException', an exception type that should not be raised in a property. If this exception instance might be raised, use a different exception type, convert this property into a method, or change this property's logic so that it no longer raises an exception.</message>
+        <data>
+          <type>Warning</type>
+          <sourcepath>Developments\V3\Code\MSGD.Build.Activities\MSGD.Build.V4.DynamicTools\DynamicTools\BinScope2014.cs</sourcepath>
+          <linenumber>202</linenumber>
+          <columnnumber>0</columnnumber>
+          <code>CA1065</code>
+          <repo>ES DevOps Services</repo>
+          <logFileLineNumber>274</logFileLineNumber>
+        </data>
+      </issues>
+    </records>
+    <records>
+      <id>078798aa-5e8c-5b6a-da96-85ed298def50</id>
+      <parentId>df143ba0-1c7a-5b21-02e1-d41a394e29c9</parentId>
+      <type>Task</type>
+      <name>T-FxCopForSDL:</name>
+      <startTime>2018-07-01T00:39:51.7466667Z</startTime>
+      <finishTime>2018-07-01T00:41:06.9266667Z</finishTime>
+      <currentOperation />
+      <percentComplete />
+      <state>completed</state>
+      <result>succeeded</result>
+      <resultCode />
+      <changeId>55</changeId>
+      <lastModified>0001-01-01T00:00:00</lastModified>
+      <workerName>vNxt_Dly</workerName>
+      <order>14</order>
+      <details />
+      <errorCount>0</errorCount>
+      <warningCount>0</warningCount>
+      <url />
+      <log>
+        <id>15</id>
+        <type>Container</type>
+        <url>https://vsogd.visualstudio.com/0e2fae23-ed7a-44fd-9b3e-f77ba4f61760/_apis/build/builds/144344/logs/15</url>
+      </log>
+      <task>
+        <id>f1d18f43-50f8-4b31-b9e0-ddb91de397f3</id>
+        <name>ServicesDevOpsFxCopSDL</name>
+        <version>2.2.201706275</version>
+      </task>
+    </records>
+    <records>
+      <id>4fc2264b-86b4-53e7-1592-9895e54a64d2</id>
+      <parentId>df143ba0-1c7a-5b21-02e1-d41a394e29c9</parentId>
+      <type>Task</type>
+      <name>T-FxCop:MergeFile</name>
+      <startTime>2018-07-01T00:38:51.7766667Z</startTime>
+      <finishTime>2018-07-01T00:38:56.0333333Z</finishTime>
+      <currentOperation />
+      <percentComplete />
+      <state>completed</state>
+      <result>succeeded</result>
+      <resultCode />
+      <changeId>43</changeId>
+      <lastModified>0001-01-01T00:00:00</lastModified>
+      <workerName>vNxt_Dly</workerName>
+      <order>8</order>
+      <details />
+      <errorCount>0</errorCount>
+      <warningCount>0</warningCount>
+      <url />
+      <log>
+        <id>9</id>
+        <type>Container</type>
+        <url>https://vsogd.visualstudio.com/0e2fae23-ed7a-44fd-9b3e-f77ba4f61760/_apis/build/builds/144344/logs/9</url>
+      </log>
+      <task>
+        <id>d0548ca8-2a6e-4133-8269-2f17695d15dd</id>
+        <name>ServicesDevOpsFxCopMerge</name>
+        <version>2.2.201706275</version>
+      </task>
+    </records>
+    <records>
+      <id>3cdcef0a-028e-515f-ad7a-9a130f8cb51b</id>
+      <parentId>df143ba0-1c7a-5b21-02e1-d41a394e29c9</parentId>
+      <type>Task</type>
+      <name>T-CodeMetrics:</name>
+      <startTime>2018-07-01T00:39:32.1566667Z</startTime>
+      <finishTime>2018-07-01T00:39:44.9333333Z</finishTime>
+      <currentOperation />
+      <percentComplete />
+      <state>completed</state>
+      <result>succeeded</result>
+      <resultCode />
+      <changeId>51</changeId>
+      <lastModified>0001-01-01T00:00:00</lastModified>
+      <workerName>vNxt_Dly</workerName>
+      <order>12</order>
+      <details />
+      <errorCount>0</errorCount>
+      <warningCount>0</warningCount>
+      <url />
+      <log>
+        <id>13</id>
+        <type>Container</type>
+        <url>https://vsogd.visualstudio.com/0e2fae23-ed7a-44fd-9b3e-f77ba4f61760/_apis/build/builds/144344/logs/13</url>
+      </log>
+      <task>
+        <id>a17a3e8c-b197-4e0f-95ec-6866f6807ec2</id>
+        <name>ServicesDevOpsCodeMetrics</name>
+        <version>2.2.201706275</version>
+      </task>
+    </records>
+    <records>
+      <id>56fc091a-7a59-58f8-3335-ab2a29f3f097</id>
+      <parentId>df143ba0-1c7a-5b21-02e1-d41a394e29c9</parentId>
+      <type>Task</type>
+      <name>T-StyleCop:</name>
+      <startTime>2018-07-01T00:39:04.7333333Z</startTime>
+      <finishTime>2018-07-01T00:39:24.5633333Z</finishTime>
+      <currentOperation />
+      <percentComplete />
+      <state>completed</state>
+      <result>succeeded</result>
+      <resultCode />
+      <changeId>47</changeId>
+      <lastModified>0001-01-01T00:00:00</lastModified>
+      <workerName>vNxt_Dly</workerName>
+      <order>10</order>
+      <details />
+      <errorCount>0</errorCount>
+      <warningCount>0</warningCount>
+      <url />
+      <log>
+        <id>11</id>
+        <type>Container</type>
+        <url>https://vsogd.visualstudio.com/0e2fae23-ed7a-44fd-9b3e-f77ba4f61760/_apis/build/builds/144344/logs/11</url>
+      </log>
+      <task>
+        <id>cf96d92e-107b-4d23-a2eb-8696d3bf6613</id>
+        <name>ServicesDevOpsStyleCop</name>
+        <version>2.2.201706275</version>
+      </task>
+    </records>
+    <records>
+      <id>6ed7a75e-8ef0-5f27-b42a-c52cc6098986</id>
+      <parentId>df143ba0-1c7a-5b21-02e1-d41a394e29c9</parentId>
+      <type>Task</type>
+      <name>ESDevopsGenerateBuildReport</name>
+      <startTime>2018-07-01T00:53:31.2266667Z</startTime>
+      <finishTime>2018-07-01T00:54:33.94Z</finishTime>
+      <currentOperation />
+      <percentComplete />
+      <state>completed</state>
+      <result>succeeded</result>
+      <resultCode />
+      <changeId>70</changeId>
+      <lastModified>0001-01-01T00:00:00</lastModified>
+      <workerName>vNxt_Dly</workerName>
+      <order>21</order>
+      <details />
+      <errorCount>0</errorCount>
+      <warningCount>0</warningCount>
+      <url />
+      <log>
+        <id>22</id>
+        <type>Container</type>
+        <url>https://vsogd.visualstudio.com/0e2fae23-ed7a-44fd-9b3e-f77ba4f61760/_apis/build/builds/144344/logs/22</url>
+      </log>
+      <task>
+        <id>d102c8fb-2e18-4863-ba24-b8509ebc33c2</id>
+        <name>ServicesDevOpsGenerateBuildReport</name>
+        <version>3.1.201806182</version>
+      </task>
+    </records>
+    <records>
+      <id>57ea51b8-b363-5261-421b-c9fe275ef9a0</id>
+      <parentId>df143ba0-1c7a-5b21-02e1-d41a394e29c9</parentId>
+      <type>Task</type>
+      <name>NuGet restore $/ES DevOps Services/CDCO/Developments/V3/Code/BuildParser/GDBuildAppCloud/GDBuildAppCloud.sln</name>
+      <startTime>2018-07-01T00:32:27.2Z</startTime>
+      <finishTime>2018-07-01T00:32:54.7033333Z</finishTime>
+      <currentOperation />
+      <percentComplete />
+      <state>completed</state>
+      <result>succeeded</result>
+      <resultCode />
+      <changeId>11</changeId>
+      <lastModified>0001-01-01T00:00:00</lastModified>
+      <workerName>vNxt_Dly</workerName>
+      <order>3</order>
+      <details />
+      <errorCount>0</errorCount>
+      <warningCount>0</warningCount>
+      <url />
+      <log>
+        <id>4</id>
+        <type>Container</type>
+        <url>https://vsogd.visualstudio.com/0e2fae23-ed7a-44fd-9b3e-f77ba4f61760/_apis/build/builds/144344/logs/4</url>
+      </log>
+      <task>
+        <id>333b11bd-d341-40d9-afcf-b32d5ce6f23b</id>
+        <name>NuGetInstaller</name>
+        <version>0.2.31</version>
+      </task>
+    </records>
+    <records>
+      <id>555afcbd-967b-4a71-962c-d02bd8bb512b</id>
+      <parentId>df143ba0-1c7a-5b21-02e1-d41a394e29c9</parentId>
+      <type>Task</type>
+      <name>Initialize Job</name>
+      <startTime>2018-07-01T00:28:33.76Z</startTime>
+      <finishTime>2018-07-01T00:28:50.02Z</finishTime>
+      <currentOperation />
+      <percentComplete />
+      <state>completed</state>
+      <result>succeeded</result>
+      <resultCode />
+      <changeId>7</changeId>
+      <lastModified>0001-01-01T00:00:00</lastModified>
+      <workerName>vNxt_Dly</workerName>
+      <order>1</order>
+      <details />
+      <errorCount>0</errorCount>
+      <warningCount>0</warningCount>
+      <url />
+      <log>
+        <id>2</id>
+        <type>Container</type>
+        <url>https://vsogd.visualstudio.com/0e2fae23-ed7a-44fd-9b3e-f77ba4f61760/_apis/build/builds/144344/logs/2</url>
+      </log>
+      <task />
+    </records>
+    <records>
+      <id>df143ba0-1c7a-5b21-02e1-d41a394e29c9</id>
+      <parentId>b2f98261-288b-5a19-54b3-e04cec19b3fd</parentId>
+      <type>Job</type>
+      <name>Job</name>
+      <startTime>2018-07-01T00:28:30.93Z</startTime>
+      <finishTime />
+      <currentOperation />
+      <percentComplete>0</percentComplete>
+      <state>inProgress</state>
+      <result />
+      <resultCode />
+      <changeId>4</changeId>
+      <lastModified>0001-01-01T00:00:00</lastModified>
+      <workerName>vNxt_Dly</workerName>
+      <order>1</order>
+      <details />
+      <errorCount>0</errorCount>
+      <warningCount>0</warningCount>
+      <url />
+      <log />
+      <task />
+    </records>
+    <records>
+      <id>f3e82492-378e-5808-5754-d8bab59d1efb</id>
+      <parentId>df143ba0-1c7a-5b21-02e1-d41a394e29c9</parentId>
+      <type>Task</type>
+      <name>ServicesDevOpsWorkItemTraceability</name>
+      <startTime>2018-07-01T00:47:05.0666667Z</startTime>
+      <finishTime>2018-07-01T00:47:08.9Z</finishTime>
+      <currentOperation />
+      <percentComplete />
+      <state>completed</state>
+      <result>succeeded</result>
+      <resultCode />
+      <changeId>60</changeId>
+      <lastModified>0001-01-01T00:00:00</lastModified>
+      <workerName>vNxt_Dly</workerName>
+      <order>16</order>
+      <details />
+      <errorCount>0</errorCount>
+      <warningCount>0</warningCount>
+      <url />
+      <log>
+        <id>17</id>
+        <type>Container</type>
+        <url>https://vsogd.visualstudio.com/0e2fae23-ed7a-44fd-9b3e-f77ba4f61760/_apis/build/builds/144344/logs/17</url>
+      </log>
+      <task>
+        <id>08d28ad6-9cd3-4940-940a-f8212749ca71</id>
+        <name>ServicesDevOpsWorkItemTraceability</name>
+        <version>3.0.0</version>
+      </task>
+    </records>
+    <records>
+      <id>b2f98261-288b-5a19-54b3-e04cec19b3fd</id>
+      <parentId />
+      <type>Phase</type>
+      <name>Phase 1</name>
+      <startTime>2018-07-01T00:28:30.93Z</startTime>
+      <finishTime />
+      <currentOperation />
+      <percentComplete />
+      <state>inProgress</state>
+      <result />
+      <resultCode />
+      <changeId>4</changeId>
+      <lastModified>0001-01-01T00:00:00</lastModified>
+      <workerName />
+      <order>1</order>
+      <details />
+      <errorCount>0</errorCount>
+      <warningCount>0</warningCount>
+      <url />
+      <log>
+        <id>1</id>
+        <type>Container</type>
+        <url>https://vsogd.visualstudio.com/0e2fae23-ed7a-44fd-9b3e-f77ba4f61760/_apis/build/builds/144344/logs/1</url>
+      </log>
+      <task />
+    </records>
+    <records>
+      <id>d160197d-a77c-4500-bb31-e36017a6ae67</id>
+      <parentId>df143ba0-1c7a-5b21-02e1-d41a394e29c9</parentId>
+      <type>Task</type>
+      <name>Post Job Cleanup</name>
+      <startTime />
+      <finishTime />
+      <currentOperation />
+      <percentComplete>0</percentComplete>
+      <state>pending</state>
+      <result />
+      <resultCode />
+      <changeId>6</changeId>
+      <lastModified>0001-01-01T00:00:00</lastModified>
+      <workerName>vNxt_Dly</workerName>
+      <order>23</order>
+      <details />
+      <errorCount>0</errorCount>
+      <warningCount>0</warningCount>
+      <url />
+      <log />
+      <task />
+    </records>
+    <records>
+      <id>b9bcfafe-d676-5e0a-082f-f071543637f4</id>
+      <parentId>df143ba0-1c7a-5b21-02e1-d41a394e29c9</parentId>
+      <type>Task</type>
+      <name>T-JSLintNet:</name>
+      <startTime>2018-07-01T00:39:24.58Z</startTime>
+      <finishTime>2018-07-01T00:39:32.1366667Z</finishTime>
+      <currentOperation />
+      <percentComplete />
+      <state>completed</state>
+      <result>succeeded</result>
+      <resultCode />
+      <changeId>49</changeId>
+      <lastModified>0001-01-01T00:00:00</lastModified>
+      <workerName>vNxt_Dly</workerName>
+      <order>11</order>
+      <details />
+      <errorCount>0</errorCount>
+      <warningCount>0</warningCount>
+      <url />
+      <log>
+        <id>12</id>
+        <type>Container</type>
+        <url>https://vsogd.visualstudio.com/0e2fae23-ed7a-44fd-9b3e-f77ba4f61760/_apis/build/builds/144344/logs/12</url>
+      </log>
+      <task>
+        <id>a1c492bf-823b-4abb-8281-458ccef9406f</id>
+        <name>ServicesDevOpsJSLintNet</name>
+        <version>2.2.201706275</version>
+      </task>
+    </records>
+    <lastChangedBy>eba44c1c-a0e3-4cb8-b0e5-22db52b25f77</lastChangedBy>
+    <lastChangedOn>2018-07-01T00:56:20.337Z</lastChangedOn>
+    <id>3f6bc647-7373-4a67-93fb-b80449a2e435</id>
+    <changeId>70</changeId>
+    <url>https://vsogd.visualstudio.com/0e2fae23-ed7a-44fd-9b3e-f77ba4f61760/_apis/build/builds/144344/Timeline/3f6bc647-7373-4a67-93fb-b80449a2e435</url>
+  </GetBuildDetails>
+  <GetBuildDefinition>
+    <_links>
+      <self>
+        <href>https://vsogd.visualstudio.com/0e2fae23-ed7a-44fd-9b3e-f77ba4f61760/_apis/build/Builds/144344</href>
+      </self>
+      <web>
+        <href>https://vsogd.visualstudio.com/0e2fae23-ed7a-44fd-9b3e-f77ba4f61760/_build/index?buildId=144344</href>
+      </web>
+      <timeline>
+        <href>https://vsogd.visualstudio.com/0e2fae23-ed7a-44fd-9b3e-f77ba4f61760/_apis/build/builds/144344/Timeline</href>
+      </timeline>
+      <badge>
+        <href>https://vsogd.visualstudio.com/0e2fae23-ed7a-44fd-9b3e-f77ba4f61760/_apis/build/status/1271</href>
+      </badge>
+    </_links>
+    <properties />
+    <plans>
+      <planId>3f6bc647-7373-4a67-93fb-b80449a2e435</planId>
+    </plans>
+    <triggerInfo />
+    <id>144344</id>
+    <buildNumber>vNext_Parser_Dly-clone_20180701.1</buildNumber>
+    <status>inProgress</status>
+    <queueTime>2018-07-01T00:30:00.2860905Z</queueTime>
+    <startTime>2018-07-01T00:30:04.5124538Z</startTime>
+    <url>https://vsogd.visualstudio.com/0e2fae23-ed7a-44fd-9b3e-f77ba4f61760/_apis/build/Builds/144344</url>
+    <definition>
+      <id>1271</id>
+      <name>vNext_Parser_Dly-clone</name>
+      <url>https://vsogd.visualstudio.com/0e2fae23-ed7a-44fd-9b3e-f77ba4f61760/_apis/build/Definitions/1271?revision=4</url>
+      <uri>vstfs:///Build/Definition/1271</uri>
+      <path>\ParserService</path>
+      <type>build</type>
+      <queueStatus>enabled</queueStatus>
+      <revision>4</revision>
+      <project>
+        <id>0e2fae23-ed7a-44fd-9b3e-f77ba4f61760</id>
+        <name>ES DevOps Services</name>
+        <description>[MS Internal]
+tags: MSInternal, DevOps
+
+IGD Build Services team project</description>
+        <url>https://vsogd.visualstudio.com/_apis/projects/0e2fae23-ed7a-44fd-9b3e-f77ba4f61760</url>
+        <state>wellFormed</state>
+        <revision>138297348</revision>
+        <visibility>organization</visibility>
+      </project>
+    </definition>
+    <buildNumberRevision>1</buildNumberRevision>
+    <project>
+      <id>0e2fae23-ed7a-44fd-9b3e-f77ba4f61760</id>
+      <name>ES DevOps Services</name>
+      <description>[MS Internal]
+tags: MSInternal, DevOps
+
+IGD Build Services team project</description>
+      <url>https://vsogd.visualstudio.com/_apis/projects/0e2fae23-ed7a-44fd-9b3e-f77ba4f61760</url>
+      <state>wellFormed</state>
+      <revision>138297348</revision>
+      <visibility>organization</visibility>
+    </project>
+    <uri>vstfs:///Build/Build/144344</uri>
+    <sourceBranch>$/ES DevOps Services/CDCO/Developments/V3</sourceBranch>
+    <sourceVersion>119608</sourceVersion>
+    <queue>
+      <id>19</id>
+      <name>IGDVSOVNext</name>
+      <url>https://vsogd.visualstudio.com/_apis/build/Queues/19</url>
+      <pool>
+        <id>21</id>
+        <name>IGDVSOVNext</name>
+      </pool>
+    </queue>
+    <priority>normal</priority>
+    <reason>schedule</reason>
+    <requestedFor>
+      <displayName>Microsoft.VisualStudio.Services.TFS</displayName>
+      <url>https://app.vssps.visualstudio.com/Ab962ed4f-6670-4a37-ad24-8b9381530e67/_apis/Identities/00000002-0000-8888-8000-000000000000</url>
+      <_links>
+        <avatar>
+          <href>https://vsogd.visualstudio.com/_apis/GraphProfile/MemberAvatars/s2s.MDAwMDAwMDItMDAwMC04ODg4LTgwMDAtMDAwMDAwMDAwMDAwQDJjODk1OTA4LTA0ZTAtNDk1Mi04OWZkLTU0YjAwNDZkNjI4OA</href>
+        </avatar>
+      </_links>
+      <id>00000002-0000-8888-8000-000000000000</id>
+      <uniqueName>00000002-0000-8888-8000-000000000000@2c895908-04e0-4952-89fd-54b0046d6288</uniqueName>
+      <imageUrl>https://vsogd.visualstudio.com/_api/_common/identityImage?id=00000002-0000-8888-8000-000000000000</imageUrl>
+      <descriptor>s2s.MDAwMDAwMDItMDAwMC04ODg4LTgwMDAtMDAwMDAwMDAwMDAwQDJjODk1OTA4LTA0ZTAtNDk1Mi04OWZkLTU0YjAwNDZkNjI4OA</descriptor>
+    </requestedFor>
+    <requestedBy>
+      <displayName>Microsoft.VisualStudio.Services.TFS</displayName>
+      <url>https://app.vssps.visualstudio.com/Ab962ed4f-6670-4a37-ad24-8b9381530e67/_apis/Identities/00000002-0000-8888-8000-000000000000</url>
+      <_links>
+        <avatar>
+          <href>https://vsogd.visualstudio.com/_apis/GraphProfile/MemberAvatars/s2s.MDAwMDAwMDItMDAwMC04ODg4LTgwMDAtMDAwMDAwMDAwMDAwQDJjODk1OTA4LTA0ZTAtNDk1Mi04OWZkLTU0YjAwNDZkNjI4OA</href>
+        </avatar>
+      </_links>
+      <id>00000002-0000-8888-8000-000000000000</id>
+      <uniqueName>00000002-0000-8888-8000-000000000000@2c895908-04e0-4952-89fd-54b0046d6288</uniqueName>
+      <imageUrl>https://vsogd.visualstudio.com/_api/_common/identityImage?id=00000002-0000-8888-8000-000000000000</imageUrl>
+      <descriptor>s2s.MDAwMDAwMDItMDAwMC04ODg4LTgwMDAtMDAwMDAwMDAwMDAwQDJjODk1OTA4LTA0ZTAtNDk1Mi04OWZkLTU0YjAwNDZkNjI4OA</descriptor>
+    </requestedBy>
+    <lastChangedDate>2018-07-01T00:30:04.53Z</lastChangedDate>
+    <lastChangedBy>
+      <displayName>Microsoft.VisualStudio.Services.TFS</displayName>
+      <url>https://app.vssps.visualstudio.com/Ab962ed4f-6670-4a37-ad24-8b9381530e67/_apis/Identities/00000002-0000-8888-8000-000000000000</url>
+      <_links>
+        <avatar>
+          <href>https://vsogd.visualstudio.com/_apis/GraphProfile/MemberAvatars/s2s.MDAwMDAwMDItMDAwMC04ODg4LTgwMDAtMDAwMDAwMDAwMDAwQDJjODk1OTA4LTA0ZTAtNDk1Mi04OWZkLTU0YjAwNDZkNjI4OA</href>
+        </avatar>
+      </_links>
+      <id>00000002-0000-8888-8000-000000000000</id>
+      <uniqueName>00000002-0000-8888-8000-000000000000@2c895908-04e0-4952-89fd-54b0046d6288</uniqueName>
+      <imageUrl>https://vsogd.visualstudio.com/_api/_common/identityImage?id=00000002-0000-8888-8000-000000000000</imageUrl>
+      <descriptor>s2s.MDAwMDAwMDItMDAwMC04ODg4LTgwMDAtMDAwMDAwMDAwMDAwQDJjODk1OTA4LTA0ZTAtNDk1Mi04OWZkLTU0YjAwNDZkNjI4OA</descriptor>
+    </lastChangedBy>
+    <orchestrationPlan>
+      <planId>3f6bc647-7373-4a67-93fb-b80449a2e435</planId>
+    </orchestrationPlan>
+    <logs>
+      <id>0</id>
+      <type>Container</type>
+      <url>https://vsogd.visualstudio.com/0e2fae23-ed7a-44fd-9b3e-f77ba4f61760/_apis/build/builds/144344/logs</url>
+    </logs>
+    <repository>
+      <id>$/</id>
+      <type>TfsVersionControl</type>
+      <name>ES DevOps Services</name>
+      <url>https://vsogd.visualstudio.com/</url>
+      <clean />
+      <checkoutSubmodules>false</checkoutSubmodules>
+    </repository>
+    <keepForever>false</keepForever>
+    <retainedByRelease>false</retainedByRelease>
+    <triggeredByBuild />
+  </GetBuildDefinition>
+  <GetArtifacts>
+    <count>3</count>
+    <value>
+      <id>179660</id>
+      <name>BuildLogFolder</name>
+      <resource>
+        <type>Container</type>
+        <data>#/14944483/BuildLogFolder</data>
+        <properties>
+          <localpath>C:\VNextAgents\vNxt_Dly\_work\5\BuildLogFolder</localpath>
+        </properties>
+        <url>https://vsogd.visualstudio.com/0e2fae23-ed7a-44fd-9b3e-f77ba4f61760/_apis/build/builds/144344/artifacts?artifactName=BuildLogFolder&amp;api-version=2.0</url>
+        <downloadUrl>https://vsogd.visualstudio.com/0e2fae23-ed7a-44fd-9b3e-f77ba4f61760/_apis/build/builds/144344/artifacts?artifactName=BuildLogFolder&amp;api-version=2.0&amp;%24format=zip</downloadUrl>
+      </resource>
+    </value>
+    <value>
+      <id>179662</id>
+      <name>DropMetadata</name>
+      <resource>
+        <type>Container</type>
+        <data>#/14944483/68a5c653-7e31-4646-866e-8bfa20785059</data>
+        <properties />
+        <url>https://vsogd.visualstudio.com/0e2fae23-ed7a-44fd-9b3e-f77ba4f61760/_apis/build/builds/144344/artifacts?artifactName=DropMetadata&amp;api-version=2.0</url>
+        <downloadUrl>https://vsogd.visualstudio.com/0e2fae23-ed7a-44fd-9b3e-f77ba4f61760/_apis/build/builds/144344/artifacts?artifactName=DropMetadata&amp;api-version=2.0&amp;%24format=zip</downloadUrl>
+      </resource>
+    </value>
+    <value>
+      <id>179666</id>
+      <name>drop</name>
+      <resource>
+        <type>Container</type>
+        <data>#/14944483/drop</data>
+        <properties>
+          <localpath>C:\VNextAgents\vNxt_Dly\_work\5\b\Release</localpath>
+        </properties>
+        <url>https://vsogd.visualstudio.com/0e2fae23-ed7a-44fd-9b3e-f77ba4f61760/_apis/build/builds/144344/artifacts?artifactName=drop&amp;api-version=2.0</url>
+        <downloadUrl>https://vsogd.visualstudio.com/0e2fae23-ed7a-44fd-9b3e-f77ba4f61760/_apis/build/builds/144344/artifacts?artifactName=drop&amp;api-version=2.0&amp;%24format=zip</downloadUrl>
+      </resource>
+    </value>
+  </GetArtifacts>
+  <GetBuildDefinitionSpecs>
+    <build>
+      <environment />
+      <enabled>true</enabled>
+      <continueOnError>false</continueOnError>
+      <alwaysRun>false</alwaysRun>
+      <displayName>NuGet restore $/ES DevOps Services/CDCO/Developments/V3/Code/BuildParser/GDBuildAppCloud/GDBuildAppCloud.sln</displayName>
+      <timeoutInMinutes>0</timeoutInMinutes>
+      <refName>NuGetInstaller_1</refName>
+      <task>
+        <id>333b11bd-d341-40d9-afcf-b32d5ce6f23b</id>
+        <versionSpec>0.*</versionSpec>
+        <definitionType>task</definitionType>
+      </task>
+      <inputs>
+        <solution>$/ES DevOps Services/CDCO/Developments/V3/Code/BuildParser/GDBuildAppCloud/GDBuildAppCloud.sln</solution>
+        <nugetConfigPath>
+        </nugetConfigPath>
+        <restoreMode>restore</restoreMode>
+        <noCache>false</noCache>
+        <nuGetRestoreArgs>
+        </nuGetRestoreArgs>
+        <verbosity>-</verbosity>
+        <nuGetVersion>3.3.0</nuGetVersion>
+        <nuGetPath>
+        </nuGetPath>
+      </inputs>
+    </build>
+    <build>
+      <environment />
+      <enabled>false</enabled>
+      <continueOnError>true</continueOnError>
+      <alwaysRun>false</alwaysRun>
+      <displayName>ESDevopsServiceEndpoint:</displayName>
+      <timeoutInMinutes>0</timeoutInMinutes>
+      <refName>ServicesDevOpsServiceEndpoint_3</refName>
+      <task>
+        <id>bc59c8e7-7b9a-4699-98fc-fa77b48b3d97</id>
+        <versionSpec>2.*</versionSpec>
+        <definitionType>task</definitionType>
+      </task>
+      <inputs>
+        <ServicesDevOpsServiceEndpoint>
+        </ServicesDevOpsServiceEndpoint>
+      </inputs>
+    </build>
+    <build>
+      <environment />
+      <enabled>true</enabled>
+      <continueOnError>false</continueOnError>
+      <alwaysRun>false</alwaysRun>
+      <displayName>ServicesDevOpsBuildConfig</displayName>
+      <timeoutInMinutes>0</timeoutInMinutes>
+      <refName>ESDevopsCIConfig_4</refName>
+      <task>
+        <id>417531be-3e2f-481c-906f-65f34f89606e</id>
+        <versionSpec>3.*</versionSpec>
+        <definitionType>task</definitionType>
+      </task>
+      <inputs>
+        <ServicesDevOpsServiceEndpoint>f9ef94cc-786b-451b-b768-5805b1f490f8</ServicesDevOpsServiceEndpoint>
+        <GatedCheckInBuild>false</GatedCheckInBuild>
+        <ValidateCompWarnings>false</ValidateCompWarnings>
+        <GlobalResolveReferences>true</GlobalResolveReferences>
+        <FlavourToAnalyse>$(BuildConfiguration)</FlavourToAnalyse>
+        <PlatformToAnalyse>$(BuildPlatform)</PlatformToAnalyse>
+        <IndividualMSBuildArguments>
+        </IndividualMSBuildArguments>
+        <UpdateVirtuoso>true</UpdateVirtuoso>
+        <IsQGBuild>true</IsQGBuild>
+        <AzureToolDownloadPath>C:\Temp\DevopsTools</AzureToolDownloadPath>
+        <GlobalInclusions>*</GlobalInclusions>
+        <GlobalExclusions>Microsoft.*.dll System.*.dll AntiXssLibrary.dll DocumentFormat.OpenXml.dll *_Accessor.dll *_Accessor.pdb *.*Test*.dll *.*Test*.pdb Telerik.*.dll *.Moles.dll *.Fakes.dll Newtonsoft.Json.dll WiLinq.LinqProvider.dll WiLinq.Wiql.dll Antlr3.Runtime.dll DocumentDB.Spatial.Sql.dll MonAgentListener.dll Owin.dll WebGrease.dll *FSharp*</GlobalExclusions>
+        <CompilationWarningsTarget>0</CompilationWarningsTarget>
+        <CompilationErrorsTarget>0</CompilationErrorsTarget>
+        <UnitTestFailureTarget>0</UnitTestFailureTarget>
+        <UnitTestCodeCoverageTarget>0</UnitTestCodeCoverageTarget>
+        <UnitTestCodeCoverageLineTarget>0</UnitTestCodeCoverageLineTarget>
+        <XUnitTestFailureTarget>0</XUnitTestFailureTarget>
+        <XUnitCodeCoverageLineTarget>0</XUnitCodeCoverageLineTarget>
+        <XUnitCodeCoverageBranchTarget>0</XUnitCodeCoverageBranchTarget>
+        <FxcopEnabled>true</FxcopEnabled>
+        <FxcopVersion>14.0</FxcopVersion>
+        <FxcopErrorsTarget>0</FxcopErrorsTarget>
+        <FxcopWarningsTarget>0</FxcopWarningsTarget>
+        <FxcopTDR>
+        </FxcopTDR>
+        <CASuppressionsEnabled>true</CASuppressionsEnabled>
+        <CAExclusionsList>
+        </CAExclusionsList>
+        <CASuppressionsTarget>0</CASuppressionsTarget>
+        <CATDR>
+        </CATDR>
+        <StylecopEnabled>true</StylecopEnabled>
+        <StylecopVersion>LATEST</StylecopVersion>
+        <StylecopSettingsPath>
+        </StylecopSettingsPath>
+        <StylecopProjectExemptions>
+        </StylecopProjectExemptions>
+        <StylecopViolationTarget>0</StylecopViolationTarget>
+        <StylecopTDR>
+        </StylecopTDR>
+        <TSLintEnabled>false</TSLintEnabled>
+        <TSLintViolationTarget>0</TSLintViolationTarget>
+        <TSLintTDR>
+        </TSLintTDR>
+        <CredScanViolationTarget>0</CredScanViolationTarget>
+        <CredScanTDR>
+        </CredScanTDR>
+        <ModernCopViolationTarget>0</ModernCopViolationTarget>
+        <ModernCopTDR>
+        </ModernCopTDR>
+        <BinSkimEnabled>true</BinSkimEnabled>
+        <BinSkimViolationTarget>0</BinSkimViolationTarget>
+        <BinSkimTDR>
+        </BinSkimTDR>
+        <BinscopeEnabled>false</BinscopeEnabled>
+        <BinscopeVersion>LATEST</BinscopeVersion>
+        <BinscopeExclusionsList>
+        </BinscopeExclusionsList>
+        <BinscopeViolationTarget>0</BinscopeViolationTarget>
+        <BinscopeTDR>
+        </BinscopeTDR>
+        <ISGEnabled>true</ISGEnabled>
+        <ISGVersion>LATEST</ISGVersion>
+        <ISGExclusionsList>
+        </ISGExclusionsList>
+        <ISGUnsignedAssembliesTarget>0</ISGUnsignedAssembliesTarget>
+        <ISGPartiallySignedAssembliesTarget>0</ISGPartiallySignedAssembliesTarget>
+        <ISGDuplicateFilesTarget>0</ISGDuplicateFilesTarget>
+        <ISGFileVerMismatchTarget>0</ISGFileVerMismatchTarget>
+        <ISGTDR>
+        </ISGTDR>
+        <SPEnabled>false</SPEnabled>
+        <SPVersion>LATEST</SPVersion>
+        <SPExclusionsList>
+        </SPExclusionsList>
+        <SPViolationTarget>0</SPViolationTarget>
+        <SPTDR>
+        </SPTDR>
+        <CMEnabled>true</CMEnabled>
+        <CMVersion>LATEST</CMVersion>
+        <CMExclusionsList>
+        </CMExclusionsList>
+        <CMMaintainabilityIndexTarget>0</CMMaintainabilityIndexTarget>
+        <CMCyclomaticComplexityTarget>0</CMCyclomaticComplexityTarget>
+        <CMClassCouplingTarget>0</CMClassCouplingTarget>
+        <CMDepthOfInheritanceTarget>0</CMDepthOfInheritanceTarget>
+        <CMLinesOfCodeTarget>0</CMLinesOfCodeTarget>
+        <CMViolationTarget>0</CMViolationTarget>
+        <CMTDR>
+        </CMTDR>
+        <MSOCAFEnabled>false</MSOCAFEnabled>
+        <MSOCAFVersion>LATEST</MSOCAFVersion>
+        <MSOCAFExclusionsList>
+        </MSOCAFExclusionsList>
+        <MSOCAFErrorsTarget>0</MSOCAFErrorsTarget>
+        <MSOCAFWarningsTarget>0</MSOCAFWarningsTarget>
+        <MSOCAFExceptionsTarget>0</MSOCAFExceptionsTarget>
+        <MSOCAFTDR>
+        </MSOCAFTDR>
+        <WAEnabled>false</WAEnabled>
+        <WAVersion>LATEST</WAVersion>
+        <WAExclusionsList>
+        </WAExclusionsList>
+        <WAErroredTestsTarget>0</WAErroredTestsTarget>
+        <WAWarnedTestsTarget>0</WAWarnedTestsTarget>
+        <WATDR>
+        </WATDR>
+        <FxCopSDLEnabled>true</FxCopSDLEnabled>
+        <FxCopSDLVersion>LATEST</FxCopSDLVersion>
+        <FxCopSDLExclusionsList>
+        </FxCopSDLExclusionsList>
+        <FxcopSDLProjectErrorsTarget>0</FxcopSDLProjectErrorsTarget>
+        <FxcopSDLProjectWarningsTarget>0</FxcopSDLProjectWarningsTarget>
+        <FxcopSDLTDR>
+        </FxcopSDLTDR>
+        <JSLintNETEnabled>true</JSLintNETEnabled>
+        <JSLintNETVersion>LATEST</JSLintNETVersion>
+        <JSLintNETSettingsPath>
+        </JSLintNETSettingsPath>
+        <JSLintNETProjectsToExempt>
+        </JSLintNETProjectsToExempt>
+        <JSLintNETWarningsTarget>0</JSLintNETWarningsTarget>
+        <JSLintNETTDR>
+        </JSLintNETTDR>
+        <SafeNugetEnabled>false</SafeNugetEnabled>
+        <SafeNugetVersion>LATEST</SafeNugetVersion>
+        <SafeNugetExemptions>0</SafeNugetExemptions>
+        <SafeNugetViolationsTarget>0</SafeNugetViolationsTarget>
+        <SafeNugetTDR>
+        </SafeNugetTDR>
+        <QUnitEnabled>false</QUnitEnabled>
+        <QUnitVersion>LATEST</QUnitVersion>
+        <AIScannerEnabled>true</AIScannerEnabled>
+        <ChutzpahCoverageEnabled>false</ChutzpahCoverageEnabled>
+        <ChutzpahCoverageVersion>LATEST</ChutzpahCoverageVersion>
+        <CoverageTargetPercentage>70</CoverageTargetPercentage>
+        <IterationPath>
+        </IterationPath>
+        <AreaPath>
+        </AreaPath>
+        <CompletedWorkSummary>true</CompletedWorkSummary>
+        <RemainingWorkSummary>false</RemainingWorkSummary>
+        <OriginalEstimateSummary>false</OriginalEstimateSummary>
+        <WorkitemsReport>true</WorkitemsReport>
+        <WorkitemCheckinPolicy>true</WorkitemCheckinPolicy>
+        <BuildWarnings>true</BuildWarnings>
+        <TFSCustomQueries>$(System.TeamProject)/Shared Queries</TFSCustomQueries>
+        <AIEnable>true</AIEnable>
+        <AIInfoLogging>true</AIInfoLogging>
+        <AIErrorLogging>true</AIErrorLogging>
+        <InstrumentationKey>$(InstrumentationKey)</InstrumentationKey>
+      </inputs>
+    </build>
+    <build>
+      <environment />
+      <enabled>true</enabled>
+      <continueOnError>false</continueOnError>
+      <alwaysRun>false</alwaysRun>
+      <displayName>Build solution $/ES DevOps Services/CDCO/Developments/V3/Code/BuildParser/GDBuildAppCloud/GDBuildAppCloud.sln</displayName>
+      <timeoutInMinutes>0</timeoutInMinutes>
+      <refName>VSBuild_5</refName>
+      <task>
+        <id>71a9a2d3-a98a-4caa-96ab-affca411ecda</id>
+        <versionSpec>1.*</versionSpec>
+        <definitionType>task</definitionType>
+      </task>
+      <inputs>
+        <solution>$/ES DevOps Services/CDCO/Developments/V3/Code/BuildParser/GDBuildAppCloud/GDBuildAppCloud.sln</solution>
+        <vsVersion>14.0</vsVersion>
+        <msbuildArgs>/p:AllowedReferenceRelatedFileExtensions=none /p:DisableSonarQubeFxcop="false" /p:StyleCopEnabled=false /p:RunCodeAnalysis=True /p:GenerateProjectSpecificOutputFolder=true /p:OutputPath="$(Build.BinariesDirectory)\$(BuildConfiguration)/" /p:OutDir="$(Build.BinariesDirectory)\$(BuildConfiguration)\\" /p:ReferencesLogFolder=$(Agent.BuildDirectory) /p:CustomAfterMicrosoftCommonTargets="$(Agent.BuildDirectory)\Microsoft.Common.GDBUILD_ResolveReferences.targets"</msbuildArgs>
+        <platform>$(BuildPlatform)</platform>
+        <configuration>$(BuildConfiguration)</configuration>
+        <clean>true</clean>
+        <maximumCpuCount>false</maximumCpuCount>
+        <restoreNugetPackages>false</restoreNugetPackages>
+        <msbuildArchitecture>x86</msbuildArchitecture>
+        <logProjectEvents>true</logProjectEvents>
+        <createLogFile>false</createLogFile>
+      </inputs>
+    </build>
+    <build>
+      <environment />
+      <enabled>true</enabled>
+      <continueOnError>false</continueOnError>
+      <alwaysRun>false</alwaysRun>
+      <displayName>ServicesDevOpsValidateBuildConfig</displayName>
+      <timeoutInMinutes>0</timeoutInMinutes>
+      <refName>ESDevopsValidateCIConfig_7</refName>
+      <task>
+        <id>2cd5e27c-9773-485d-b564-11a52d166943</id>
+        <versionSpec>3.*</versionSpec>
+        <definitionType>task</definitionType>
+      </task>
+      <inputs>
+        <InstrumentationKey>$(InstrumentationKey)</InstrumentationKey>
+      </inputs>
+    </build>
+    <build>
+      <environment />
+      <enabled>true</enabled>
+      <continueOnError>false</continueOnError>
+      <alwaysRun>false</alwaysRun>
+      <displayName>ServicesDevOpsToolDownload:</displayName>
+      <timeoutInMinutes>0</timeoutInMinutes>
+      <refName>ESDevopsToolDownload_8</refName>
+      <task>
+        <id>40aae993-5601-4316-bdfb-7ae1d2c4d82c</id>
+        <versionSpec>2.*</versionSpec>
+        <definitionType>task</definitionType>
+      </task>
+      <inputs>
+        <StorageAccountKey>$(StorageAccountKey)</StorageAccountKey>
+        <InstrumentationKey>$(InstrumentationKey)</InstrumentationKey>
+      </inputs>
+    </build>
+    <build>
+      <environment />
+      <enabled>true</enabled>
+      <continueOnError>false</continueOnError>
+      <alwaysRun>false</alwaysRun>
+      <displayName>T-FxCop:MergeFile</displayName>
+      <timeoutInMinutes>0</timeoutInMinutes>
+      <refName>ESDevopsFxCopMerge_9</refName>
+      <task>
+        <id>d0548ca8-2a6e-4133-8269-2f17695d15dd</id>
+        <versionSpec>2.*</versionSpec>
+        <definitionType>task</definitionType>
+      </task>
+      <inputs>
+        <InstrumentationKey>$(InstrumentationKey)</InstrumentationKey>
+      </inputs>
+    </build>
+    <build>
+      <environment />
+      <enabled>true</enabled>
+      <continueOnError>false</continueOnError>
+      <alwaysRun>false</alwaysRun>
+      <displayName>T-ISGCertification:</displayName>
+      <timeoutInMinutes>0</timeoutInMinutes>
+      <refName>ESDevopsISGCertification_10</refName>
+      <task>
+        <id>f46075f7-f9f5-4f1a-b2dc-54bcc9cd8d8e</id>
+        <versionSpec>2.*</versionSpec>
+        <definitionType>task</definitionType>
+      </task>
+      <inputs>
+        <args>
+        </args>
+        <VerboseOutput>false</VerboseOutput>
+        <InstrumentationKey>$(InstrumentationKey)</InstrumentationKey>
+      </inputs>
+    </build>
+    <build>
+      <environment />
+      <enabled>true</enabled>
+      <continueOnError>false</continueOnError>
+      <alwaysRun>false</alwaysRun>
+      <displayName>T-StyleCop:</displayName>
+      <timeoutInMinutes>0</timeoutInMinutes>
+      <refName>ESDevopsStyleCop_11</refName>
+      <task>
+        <id>cf96d92e-107b-4d23-a2eb-8696d3bf6613</id>
+        <versionSpec>2.*</versionSpec>
+        <definitionType>task</definitionType>
+      </task>
+      <inputs>
+        <RunUsing>Standalone</RunUsing>
+        <SolutionFiles>"$(build.sourcesDirectory)\Developments\V3\Code\BuildParser\GDBuildAppCloud\GDBuildAppCloud.sln"</SolutionFiles>
+        <ShowOutput>false</ShowOutput>
+        <args>
+        </args>
+        <VerboseOutput>false</VerboseOutput>
+        <InstrumentationKey>$(InstrumentationKey)</InstrumentationKey>
+      </inputs>
+    </build>
+    <build>
+      <environment />
+      <enabled>true</enabled>
+      <continueOnError>false</continueOnError>
+      <alwaysRun>false</alwaysRun>
+      <displayName>T-JSLintNet:</displayName>
+      <timeoutInMinutes>0</timeoutInMinutes>
+      <refName>ESDevopsJSLintNet_12</refName>
+      <task>
+        <id>a1c492bf-823b-4abb-8281-458ccef9406f</id>
+        <versionSpec>2.*</versionSpec>
+        <definitionType>task</definitionType>
+      </task>
+      <inputs>
+        <Source>"$(build.sourcesDirectory)\Developments\V3\Code\BuildParser\GDBuildAppCloud"</Source>
+        <OutputPath>
+        </OutputPath>
+        <args>
+        </args>
+        <VerboseOutput>false</VerboseOutput>
+        <InstrumentationKey>$(InstrumentationKey)</InstrumentationKey>
+      </inputs>
+    </build>
+    <build>
+      <environment />
+      <enabled>false</enabled>
+      <continueOnError>false</continueOnError>
+      <alwaysRun>false</alwaysRun>
+      <displayName>T-BinScope:</displayName>
+      <timeoutInMinutes>0</timeoutInMinutes>
+      <refName>ESDevopsBinScope_13</refName>
+      <task>
+        <id>3c4e69fd-3b60-4c78-bdf5-067ea87f4b69</id>
+        <versionSpec>2.*</versionSpec>
+        <definitionType>task</definitionType>
+      </task>
+      <inputs>
+        <args>
+        </args>
+        <VerboseOutput>false</VerboseOutput>
+        <InstrumentationKey>$(InstrumentationKey)</InstrumentationKey>
+      </inputs>
+    </build>
+    <build>
+      <environment />
+      <enabled>true</enabled>
+      <continueOnError>false</continueOnError>
+      <alwaysRun>false</alwaysRun>
+      <displayName>T-CodeMetrics:</displayName>
+      <timeoutInMinutes>0</timeoutInMinutes>
+      <refName>ESDevopsCodeMetrics_14</refName>
+      <task>
+        <id>a17a3e8c-b197-4e0f-95ec-6866f6807ec2</id>
+        <versionSpec>2.*</versionSpec>
+        <definitionType>task</definitionType>
+      </task>
+      <inputs>
+        <args>
+        </args>
+        <VerboseOutput>false</VerboseOutput>
+        <InstrumentationKey>$(InstrumentationKey)</InstrumentationKey>
+      </inputs>
+    </build>
+    <build>
+      <environment />
+      <enabled>true</enabled>
+      <continueOnError>false</continueOnError>
+      <alwaysRun>false</alwaysRun>
+      <displayName>T-AIScanner:</displayName>
+      <timeoutInMinutes>0</timeoutInMinutes>
+      <refName>ServicesDevOpsAIScanner1</refName>
+      <task>
+        <id>ac9a0f78-43f1-450d-8dd6-76b13c361883</id>
+        <versionSpec>3.*</versionSpec>
+        <definitionType>task</definitionType>
+      </task>
+      <inputs>
+        <ProjectsToExclude>
+        </ProjectsToExclude>
+        <InstrumentationKey>$(InstrumentationKey)</InstrumentationKey>
+      </inputs>
+    </build>
+    <build>
+      <environment />
+      <enabled>true</enabled>
+      <continueOnError>false</continueOnError>
+      <alwaysRun>false</alwaysRun>
+      <displayName>T-FxCopForSDL:</displayName>
+      <timeoutInMinutes>0</timeoutInMinutes>
+      <refName>ESDevopsFxCopSDL_15</refName>
+      <task>
+        <id>f1d18f43-50f8-4b31-b9e0-ddb91de397f3</id>
+        <versionSpec>2.*</versionSpec>
+        <definitionType>task</definitionType>
+      </task>
+      <inputs>
+        <args>
+        </args>
+        <VerboseOutput>false</VerboseOutput>
+        <InstrumentationKey>$(InstrumentationKey)</InstrumentationKey>
+      </inputs>
+    </build>
+    <build>
+      <environment />
+      <enabled>true</enabled>
+      <continueOnError>true</continueOnError>
+      <alwaysRun>false</alwaysRun>
+      <displayName>ESDevopsTFSBestPractices:</displayName>
+      <timeoutInMinutes>0</timeoutInMinutes>
+      <refName>ESDevopsTFSBestPractices_19</refName>
+      <task>
+        <id>7a2abf6a-4fc5-455c-86d9-f181eb7c1c5c</id>
+        <versionSpec>2.*</versionSpec>
+        <definitionType>task</definitionType>
+      </task>
+      <inputs>
+        <InstrumentationKey>$(InstrumentationKey)</InstrumentationKey>
+      </inputs>
+    </build>
+    <build>
+      <environment />
+      <enabled>true</enabled>
+      <continueOnError>false</continueOnError>
+      <alwaysRun>false</alwaysRun>
+      <displayName>ServicesDevOpsWorkItemTraceability</displayName>
+      <timeoutInMinutes>0</timeoutInMinutes>
+      <refName>ServicesDevOpsWorkItemTraceability1</refName>
+      <task>
+        <id>08d28ad6-9cd3-4940-940a-f8212749ca71</id>
+        <versionSpec>3.*</versionSpec>
+        <definitionType>task</definitionType>
+      </task>
+      <inputs>
+        <user>
+        </user>
+        <password>$(PAT)</password>
+        <IterationPath>
+        </IterationPath>
+        <areaPath>
+        </areaPath>
+        <Outputpath>$(Agent.BuildDirectory)\BuildLogFolder</Outputpath>
+        <InstrumentationKey>$(InstrumentationKey)</InstrumentationKey>
+      </inputs>
+    </build>
+    <build>
+      <environment />
+      <enabled>true</enabled>
+      <continueOnError>false</continueOnError>
+      <alwaysRun>false</alwaysRun>
+      <displayName>ESDevopsCopyReports</displayName>
+      <timeoutInMinutes>0</timeoutInMinutes>
+      <refName>ESDevopsCopyReports_20</refName>
+      <task>
+        <id>9854cc38-f66e-4392-af27-aa8cd0adc17b</id>
+        <versionSpec>2.*</versionSpec>
+        <definitionType>task</definitionType>
+      </task>
+      <inputs />
+    </build>
+    <build>
+      <environment />
+      <enabled>true</enabled>
+      <continueOnError>false</continueOnError>
+      <alwaysRun>false</alwaysRun>
+      <displayName>Publish Artifact: BuildLogFolder</displayName>
+      <timeoutInMinutes>0</timeoutInMinutes>
+      <refName>PublishBuildArtifacts_21</refName>
+      <task>
+        <id>2ff763a7-ce83-4e1f-bc89-0ae63477cebe</id>
+        <versionSpec>1.*</versionSpec>
+        <definitionType>task</definitionType>
+      </task>
+      <inputs>
+        <PathtoPublish>$(Agent.BuildDirectory)\BuildLogFolder</PathtoPublish>
+        <ArtifactName>BuildLogFolder</ArtifactName>
+        <ArtifactType>Container</ArtifactType>
+        <TargetPath>\\my\share\$(Build.DefinitionName)\$(Build.BuildNumber)</TargetPath>
+        <Parallel>false</Parallel>
+        <ParallelCount>8</ParallelCount>
+      </inputs>
+    </build>
+    <build>
+      <environment />
+      <enabled>true</enabled>
+      <continueOnError>false</continueOnError>
+      <alwaysRun>false</alwaysRun>
+      <displayName>Publish to Artifact Services Drop</displayName>
+      <timeoutInMinutes>0</timeoutInMinutes>
+      <refName>artifactDropTask_22</refName>
+      <task>
+        <id>f9d96d25-0c81-4e77-8282-1ad1f785cbb4</id>
+        <versionSpec>0.*</versionSpec>
+        <definitionType>task</definitionType>
+      </task>
+      <inputs>
+        <dropServiceURI>https://vsogd.artifacts.visualstudio.com/DefaultCollection</dropServiceURI>
+        <buildNumber>$(Build.DefinitionName)/$(Build.BuildNumber)/$(Build.BuildId)</buildNumber>
+        <sourcePath>$(Build.BinariesDirectory)\$(BuildConfiguration)</sourcePath>
+        <dropExePath>
+        </dropExePath>
+        <toLowerCase>true</toLowerCase>
+        <detailedLog>false</detailedLog>
+        <usePat>true</usePat>
+        <retentionDays>30</retentionDays>
+        <dropMetadataContainerName>DropMetadata</dropMetadataContainerName>
+      </inputs>
+    </build>
+    <build>
+      <environment />
+      <enabled>true</enabled>
+      <continueOnError>false</continueOnError>
+      <alwaysRun>false</alwaysRun>
+      <displayName>Publish Artifact: drop</displayName>
+      <timeoutInMinutes>0</timeoutInMinutes>
+      <refName>PublishBuildArtifacts_23</refName>
+      <task>
+        <id>2ff763a7-ce83-4e1f-bc89-0ae63477cebe</id>
+        <versionSpec>1.*</versionSpec>
+        <definitionType>task</definitionType>
+      </task>
+      <inputs>
+        <PathtoPublish>$(Build.BinariesDirectory)\$(BuildConfiguration)</PathtoPublish>
+        <ArtifactName>drop</ArtifactName>
+        <ArtifactType>Container</ArtifactType>
+        <TargetPath>\\my\share\$(Build.DefinitionName)\$(Build.BuildNumber)</TargetPath>
+        <Parallel>false</Parallel>
+        <ParallelCount>8</ParallelCount>
+      </inputs>
+    </build>
+    <build>
+      <environment />
+      <enabled>true</enabled>
+      <continueOnError>false</continueOnError>
+      <alwaysRun>false</alwaysRun>
+      <displayName>ESDevopsGenerateBuildReport</displayName>
+      <timeoutInMinutes>0</timeoutInMinutes>
+      <refName>ESDevopsGenerateBuildReport_24</refName>
+      <task>
+        <id>d102c8fb-2e18-4863-ba24-b8509ebc33c2</id>
+        <versionSpec>3.*</versionSpec>
+        <definitionType>task</definitionType>
+      </task>
+      <inputs>
+        <tfs>$(System.TeamFoundationCollectionUri)DefaultCollection/$(System.TeamProject)/</tfs>
+        <builduri>$(Build.BuildId)</builduri>
+        <isTestMail>false</isTestMail>
+        <technology>NET_Vnext_TFVC</technology>
+        <emailto>bldcor@microsoft.com</emailto>
+        <emailcc>bldcor@microsoft.com</emailcc>
+        <apiuri>https://gdbuildservice.cloudapp.net/api/Parse</apiuri>
+        <UID>$(restapiusername)</UID>
+        <pwd>$(restapipassword)</pwd>
+        <VPId>$(VPId)</VPId>
+        <PAT>$(PAT)</PAT>
+        <InstrumentationKey>$(InstrumentationKey)</InstrumentationKey>
+      </inputs>
+    </build>
+    <options>
+      <enabled>false</enabled>
+      <definition>
+        <id>5d58cc01-7c75-450c-be18-a388ddb129ec</id>
+      </definition>
+      <inputs>
+        <branchFilters>["+refs/heads/*"]</branchFilters>
+        <additionalFields>{}</additionalFields>
+      </inputs>
+    </options>
+    <options>
+      <enabled>false</enabled>
+      <definition>
+        <id>a9db38f9-9fdc-478c-b0f9-464221e58316</id>
+      </definition>
+      <inputs>
+        <workItemType>582091</workItemType>
+        <assignToRequestor>true</assignToRequestor>
+        <additionalFields>{}</additionalFields>
+      </inputs>
+    </options>
+    <triggers>
+      <schedules>
+        <branchFilters>+$/ES DevOps Services</branchFilters>
+        <timeZoneId>India Standard Time</timeZoneId>
+        <startHours>6</startHours>
+        <startMinutes>0</startMinutes>
+        <daysToBuild>all</daysToBuild>
+        <scheduleJobId>b87a632c-4589-400f-ac9c-98769255cc9b</scheduleJobId>
+        <scheduleOnlyWithChanges>false</scheduleOnlyWithChanges>
+      </schedules>
+      <triggerType>schedule</triggerType>
+    </triggers>
+    <variables>
+      <system.debug>
+        <value>false</value>
+        <allowOverride>true</allowOverride>
+      </system.debug>
+      <BuildConfiguration>
+        <value>Release</value>
+        <allowOverride>true</allowOverride>
+      </BuildConfiguration>
+      <BuildPlatform>
+        <value>Any CPU</value>
+        <allowOverride>true</allowOverride>
+      </BuildPlatform>
+      <Build.Clean>
+        <value>All</value>
+      </Build.Clean>
+    </variables>
+    <demands>Agent.Name -equals vNxt_Dly</demands>
+    <retentionRules>
+      <branches>+refs/heads/*</branches>
+      <artifactTypesToDelete>FilePath</artifactTypesToDelete>
+      <artifactTypesToDelete>SymbolStore</artifactTypesToDelete>
+      <daysToKeep>10</daysToKeep>
+      <minimumToKeep>1</minimumToKeep>
+      <deleteBuildRecord>true</deleteBuildRecord>
+      <deleteTestResults>true</deleteTestResults>
+    </retentionRules>
+    <_links>
+      <self>
+        <href>https://vsogd.visualstudio.com/0e2fae23-ed7a-44fd-9b3e-f77ba4f61760/_apis/build/Definitions/1271?revision=4</href>
+      </self>
+      <web>
+        <href>https://vsogd.visualstudio.com/0e2fae23-ed7a-44fd-9b3e-f77ba4f61760/_build/definition?definitionId=1271</href>
+      </web>
+      <editor>
+        <href>https://vsogd.visualstudio.com/0e2fae23-ed7a-44fd-9b3e-f77ba4f61760/_build/designer?id=1271&amp;_a=edit-build-definition</href>
+      </editor>
+      <badge>
+        <href>https://vsogd.visualstudio.com/0e2fae23-ed7a-44fd-9b3e-f77ba4f61760/_apis/build/status/1271</href>
+      </badge>
+    </_links>
+    <buildNumberFormat>$(BuildDefinitionName)_$(date:yyyyMMdd)$(rev:.r)</buildNumberFormat>
+    <comment>reverted</comment>
+    <jobAuthorizationScope>projectCollection</jobAuthorizationScope>
+    <jobTimeoutInMinutes>200</jobTimeoutInMinutes>
+    <jobCancelTimeoutInMinutes>5</jobCancelTimeoutInMinutes>
+    <repository>
+      <properties>
+        <labelSources>46</labelSources>
+        <labelSourcesFormat>$(Build.BuildNumber)</labelSourcesFormat>
+        <tfvcMapping>{"mappings":[{"serverPath":"$/ES DevOps Services/CDCO/Developments/V3/Code/BuildParser","mappingType":"map","localPath":"\\Developments\\V3\\Code\\BuildParser"},{"serverPath":"$/ES DevOps Services/CDCO/Developments/V3/Template","mappingType":"map","localPath":"\\Developments\\V3\\Template"},{"serverPath":"$/ES DevOps Services/CDCO/Developments/V3/Code/MSGD.Build.Activities","mappingType":"map","localPath":"\\Developments/V3/Code/MSGD.Build.Activities"}]}</tfvcMapping>
+        <cleanOptions>3</cleanOptions>
+      </properties>
+      <id>$/</id>
+      <type>TfsVersionControl</type>
+      <name>ES DevOps Services</name>
+      <url>https://vsogd.visualstudio.com/</url>
+      <defaultBranch>$/ES DevOps Services/CDCO/Developments/V3</defaultBranch>
+      <rootFolder>$/ES DevOps Services</rootFolder>
+      <clean>true</clean>
+      <checkoutSubmodules>false</checkoutSubmodules>
+    </repository>
+    <processParameters />
+    <quality>definition</quality>
+    <authoredBy>
+      <displayName>Sai Krishna S</displayName>
+      <url>https://app.vssps.visualstudio.com/Ab962ed4f-6670-4a37-ad24-8b9381530e67/_apis/Identities/00de7a93-7592-4813-b172-d5ada7a59950</url>
+      <_links>
+        <avatar>
+          <href>https://vsogd.visualstudio.com/_apis/GraphProfile/MemberAvatars/aad.YzIxZGJkZjMtYmEwOC03YTE2LTk0MDMtYzU3ZmEzYWI0ZTI0</href>
+        </avatar>
+      </_links>
+      <id>00de7a93-7592-4813-b172-d5ada7a59950</id>
+      <uniqueName>v-saikrs@microsoft.com</uniqueName>
+      <imageUrl>https://vsogd.visualstudio.com/_api/_common/identityImage?id=00de7a93-7592-4813-b172-d5ada7a59950</imageUrl>
+      <descriptor>aad.YzIxZGJkZjMtYmEwOC03YTE2LTk0MDMtYzU3ZmEzYWI0ZTI0</descriptor>
+    </authoredBy>
+    <queue>
+      <_links>
+        <self>
+          <href>https://vsogd.visualstudio.com/_apis/build/Queues/19</href>
+        </self>
+      </_links>
+      <id>19</id>
+      <name>IGDVSOVNext</name>
+      <url>https://vsogd.visualstudio.com/_apis/build/Queues/19</url>
+      <pool>
+        <id>21</id>
+        <name>IGDVSOVNext</name>
+      </pool>
+    </queue>
+    <id>1271</id>
+    <name>vNext_Parser_Dly-clone</name>
+    <url>https://vsogd.visualstudio.com/0e2fae23-ed7a-44fd-9b3e-f77ba4f61760/_apis/build/Definitions/1271?revision=4</url>
+    <uri>vstfs:///Build/Definition/1271</uri>
+    <path>\ParserService</path>
+    <type>build</type>
+    <queueStatus>enabled</queueStatus>
+    <revision>4</revision>
+    <createdDate>2018-04-25T19:32:04.63Z</createdDate>
+    <project>
+      <id>0e2fae23-ed7a-44fd-9b3e-f77ba4f61760</id>
+      <name>ES DevOps Services</name>
+      <description>[MS Internal]
+tags: MSInternal, DevOps
+
+IGD Build Services team project</description>
+      <url>https://vsogd.visualstudio.com/_apis/projects/0e2fae23-ed7a-44fd-9b3e-f77ba4f61760</url>
+      <state>wellFormed</state>
+      <revision>138297348</revision>
+      <visibility>organization</visibility>
+    </project>
+  </GetBuildDefinitionSpecs>
+  <GetTestRuns>
+    <count>0</count>
+  </GetTestRuns>
+</IGDBuild>

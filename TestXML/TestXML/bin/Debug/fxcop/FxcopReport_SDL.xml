@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="c:\temp\devopstools\microsoft\gdbuild\43\14.0.22319.0(7.0)\Xml\FxCopReport.xsl"?>
+<FxCopReport Version="14.0">
+ <Localized>
+  <String Key="Category">Category</String>
+  <String Key="Certainty">Certainty</String>
+  <String Key="CollapseAll">Collapse All</String>
+  <String Key="CheckId">Check Id</String>
+  <String Key="Error">Error</String>
+  <String Key="Errors">error(s)</String>
+  <String Key="ExpandAll">Expand All</String>
+  <String Key="Help">Help</String>
+  <String Key="Line">Line</String>
+  <String Key="Messages">message(s)</String>
+  <String Key="LocationNotStoredInPdb">[Location not stored in Pdb]</String>
+  <String Key="Project">Project</String>
+  <String Key="Resolution">Resolution</String>
+  <String Key="Rule">Rule</String>
+  <String Key="RuleFile">Rule File</String>
+  <String Key="RuleDescription">Rule Description</String>
+  <String Key="Source">Source</String>
+  <String Key="Status">Status</String>
+  <String Key="Target">Target</String>
+  <String Key="Warning">Warning</String>
+  <String Key="Warnings">warning(s)</String>
+  <String Key="ReportTitle">Code Analysis Report</String>
+ </Localized>
+ <Exceptions>
+  <Exception Keyword="CA0001" Kind="AssemblyLoad">
+   <Type>Microsoft.FxCop.Common.AssemblyLoadException</Type>
+   <ExceptionMessage>Could not resolve reference to System.Runtime, Version=4.0.20.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a.</ExceptionMessage>
+   <StackTrace>   at Microsoft.FxCop.Engines.Phoenix.LoadAndResolutionHandler.HandleAssemblyLoadFailure(AssemblySymbol assemblySymbol)
+   at Phx.Metadata.MetadataLoader.LoadAssemblyDefinition(AssemblyUnit unit)
+   at Microsoft.FxCop.Engines.Phoenix.AssemblyLoader.ProcessWorklist(MetadataLoader metadataLoader, Boolean ignoreErrors)
+   at Microsoft.FxCop.Engines.Phoenix.AssemblyLoader.LoadAssembly(String filePath)
+   at Microsoft.FxCop.Engines.Phoenix.PhoenixAnalysisEngine.AnalyzeInternal()
+   at Microsoft.FxCop.Engines.Phoenix.PhoenixAnalysisEngine.Analyze()
+   at Microsoft.FxCop.Common.EngineManager.Analyze(Project project, Boolean verboseOutput)</StackTrace>
+  </Exception>
+  <Exception Keyword="CA0001" Kind="Engine">
+   <Type>Microsoft.FxCop.Sdk.InvalidMetadataException</Type>
+   <ExceptionMessage>An error was encountered while parsing IL for method: 'Virtuoso.Business.RiskReserveManager+&lt;GetApprovals&gt;d__48.MoveNext', instruction at offset '0x31B' with opcode 'Call'.</ExceptionMessage>
+   <StackTrace>   at Microsoft.FxCop.Sdk.ILParser.GetMemberFromToken()
+   at Microsoft.FxCop.Sdk.InstructionParser.ParseInstruction()
+   at Microsoft.FxCop.Sdk.InstructionParser.ParseInstructions()
+   at Microsoft.FxCop.Sdk.Reader.ParseMethodInstructions(Method method, Int32 methodIndex, Int32 RVA)
+   at Microsoft.FxCop.Sdk.Reader.GetMethodInstructions(Method method, Object i)
+   at Microsoft.FxCop.Sdk.Reader.GetMethodBody(Method method, Object i, Boolean asInstructionList)
+   at Microsoft.FxCop.Sdk.Method.get_Instructions()
+   at Microsoft.FxCop.Sdk.RuleUtilities.HasImperativeSecurityAction(Method method, SecurityAction action)
+   at Microsoft.FxCop.Sdk.RuleUtilities.HasSecurityAction(Method method, SecurityAction action)
+   at Microsoft.FxCop.Sdk.RuleUtilities.HasSecurityAction(Method method, SecurityAction[] actions)
+   at Microsoft.FxCop.Engines.Introspection.LoadVisitor.RecordCallSites(Method caller)
+   at Microsoft.FxCop.Engines.Introspection.LoadVisitor.VisitMember(Member member, TargetMember target)
+   at Microsoft.FxCop.Engines.Introspection.BaseVisitor.VisitMembers(MemberCollection members, TargetMemberDictionary targets, Boolean visitNestedTypes)
+   at Microsoft.FxCop.Engines.Introspection.BaseVisitor.VisitType(TypeNode type, TargetType target)
+   at Microsoft.FxCop.Engines.Introspection.LoadVisitor.VisitType(TypeNode type, TargetType target)
+   at Microsoft.FxCop.Engines.Introspection.BaseVisitor.VisitMembers(MemberCollection members, TargetMemberDictionary targets, Boolean visitNestedTypes)
+   at Microsoft.FxCop.Engines.Introspection.BaseVisitor.VisitType(TypeNode type, TargetType target)
+   at Microsoft.FxCop.Engines.Introspection.LoadVisitor.VisitType(TypeNode type, TargetType target)
+   at Microsoft.FxCop.Engines.Introspection.BaseVisitor.VisitTypes(TypeNodeCollection types, TargetNamespaceDictionary targets)
+   at Microsoft.FxCop.Engines.Introspection.LoadVisitor.VisitModule(ModuleNode module, TargetModule target)
+   at Microsoft.FxCop.Engines.Introspection.BaseVisitor.VisitAssembly(AssemblyNode assembly, TargetFile target)
+   at Microsoft.FxCop.Engines.Introspection.LoadVisitor.VisitAssembly(AssemblyNode assembly, TargetFile target)
+   at Microsoft.FxCop.Engines.Introspection.LoadVisitor.Load(TargetFile target, Boolean buildTree, Boolean queueItems, AssemblyNode loadedAssembly)
+   at Microsoft.FxCop.Engines.Introspection.LoadVisitor.LoadAssemblies(Queue queue, ExceptionCollection exceptions)</StackTrace>
+   <InnerType>Microsoft.FxCop.Sdk.InvalidMetadataException</InnerType>
+   <InnerExceptionMessage>The following error was encountered while reading module 'Virtuoso.Business': Could not resolve member reference: [Microsoft.CodeAnalysis.CSharp.Scripting, Version=1.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]Microsoft.CodeAnalysis.CSharp.Scripting.CSharpScript::EvaluateAsync.</InnerExceptionMessage>
+   <InnerStackTrace>   at Microsoft.FxCop.Sdk.Reader.HandleError(ModuleNode mod, String errorMessage)
+   at Microsoft.FxCop.Sdk.Reader.GetMemberFromRef(Int32 i, TypeNodeCollection&amp; varArgTypes, Int32 numGenericArgs)
+   at Microsoft.FxCop.Sdk.Reader.GetMethodDefOrRef(Int32 codedIndex, Int32 numberOfGenericArguments)
+   at Microsoft.FxCop.Sdk.Reader.GetMethodFromSpec(Int32 i)
+   at Microsoft.FxCop.Sdk.Reader.GetMemberFromToken(Int32 tok, TypeNodeCollection&amp; varArgTypes)
+   at Microsoft.FxCop.Sdk.ILParser.GetMemberFromToken()</InnerStackTrace>
+  </Exception>
+ </Exceptions>
+</FxCopReport>
